@@ -732,7 +732,7 @@ Route::group(['prefix' => 'challenges'], function() {
     /**
      * Admin authorization
      */
-    Route::group(['middleware' => 'authorize:admin'], function() {
+    Route::group(['middleware' => 'authorize:orga'], function() {
 
         Route::get('add', [
             'as' => 'challenges.add',
@@ -789,6 +789,12 @@ Route::group(['prefix' => 'challenges'], function() {
     Route::get('/', [
         'as' => 'challenges.list',
         'uses' => 'Challenges\ChallengeController@list'
+    ]);
+
+
+    Route::get('/leaderboard', [
+        'as' => 'challenges.faction_leaderboard',
+        'uses' => 'All\FactionsController@leaderboard'
     ]);
 
 });

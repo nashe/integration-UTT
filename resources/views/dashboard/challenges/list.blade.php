@@ -1,4 +1,4 @@
-@extends('layouts.dashboard')
+@extends('layouts.auto')
 
 @section('title')
     Défis
@@ -44,11 +44,13 @@
                                         {{ method_field('DELETE') }}
                                         <input class="btn btn-danger btn-xs" type="submit" value="Supprimer">
                                     </form>
-                                    <div class="btn-group" role="group"> 
+                                    <div class="btn-group" role="group">
                                         <a href={{ route("challenges.modifyForm", ["challengeId" => $challenge->id]) }}><button class="btn btn-xs btn-primary">Modifier</button></a>
                                     @endif
-                                    @if($challenge->teamValidable($team) || $challenge->newComerValidable(Auth::user()))
-                                        <a href={{ route("challenges.submitForm", ["id" => $challenge->id]) }}><button class="btn btn-xs btn-primary">valider un défis</button></a>
+                                    @if($team != null)
+                                        @if($challenge->teamValidable($team) || $challenge->newComerValidable(Auth::user()))
+                                            <a href={{ route("challenges.submitForm", ["id" => $challenge->id]) }}><button class="btn btn-xs btn-primary">valider un défis</button></a>
+                                        @endif
                                     @endif
                                     </div>
                             </td>

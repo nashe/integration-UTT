@@ -5,7 +5,7 @@
 @endsection
 
 @section("smalltitle")
-    il faut valider ces défis envoyés par les équipes !	
+    il faut valider ces défis envoyés par les équipes !
 @endsection
 
 @section("content")
@@ -28,13 +28,19 @@
                         <tr>
                             <td>{{ $validation->teams()->first()->name }}</td>
                             <td>{{ $validation->challenges()->first()->name }}</td>
-                            <td> 
+                            <td>
                                 <a href={{ route("validation_proofs.normal", ["name" => $validation->pic_url]) }}>
-                                            <img src="{{ route("validation_proofs.small", ["name" => $validation->pic_url]) }}" class="img-fluid rounded" alt="Image de validation du défis"> 
+                                            <img src="{{ route("validation_proofs.small", ["name" => $validation->pic_url]) }}" class="img-fluid rounded" alt="Image de validation du défis">
                                 </a>
                             </td>
                             <td>
-                                <form method="post" action={{ route("validation.accept", ["validationId" => $validation->id]) }}><input class="btn btn-xs btn-primary" type="submit" value="Valider"></form>
+                                <form method="post" action={{ route("validation.accept", ["validationId" => $validation->id]) }}>
+                                <input class="btn btn-xs btn-primary" type="submit" value="Valider">
+                                <div class="form-group">
+                                    <label for="adj">Bonus/malus de points</label>
+                                    <input id="adj" name="adjustment" type="number">
+                                </div>
+                                </form>
                                 <a href="{{ route("validation.refuseForm", ["validationId" => $validation->id]) }}"><button class="btn btn-xs btn-danger">Refuser (avec un motif)</button></a>
                             </td>
                         </tr>
@@ -67,12 +73,12 @@
                             <td>{{ $validation->challenges()->first()->name }}</td>
                             <td>
                                 <a href={{ route("validation_proofs.normal", ["name" => $validation->pic_url]) }}>
-                                            <img src="{{ route("validation_proofs.small", ["name" => $validation->pic_url]) }}" class="img-fluid rounded" alt="Image de validation du défis"> 
+                                            <img src="{{ route("validation_proofs.small", ["name" => $validation->pic_url]) }}" class="img-fluid rounded" alt="Image de validation du défis">
                                 </a>
                             </td>
                             <td><span class="{{ $validation->prettyStatus()["css"] }}">{{ $validation->prettyStatus()["content"] }}</span></td>
                             <td>{{ $validation->message }}</td>
-                            <td>{{ 
+                            <td>{{
                                 $validation->update_author()->first()->first_name." ".$validation->update_author()->first()->last_name
                             }}</td>
                             <td>
