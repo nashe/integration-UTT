@@ -771,4 +771,23 @@ class User extends Model implements Authenticatable
     public function devices() {
         return $this->hasMany('App\Models\Device');
     }
+
+    /**
+     * The branch of the User
+     */
+
+    public function isTC()
+    {
+        return ( $this->branch == 'TC');
+    }
+
+    public function isBranch()
+    {
+        return in_array( $this->branch, array('RT','ISI', 'GI', 'A2I', 'GM', 'MTE') );
+    }
+
+    public function isMaster()
+    {
+        return in_array( $this->branch, array('ISC','PAIP', 'RE') );
+    }
 }

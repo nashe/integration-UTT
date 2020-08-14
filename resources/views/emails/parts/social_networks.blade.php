@@ -8,14 +8,18 @@
 	<div style="text-align: center; margin-bottom: 10px;">
 	  <span style="font-family:merriweather sans,helvetica neue,helvetica,arial,sans-serif;">
 		On sera présent sur les réseaux tout l’été pour te tenir informé(e), te partager des astuces, te faire découvrir l’équipe qui est derrière toute l’intégration, et pleins d’autres trucs trop cool !
+        @if($user->isNewcomer())
 		<br>&nbsp;<br>
 		Ah et aussi, on a créé un groupe facebook rien que pour les nouveaux où tu pourras poser toutes les questions que tu veux et te rassurer.
+	    @endif
 	  </span>
 	</div>
 
+    @if($user->isNewcomer())
     <div style="background-color: #E74360; margin: auto; padding: 10px 10px; text-align: center; width: max-content;">
       <a href="http://www.facebook.com/groups/nouveauxintegrationutt2020/" target="_blank" style="color: #FFFFFF; text-decoration: none;font-size: 1em;line-height: 1.3333333;">Clique pour rejoindre le groupe Facebook <br><strong>Nouveaux Intégration UTT 2020</strong></a>
 	</div>
+    @endif
 </div>
 
 
