@@ -30,7 +30,7 @@ Ton équipe d'intégration
         <br>&nbsp;<br>
     @endif
     @if ( $user->isTc() or $user->isBranch() )
-        Durant ta semaine, il y aura des activités d’intégration COVID-friendly sur le thème {{ Config::get('services.theme') }} ainsi que ton inscription administrative.
+        Durant ta semaine, il y aura des activités d’intégration COVID-friendly sur le thème <strong>{{ Config::get('services.theme') }}</strong> ainsi que ton inscription administrative.
         Sur ce thème, {{ Config::get('services.ce.maxTeamTc')+Config::get('services.ce.maxTeamBranch') }} équipes, réparties dans <strong>deux factions</strong> vont s'affronter tout au long de la semaine.
     @endif
   </span>

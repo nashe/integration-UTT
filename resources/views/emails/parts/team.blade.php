@@ -20,7 +20,8 @@
 
     Tu est dans l'équipe <em>{{ $user->team->safeName ?? $user->team->name }} de la faction <strong>{{ $user->team->faction->name }}</strong></em> ! Celle-ci est mené par {{ $user->team->ce->count() }} chefs d'équipes.
     <br>&nbsp;<br>
-    <img src="{{ asset('/uploads/teams-logo/'.$user->team->id.'.'.$user->team->img) }}" alt="Equipe" style="float:left;width:140px;"/>
+    {{-- <img src="{{ asset('/uploads/teams-logo/'.$user->team->id.'.'.$user->team->img) }}" alt="team_picture" style="float:left;width:140px;"/> TODO : Fix --}}
+    <br>&nbsp;<br>
   </span>
   @if(substr($user->team->facebook, 0, 4) == 'http')
   <div style="background-color: #E74360; margin: auto; padding: 10px 10px; text-align: center; width: max-content;">
