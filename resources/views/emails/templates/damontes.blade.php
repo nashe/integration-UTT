@@ -52,25 +52,24 @@
 			</strong>
 		</div>
 		<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width:100%;" class="mcnBoxedTextContentContainer">
-                                                        <tbody><tr>
+                <tbody>
+                    <tr>
+                    <td style="padding-top:9px; padding-left:18px; padding-bottom:9px; padding-right:18px;">
+                        <table border="0" cellpadding="18" cellspacing="0" class="mcnTextContentContainer" width="100%" style="min-width: 100% !important;background-color: #4CAF50;">
+                            <tbody><tr>
+                                <td valign="top" class="mcnTextContent" style="color: #F2F2F2;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: left;">
+                                    <p style="color: #F2F2F2;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: left;"><strong>Citation :</strong></p>
 
-                                                            <td style="padding-top:9px; padding-left:18px; padding-bottom:9px; padding-right:18px;">
+                                    <p style="color: #F2F2F2;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: left;">Comme un sage l’a dit autrefois, mieux vaut avoir un logement que pas de parent. Personne n’a jamais compris ce qu’il voulait dire.</p>
 
-                                                                <table border="0" cellpadding="18" cellspacing="0" class="mcnTextContentContainer" width="100%" style="min-width: 100% !important;background-color: #4CAF50;">
-                                                                    <tbody><tr>
-                                                                        <td valign="top" class="mcnTextContent" style="color: #F2F2F2;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: left;">
-                                                                            <p style="color: #F2F2F2;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: left;"><strong>Citation :</strong></p>
+                                    <div style="text-align: left;">&nbsp;</div>
 
-                                                                            <p style="color: #F2F2F2;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: left;">Comme un sage l’a dit autrefois, mieux vaut avoir un logement que pas de parent. Personne n’a jamais compris ce qu’il voulait dire.</p>
-
-                                                                            <div style="text-align: left;">&nbsp;</div>
-
-                                                                        </td>
-                                                                    </tr>
-                                                                    </tbody></table>
-                                                            </td>
-                                                        </tr>
-                                                        </tbody></table>
+                                </td>
+                            </tr>
+                            </tbody></table>
+                    </td>
+                </tr>
+                </tbody></table>
               </td>
             </tr>
           </tbody>
@@ -79,4 +78,7 @@
     </tr>
   </tbody>
 </table>
+
+@include('emails.parts.publicity-explained')
+
 @endsection
