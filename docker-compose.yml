@@ -6,12 +6,12 @@ services:
     container_name: db
     image: mariadb/server:10.2
     environment:
-      MYSQL_DATABASE: integration
-      MYSQL_USER: integration
-      MYSQL_PASSWORD: password
-      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
     ports:
-      - 3306:3306
+      - ${DB_PORT}:3306
 
   adminer:
     container_name: adminer-integration
@@ -19,6 +19,6 @@ services:
     environment:
       ADMINER_DEFAULT_DB_DRIVER: mysql
       ADMINER_DEFAULT_DB_HOST: mariadb-integration
-      ADMINER_DEFAULT_DB_NAME: integration
+      ADMINER_DEFAULT_DB_NAME: ${DB_DATABASE}
     ports:
       - 8080:8080
