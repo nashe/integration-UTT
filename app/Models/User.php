@@ -700,16 +700,22 @@ class User extends Model implements Authenticatable
 
         // only if it's a newcomer
         if ($this->is_newcomer) {
-            $this->setCheck('wei_pay', $weiPayment);
-            $this->setCheck('wei_guarantee', $guaranteePayment);
-
-            if (!$this->isUnderage()) {
-                $this->setCheck('wei_authorization', true);
-                $this->parent_authorization = true;
-            } elseif ($this->parent_authorization) {
+            if (Config::get('services.wei.open') === '-1') {
+                $this->setCheck('wei_pay', true);
+                $this->setCheck('wei_guarantee', true);
                 $this->setCheck('wei_authorization', true);
             } else {
-                $this->setCheck('wei_authorization', false);
+                $this->setCheck('wei_pay', $weiPayment);
+                $this->setCheck('wei_guarantee', $guaranteePayment);
+
+                if (!$this->isUnderage()) {
+                    $this->setCheck('wei_authorization', true);
+                    $this->parent_authorization = true;
+                } elseif ($this->parent_authorization) {
+                    $this->setCheck('wei_authorization', true);
+                } else {
+                    $this->setCheck('wei_authorization', false);
+                }
             }
         }
 
