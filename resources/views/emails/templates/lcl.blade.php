@@ -19,7 +19,7 @@
         <li>Une plateforme LCL Mon Campus adaptée aux étudiants</li>
     </ul>
     <span>
-        Je sais mon ami que ça t'impresionne, mais tu n'as pas encore tout vu ! Saute sur <a href="{{ URL::to('/docs/flyerLCL.pdf') }}" style="color: blue;">cette plaquette</a> pour tous les détails et tes connaissances seront des plus totales !
+        Je sais mon ami que ça t'impressionne, mais tu n'as pas encore tout vu ! Saute sur <a href="{{ URL::to('/docs/flyerLCL.pdf') }}" style="color: blue;">cette plaquette</a> pour tous les détails et tes connaissances seront des plus totales !
     </span>
 </div>
 <div style="text-align: center; margin: 10px 10px;">
