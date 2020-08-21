@@ -64,6 +64,8 @@ Accueil
                 if ( Config::get('services.partners.popeye') === 'true' ) { $sponsors[] = [ 'link' => 'http://www.auto-ecole-popeye.fr/', 'img' => asset("img/sponsors/popeye-white-background.png"), 'alt' => 'Popeye auto-école' ]; }
                 if ( Config::get('services.partners.beijaflore') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.beijaflore.com/fr/', 'img' => asset("img/sponsors/beijaflore-2019.png"), 'alt' => 'Beijaflore' ]; }
                 if ( Config::get('services.partners.heyme') === 'true' ) { $sponsors[] = [ 'link' => 'https://bit.ly/3g48nps', 'img' => asset("img/sponsors/heyme-white-background.png"), 'alt' => 'HEYME' ]; }
+                if ( Config::get('services.partners.lcl') === 'true' ) { $sponsors[] = [ 'link' => 'https://bienvenue.secure.lcl.fr/#/offre=ouvrir-un-compte-lcl-etudiant', 'img' => asset("img/sponsors/LCL-logo.jpg"), 'alt' => 'LCL' ]; }
+                if ( Config::get('services.partners.sncf') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.sncf.com/fr', 'img' => asset("img/sponsors/Logo_SNCF_2011.svg.png"), 'alt' => 'SNCF' ]; }
                 shuffle($sponsors);
             ?>
             @foreach($sponsors as $sponsor)
