@@ -133,5 +133,6 @@ return [
         'damonte' => 'true',
         'beijaflore' => 'true',
         'popeye' => 'true',
+        'heyme' => 'true',
     ],
 ];
