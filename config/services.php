@@ -134,5 +134,7 @@ return [
         'beijaflore' => 'true',
         'popeye' => 'true',
         'heyme' => 'true',
+        'lcl' => 'true',
+        'sncf' => 'true',
     ],
 ];
