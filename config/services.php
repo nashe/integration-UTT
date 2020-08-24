@@ -137,4 +137,10 @@ return [
         'lcl' => 'true',
         'sncf' => 'true',
     ],
+
+    'socialNetwork' => [
+        'facebook' => [
+            'groupeNouveaux' => 'http://www.facebook.com/groups/nouveauxintegrationutt2020/',
+        ],
+    ],
 ];
