@@ -17,7 +17,7 @@
 
     @if($user->isNewcomer())
     <div style="background-color: #E74360; margin: auto; padding: 10px 10px; text-align: center; width: max-content;">
-      <a href="http://www.facebook.com/groups/nouveauxintegrationutt2020/" target="_blank" style="color: #FFFFFF; text-decoration: none;font-size: 1em;line-height: 1.3333333;">Clique pour rejoindre le groupe Facebook <br><strong>Nouveaux Intégration UTT 2020</strong></a>
+      <a href="{{ Config::get('services.socialNetwork.facebook.groupeNouveaux') }}" target="_blank" style="color: #FFFFFF; text-decoration: none;font-size: 1em;line-height: 1.3333333;">Clique pour rejoindre le groupe Facebook <br><strong>Nouveaux Intégration UTT {{ date("Y") }}</strong></a>
 	</div>
     @endif
 </div>
