@@ -10,7 +10,7 @@
 <div style="text-align: justify; margin: 15px 10px;">
     <span>
         Maintenant que tu as trouvé ton logement, comment penses-tu te rendre à l’UTT ? Voilà un partenariat qui tombe à pic !<br>
-        Et oui, <span style="font-weight: bold;">avec popeye passe ton code et/ou ton permis</span> à troyes dans une de leurs nombreuses agences !
+        Et oui, <span style="font-weight: bold;">avec popeye passe ton code et/ou ton permis</span> à Troyes dans une de leurs nombreuses agences !
     </span>
 </div>
 <div style="text-align: justify; margin: 15px 10px;">
@@ -23,5 +23,9 @@
         Pour plus d'informations : <br><a href="https://www.facebook.com/popeyetroyes/" style="color: blue;">Contacte-les sur facebook</a>
     </span>
 </div>
+<div style="text-align: center; margin: 15px 10px;">
+    <img align="center" src="{{ URL::to('/img/sponsors/POPEYE.png') }}" style="max-width:600px">
+</div>
+
 @include('emails.parts.publicity-explained')
 @endsection
