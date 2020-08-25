@@ -51,7 +51,7 @@
                                                                           <tbody>
                                                                              <tr>
                                                                                 <td align="center" valign="middle" width="24" class="mcnFollowIconContent">
-                                                                                   <a href="https://www.facebook.com/bde.utt/" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-48.png" alt="Facebook" style="display:block;" height="24" width="24" class=""></a>
+                                                                                   <a href="https://www.facebook.com/bde.utt/" target="_blank"><img src="{{ URL::to('/img/mails/icons/facebook.png') }}" alt="Facebook" style="display:block;" height="24" width="24" class=""></a>
                                                                                 </td>
                                                                              </tr>
                                                                           </tbody>
@@ -76,7 +76,7 @@
                                                                           <tbody>
                                                                              <tr>
                                                                                 <td align="center" valign="middle" width="24" class="mcnFollowIconContent">
-                                                                                   <a href="https://www.instagram.com/bdeutt/" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-instagram-48.png" alt="Instagram" style="display:block;" height="24" width="24" class=""></a>
+                                                                                   <a href="https://www.instagram.com/bdeutt/" target="_blank"><img src="{{ URL::to('/img/mails/icons/instagram.png') }}" alt="Instagram" style="display:block;" height="24" width="24" class=""></a>
                                                                                 </td>
                                                                              </tr>
                                                                           </tbody>
@@ -101,7 +101,7 @@
                                                                           <tbody>
                                                                              <tr>
                                                                                 <td align="center" valign="middle" width="24" class="mcnFollowIconContent">
-                                                                                   <a href="https://www.snapchat.com/add/integrationutt" target="_blank"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-snapchat-48.png" alt="Snapchat" style="display:block;" height="24" width="24" class=""></a>
+                                                                                   <a href="https://www.snapchat.com/add/integrationutt" target="_blank"><img src="{{ URL::to('/img/mails/icons/snapchat.png') }}" alt="Snapchat" style="display:block;" height="24" width="24" class=""></a>
                                                                                 </td>
                                                                              </tr>
                                                                           </tbody>

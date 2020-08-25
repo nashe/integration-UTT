@@ -1,10 +1,10 @@
-
 <tr>
    <td valign="top" id="templateFooter">
       <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
          <tbody class="mcnTextBlockOuter">
             <tr>
                <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+                 <div>
                   <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
                      <tbody>
                         <tr>
@@ -15,6 +15,8 @@
                         </tr>
                      </tbody>
                   </table>
+                  </div>
+                  <div>
                   <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
                      <tbody>
                         <tr>
@@ -27,6 +29,7 @@
                         </tr>
                      </tbody>
                   </table>
+                  </div>
                </td>
             </tr>
          </tbody>
