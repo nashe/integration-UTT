@@ -7,6 +7,7 @@ use Hash;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
 use Crypt;
 use Config;
 use Ramsey\Uuid\Uuid;
@@ -796,4 +797,34 @@ class User extends Model implements Authenticatable
     {
         return in_array( $this->branch, array('ISC','PAIP', 'RE') );
     }
+
+    public function nbReferrals()
+    {
+        $userId=$this->id;
+        $nbReferrals=DB::table('users')
+            ->where('referral_id', '=', $userId)
+            ->count();
+        return $nbReferrals;
+    }
+
+    public function nbTCReferrals()
+    {
+        $userId = $this->id;
+        $nbTCReferrals = DB::table('users')
+            ->where('referral_id', '=', $userId)
+            ->where('branch', '=','TC')
+            ->count();
+        return $nbTCReferrals;
+    }
+
+    public function nbBranchReferrals()
+    {
+        $userId = $this->id;
+        $nbBranchReferrals = DB::table('users')
+            ->where('referral_id', '=', $userId)
+            ->whereIn('branch', ['RT','ISI', 'GI', 'A2I', 'GM', 'MTE'])
+            ->count();
+        return $nbBranchReferrals;
+    }
+
 }
