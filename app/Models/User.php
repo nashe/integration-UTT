@@ -827,4 +827,14 @@ class User extends Model implements Authenticatable
         return $nbBranchReferrals;
     }
 
+    public function nbMasterReferrals()
+    {
+        $userId = $this->id;
+        $nbMasterReferrals = DB::table('users')
+            ->where('referral_id', '=', $userId)
+            ->whereIn('branch', ['ISC','PAIP', 'RE'])
+            ->count();
+        return $nbMasterReferrals;
+    }
+
 }

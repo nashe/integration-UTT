@@ -11,7 +11,7 @@
     <span>
         <p>Si tu reçois ce mail c’est que tu as choisi d’assumer le rôle de parrain/marraine à l’inté et nous t’en remercions &#128525</p>
 
-        <p>Sache que tu as <span style="color:red"> {{ $user->nbTCReferrals() }} fillots en TC</span> et <span style="color:red">{{ $user->nbBranchReferrals() }} fillots en branche</span> !</p>
+        <p>Sache que tu as <span style="color:red"> {{ $user->nbTCReferrals() }} fillots en TC</span>, <span style="color:red">{{ $user->nbBranchReferrals() }} fillots en branche</span> et <span style="color:red">{{ $user->nbMasterReferrals() }} fillots en master</span> !</p>
 
         <p>Être parrain/marraine n’est pas extrêmement demandant en soi, mais il faut quand même être présent à quelques moments de la semaine prochaine.</p>
 
