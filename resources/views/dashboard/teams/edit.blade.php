@@ -40,7 +40,7 @@ Gestion des équipes
             <div class="form-group">
                 <label for="safe_name" class="col-lg-2 control-label">Date et heure de passage</label>
                 <div class="col-lg-10">
-                    <input class="form-control" type="text" id="date_passage" name="date_passage" value="{{{ old('date_passage') ?? $team->date_passage }}}">
+                    <input class="form-control" type="text" id="registration_date" name="registration_date" value="{{{ old('registration_date') ?? $team->registration_date }}}">
                     <small class="text-muted">Date et heure de passage de votre équipe.</small>
                 </div>
             </div>

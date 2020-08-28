@@ -90,6 +90,7 @@ Gestion des équipes
                                 </tbody>
                             </table>
                         </td>
+                            <td>{{{ $team->registration_date }}}</td>
                         <td>{{{ $team->comment }}}</td>
                         @if ($team->img)
                             <td>
