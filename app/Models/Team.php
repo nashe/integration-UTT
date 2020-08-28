@@ -17,6 +17,7 @@ class Team extends Model
     public $fillable = [
         'name',
         'safe_name',
+        'date_passage',
         'description',
         'img_url'
     ];

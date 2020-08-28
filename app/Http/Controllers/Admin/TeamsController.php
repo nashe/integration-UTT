@@ -79,7 +79,7 @@ class TeamsController extends Controller
     public function editSubmit($id)
     {
         $team = Team::findOrFail($id);
-        $data = Request::only(['name', 'safe_name', 'description', 'img', 'facebook', 'comment', 'branch', 'faction', 'forceBranch']);
+        $data = Request::only(['name', 'safe_name', 'date_passage', 'description', 'img', 'facebook', 'comment', 'branch', 'faction', 'forceBranch']);
         $uniqueName = '';
         if($data['name'] != '') {
           $uniqueName = '|unique:teams';
@@ -122,6 +122,7 @@ class TeamsController extends Controller
         $team->description = $data['description'];
         $team->facebook = $data['facebook'];
         $team->comment = $data['comment'];
+        $team->date_passage = $data['date_passage'];
         $team->branch = $data['branch'];
         $team->faction_id = $data['faction'];
         $team->forceBranch = Request::has('forceBranch');
@@ -216,7 +217,7 @@ class TeamsController extends Controller
         if($newrespo == null) {
           return $this->error('L\'étudiant ne fait pas parti de cette équipe !');
         }
-        
+
         $team->respo_id = $newrespo->id;
         $team->save();
         return $this->success('L\'utilisateur est maintenant chef de son équipe !');

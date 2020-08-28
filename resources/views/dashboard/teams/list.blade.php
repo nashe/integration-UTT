@@ -20,6 +20,7 @@ Gestion des équipes
                 <tr>
                     <th>Nom</th>
                     <th>Description</th>
+                    <th>Date passage</th>
                     <th>Commentaire</th>
                     <th>Image</th>
                     <th>Action</th>

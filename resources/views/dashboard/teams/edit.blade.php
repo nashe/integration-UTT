@@ -38,6 +38,14 @@ Gestion des équipes
             </div>
 
             <div class="form-group">
+                <label for="safe_name" class="col-lg-2 control-label">Date et heure de passage</label>
+                <div class="col-lg-10">
+                    <input class="form-control" type="text" id="date_passage" name="date_passage" value="{{{ old('date_passage') ?? $team->date_passage }}}">
+                    <small class="text-muted">Date et heure de passage de votre équipe.</small>
+                </div>
+            </div>
+
+            <div class="form-group">
                 <label for="description" class="col-lg-2 control-label">Mot de votre équipe</label>
                 <div class="col-lg-10">
                     <textarea class="form-control" name="description" id="description" placeholder="Bienvenue dans notre équipe...">{{{ old('description') ?? $team->description }}}</textarea>
