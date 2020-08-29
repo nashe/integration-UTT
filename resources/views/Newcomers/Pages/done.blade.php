@@ -16,7 +16,7 @@ Tu as tout complété
         </div>
         <div class="box-body">
             <p>
-                Tu est maintenant prêt. Il ne te reste plus qu'à nous retrouver à l'UTT en septembre pour découvrir ta nouvelle vie !
+                Tu es maintenant prêt. Il ne te reste plus qu'à nous retrouver à l'UTT en septembre pour découvrir ta nouvelle vie !
             </p>
         </div>
 </div>

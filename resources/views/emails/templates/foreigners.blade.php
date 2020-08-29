@@ -121,7 +121,7 @@ Weekend
 
 <table style="max-width: 600px; width:100%; margin: 15px auto 0 auto; border-collapse: collapse; background-color: #fff; box-shadow: 0 1px 1px rgba(0,0,0,0,1);border-radius: 3px;border-bottom: 3px solid #d2d6de;">
 <tr><td style="color: #fff;background-color: #00c0ef;padding: 16px 16px 10px 16px;font-size:20px;font-weight:bold;text-align:center;">
-Tu est dans l'équipe <em>{{ $user->team->safeName ?? $user->team->name }}</em> !
+Tu es dans l'équipe <em>{{ $user->team->safeName ?? $user->team->name }}</em> !
 </td></tr><tr><td style="padding: 10px;">
 <p style="margin-top:0;">
     Ton équipe est composé de nouveaux et de {{ $user->team->ce->count() }} chefs d'équipes.

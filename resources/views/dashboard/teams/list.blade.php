@@ -20,6 +20,7 @@ Gestion des équipes
                 <tr>
                     <th>Nom</th>
                     <th>Description</th>
+                    <th>Date passage</th>
                     <th>Commentaire</th>
                     <th>Image</th>
                     <th>Action</th>
@@ -89,6 +90,7 @@ Gestion des équipes
                                 </tbody>
                             </table>
                         </td>
+                            <td>{{{ $team->registration_date }}}</td>
                         <td>{{{ $team->comment }}}</td>
                         @if ($team->img)
                             <td>

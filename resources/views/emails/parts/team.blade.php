@@ -18,7 +18,7 @@
 <div style="margin: 10px; text-align: center">
   <span style="font-family:merriweather sans,helvetica neue,helvetica,arial,sans-serif;">
 
-    Tu est dans l'équipe <em>{{ $user->team->safeName ?? $user->team->name }} de la faction <strong>{{ $user->team->faction->name }}</strong></em> ! Celle-ci est mené par {{ $user->team->ce->count() }} chefs d'équipes.
+    Tu es dans l'équipe <em>{{ $user->team->safeName ?? $user->team->name }} de la faction <strong>{{ $user->team->faction->name }}</strong></em> ! Celle-ci est mené par {{ $user->team->ce->count() }} chefs d'équipes.
     <br>&nbsp;<br>
     {{-- <img src="{{ asset('/uploads/teams-logo/'.$user->team->id.'.'.$user->team->img) }}" alt="team_picture" style="float:left;width:140px;"/> TODO : Fix --}}
     <br>&nbsp;<br>
