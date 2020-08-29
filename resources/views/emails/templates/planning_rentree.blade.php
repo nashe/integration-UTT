@@ -43,7 +43,7 @@
     </div>
     @else
         <div style="text-align: justify; margin: 15px 10px;">
-            <p>Tu as pu le voir dans le planning, des horaires sont dédiés à ton inscription administrative. C'est normalement avec ton équipe qu'elle se fait mais tu ne sembles pas en avoir. Je t'invite à contacter integration@utt.fr si tu penses qu'il s'agit d'une erreure.</p>
+            <p>Tu as pu le voir dans le planning, des horaires sont dédiés à ton inscription administrative. C'est normalement avec ton équipe qu'elle se fait mais tu ne sembles pas en avoir. Je t'invite à contacter integration@utt.fr si tu penses qu'il s'agit d'une erreur.</p>
         </div>
     @endif
 @endif
@@ -53,7 +53,7 @@
   </span>
 </div>
 <div style="text-align: justify; margin: 15px 10px;">
-    <p>Un <span style="color:red; font-weight:bold;">dépistage gratuit et sans ordonnance</span> est organisé pour les étudiants <span style="color:red; font-weight:bold;">mardi 8 et mercredi 9 septembre de 11h à 14h et de 15h à 18h</span> entre les bâtiments H et M à l'UTT. N'hésites vraiment pas à t'y présenter avec ta carte vitale pour aider dans la lutte contre la pandémie !</p>
+    <p>Un <span style="color:red; font-weight:bold;">dépistage gratuit et sans ordonnance</span> est organisé pour les étudiants <span style="color:red; font-weight:bold;">mardi 8 et mercredi 9 septembre de 11h à 14h et de 15h à 18h</span> entre les bâtiments H et M à l'UTT. N'hésite vraiment pas à te présenter avec ta carte vitale pour aider dans la lutte contre la pandémie !</p>
 </div>
 <div style="background-color: #E74360; text-align: center; padding: 15px">
   <span style="font-family:merriweather sans,helvetica neue,helvetica,arial,sans-serif; font-size: 1.3em; color: #FFFFFF">
