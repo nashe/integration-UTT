@@ -63,6 +63,8 @@ class ExportController extends Controller
         ->orderBy('last_name')
         ->leftjoin('users as s', 's.id', '=', 'users.referral_id')
         ->addSelect([\DB::raw('s.first_name as referral_first_name'), \DB::raw('s.last_name as referral_last_name'), \DB::raw('s.email as referral_email'), \DB::raw('s.phone as referral_phone')])
+        ->leftjoin('teams as t', 't.id','=','users.team_id')
+        ->addSelect([\DB::raw('t.name as team_name'), \DB::raw('t.registration_date as team_registration_date')])
         ->get();
         return Excel::create('Nouveaux', function ($file) use ($newcomers) {
             $file->sheet('', function ($sheet) use ($newcomers) {
