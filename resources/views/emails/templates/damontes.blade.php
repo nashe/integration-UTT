@@ -48,7 +48,7 @@
 			<a href="http://www.yves-damonte.fr/" target="" style="font-family: Arial;text-decoration: none;color: blue;font-weight: normal;">www.yves-damonte.fr</a>
 		</div>
 		<div style="text-align: center;margin: 10px auto;">
-			<strong>Tu peux aussi le contacter :<br>03.25.82.83.84 </br><a href="mailto:damonte.immo@wanadoo.fr" target="" style="font-family: Arial;text-decoration: none;color: #202020;font-weight: normal;">damonte.immo@wanadoo.fr</a>
+			<strong>Tu peux aussi le contacter :<br>03.25.82.83.84 </br><a href="mailto:accueil@damonte-immo.fr" target="" style="font-family: Arial;text-decoration: none;color: #202020;font-weight: normal;">accueil@damonte-immo.fr</a>
 			</strong>
 		</div>
 		<table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width:100%;" class="mcnBoxedTextContentContainer">
