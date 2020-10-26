@@ -14,7 +14,7 @@ class AddDatePassageTeams extends Migration
     public function up()
     {
         Schema::table('teams', function (Blueprint $table) {
-            $table->text('registration_date')->default(false);
+            $table->text('registration_date')->default("");
         });
     }
 
