@@ -145,11 +145,11 @@ class User extends Model implements Authenticatable
         // ÉVÉNEMENTS 
         'anim' => [
             'title' => 'Animation',
-            'description' => 'Animer, divertir et motiver les nouveaux étudiants à chaque événement et moment de l\’inté. Et pourquoi on est là ??',
+            'description' => 'Animer, divertir et motiver les nouveaux étudiants à chaque événement et moment de l’inté. Et pourquoi on est là ??',
         ],
         'arbitre' => [
             'title' => 'Arbitre',
-            'description' => 'Mettre en place un système de points pour des activités de la semaine d\’inté, des règles en tout genre pour dynamiser la rivalité entre les factions',
+            'description' => 'Mettre en place un système de points pour des activités de la semaine d’inté, des règles en tout genre pour dynamiser la rivalité entre les factions.',
         ],
         'defis' => [
             'title' => 'Défis TC',
@@ -157,54 +157,53 @@ class User extends Model implements Authenticatable
         ],
         'village' => [
             'title' => 'Village Asso',
-            'description' => 'Organiser le village asso avec l\’aide des associations en amont et coordonner l\’évènement le jour J.',
+            'description' => 'Organiser le village asso avec l’aide des associations en amont et coordonner l’évènement le jour J.',
         ],
         'faux_test' => [
             'title' => 'Faux test',
-            'description' => 'Organiser l\’évènement du faux test, rédiger les tests, recruter de faux élèves et faux profs et à la fin faire une compilation des plus belles conneries écrites dans les tests. Être le chef d\’orchestre de cette belle épreuve qu\’est le faux test.',
+            'description' => 'Organiser l’évènement du faux test, rédiger les tests, recruter de faux élèves et faux profs et à la fin faire une compilation des plus belles conneries écrites dans les tests. Être le chef d’orchestre de cette belle épreuve qu’est le faux test.',
         ],
         'faux_disc' => [
             'title' => 'Faux discours',
-            'description' => 'Préparer et faire un faux discours pour faire une petite frayeur aux nouveaux',
+            'description' => 'Préparer et faire un faux discours pour faire une petite frayeur aux nouveaux.',
         ],
         'kda' => [
             'title' => 'Kermess des Arts x Chill',
-            'description' => ' mettre en place une aprèm culture avec les asso/clubs artistiques qui présentent ce qu\’elles font, le tout de manière chill !',
+            'description' => ' Mettre en place une aprèm culture avec les asso/clubs artistiques qui présentent ce qu’elles font, le tout de manière chill !',
         ],
         'soiree' => [
             'title' => 'Soirée d\'intégration',
-            'description' => 'Préparer et organiser une soirée sur le campus de l’UTT durant la semaine d\’intégration (organisation des boissons, de la nourriture, du vestiaire, de la sécurité, des animations, etc). Vous serez en relation avec les professionnels de la sécurité pour encadrer l’événement.
-',
+            'description' => 'Préparer et organiser une soirée sur le campus de l’UTT durant la semaine d’intégration (organisation des boissons, de la nourriture, du vestiaire, de la sécurité, des animations, etc). Vous serez en relation avec les professionnels de la sécurité pour encadrer l’événement.',
         ],
         'chasseTresor' => [
             'title' => 'Chasse au trésor',
-            'description' => 'Organiser une maxi chasse au trésor sur le campus pour que les nouveaux découvrent l\’UTT et une petite surprise.',
+            'description' => 'Organiser une maxi chasse au trésor sur le campus pour que les nouveaux découvrent l’UTT et une petite surprise.',
         ],
         'rallye' => [
             'title' => 'Rallye',
-            'description' => 'Organiser une aprèm de folie pour les nouveaux avec pleins de jeux, d\’activités sportives et d\’autres idées que vous avez !',
+            'description' => 'Organiser une aprèm de folie pour les nouveaux avec pleins de jeux, d’activités sportives et d’autres idées que vous avez !',
         ],
         'wei' => [
             'title' => 'WEI',
-            'description' => 'Organiser le Week-end d\’intégration (transport, animation, logistique, soirée, boisson), se coordonner avec les différentes team de l\’inté : log, bouffe, S&L, anim.',
+            'description' => 'Organiser le Week-end d’intégration (transport, animation, logistique, soirée, boisson), se coordonner avec les différentes team de l’inté : log, bouffe, S&L, anim.',
         ],
         
         // Communication
         'comm' => [
             'title' => 'Communication',
-            'description' => 'Préparer et gérer toute la communication relative à l\’intégration (réseaux sociaux, plans de com, affiches, etc).',
+            'description' => 'Préparer et gérer toute la communication relative à l’intégration (réseaux sociaux, plans de com, affiches, etc).',
         ],
         'graphisme' => [
             'title' => 'Graphisme',
-            'description' => 'Designer les visuels de l\’inté (thèmes et posts pour les réseaux sociaux, affiches, stickers, T-Shirts, etc).',
+            'description' => 'Designer les visuels de l’inté (thèmes et posts pour les réseaux sociaux, affiches, stickers, T-Shirts, etc).',
         ],
         'deco' => [
             'title' => 'Déco',
-            'description' => 'Être créatif et créer de quoi décorer l\'UTT au thème de l\’inté.',
+            'description' => 'Être créatif et créer de quoi décorer l\'UTT au thème de l’inté.',
         ],
         'media' => [
             'title' => 'Médiatik',
-            'description' => 'Couvrir l\’ensemble des événements de l\’intégration, et publier tout ça pour laisser à tout le monde de beaux souvenirs.',
+            'description' => 'Couvrir l’ensemble des événements de l’intégration, et publier tout ça pour laisser à tout le monde de beaux souvenirs.',
         ],
         'gubu' => [
             'title' => 'GUBU',
@@ -214,7 +213,7 @@ class User extends Model implements Authenticatable
         // Autres orga
         'part' => [
             'title' => 'Partenariats',
-            'description' => 'Rechercher et établir des partenariats utiles à l\’inté et aux nouveaux étudiants',
+            'description' => 'Rechercher et établir des partenariats utiles à l’inté et aux nouveaux étudiants.',
         ],
         'log' => [
             'title' => 'Logistique',
@@ -222,15 +221,15 @@ class User extends Model implements Authenticatable
         ],
         'SL' => [
             'title' => 'Son et lumière',
-            'description' => 'Prévoir, installer et gérer les éléments de S&L durant les événement qui le nécessitent (soirée d\’inté, WEI, espace chill, etc).',
+            'description' => 'Prévoir, installer et gérer les éléments de S&L durant les événement qui le nécessitent (soirée d’inté, WEI, espace chill, etc).',
         ],
         'parrainage' => [
             'title' => 'Parrainage',
-            'description' => 'Attribuer des parrains/marraines aux nouveaux étudiants de manière personnalisée',
+            'description' => 'Attribuer des parrains/marraines aux nouveaux étudiants de manière personnalisée.',
         ],
         'bouffe' => [
             'title' => 'Bouffe',
-            'description' => 'Prévoir, organiser et coordonner tous les repas de l\’inté. La bouffe c’est sacré !',
+            'description' => 'Prévoir, organiser et coordonner tous les repas de l’inté. La bouffe c’est sacré !',
         ],
         'boisson' => [
             'title' => 'Respo boisson',
@@ -238,33 +237,33 @@ class User extends Model implements Authenticatable
         ],
         'prev' => [
             'title' => 'DD & Prévention',
-            'description' => 'Guider les choix de l\’inté vers une optique durable et responsable (check des commandes de consommables, goodies, choix des produits, organisation générale, etc).',
+            'description' => 'Guider les choix de l’inté vers une optique durable et responsable (check des commandes de consommables, goodies, choix des produits, organisation générale, etc).',
         ],
         'respo_ce' => [
             'title' => 'Respo CE',
-            'description' => 'Gérer l\’ensemble des CE ! Tu es moteur indispensable à l\’animation de l\’inté !!!!',
+            'description' => 'Gérer l’ensemble des CE ! Tu es moteur indispensable à l’animation de l’inté !!!!',
         ],
         
         // Benevolat
         'benevole' => [
             'title' => 'Benevole',
-            'description' => 'Tu n\’es pas là avant la semaine d\’intégration mais tu es désireux de nous fournir ton aide pour mettre en place du matériel, cuisiner et faire plein d\’autres trucs pendant la semaine, deviens bénévole.',
+            'description' => 'Tu n’es pas là avant la semaine d’intégration mais tu es désireux de nous fournir ton aide pour mettre en place du matériel, cuisiner et faire plein d’autres trucs pendant la semaine, deviens bénévole.',
         ],
         'ce' => [
             'title' => 'Chef d\'équipe (CE)',
-            'description' => 'Par groupe de 4/5 étudiants, être en charge d’une équipe d’environ 10 à 15 nouveaux étudiants, s\’occuper d\’eux, participer aux événements avec eux, réaliser des défis en équipe, répondre à leurs questions, etc : les accompagner autant que possible pendant leur première semaine à l\’UTT.',
+            'description' => 'Par groupe de 4/5 étudiants, être en charge d’une équipe d’environ 10 à 15 nouveaux étudiants, s’occuper d’eux, participer aux événements avec eux, réaliser des défis en équipe, répondre à leurs questions, etc : les accompagner autant que possible pendant leur première semaine à l’UTT.',
         ],
         'dj_soiree' => [
             'title' => 'DJ soirée d\'inté',
-            'description' => 'Tu sais faire des sets de musique et t\’aimes mixer en soirée, la soirée d\’intégration est une super opportunité pour partager tes talents !',
+            'description' => 'Tu sais faire des sets de musique et t’aimes mixer en soirée, la soirée d’intégration est une super opportunité pour partager tes talents !',
         ],
         'dj_wei' => [
             'title' => 'DJ au WEI',
-            'description' => 'Tu sais faire des sets de musique et t\’aimes mixer en soirée, les soirées du WEI sont des super opportunités pour partager tes talents !',
+            'description' => 'Tu sais faire des sets de musique et t’aimes mixer en soirée, les soirées du WEI sont des super opportunités pour partager tes talents !',
         ],
         'trad' => [
             'title' => 'Traduction en anglais',
-            'description' => 'Participer à la traduction des contenus publiés par l\’intégration en anglais (à destination des étudiants étrangers qui participeront également à cette semaine d\’inté).',
+            'description' => 'Participer à la traduction des contenus publiés par l’intégration en anglais (à destination des étudiants étrangers qui participeront également à cette semaine d’inté).',
         ],
     ];
 
