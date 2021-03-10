@@ -142,131 +142,129 @@ class User extends Model implements Authenticatable
     ];
 
     const VOLUNTEER_PREFERENCES = [
-        'ce' => [
-            'title' => 'Chef d\'équipe',
-            'description' => 'Animer et accompagner une équipe de 25-30 nouveaux pendant toute l\'intégration.',
-        ],
-        'respo-ce' => [
-            'title' => 'Respo CEs',
-            'description' => 'Gérer les CEs',
-        ],
-        'logistique' => [
-            'title' => 'Logistique',
-            'description' => 'Jouer avec des transpalettes, rassembler et acheminer tout le matériel nécessaire pour chaque activité de l\'intégration.',
-        ],
-        'boisson' => [
-            'title' => 'Respo boisson',
-            'description' => 'Gérer les boissons et les tireuses, tenir des bars',
-        ],
-        'communication' => [
-            'title' => 'Communication',
-            'description' => 'Animer nos différents réseaux sociaux pour teaser les nouveaux jusqu\'au bout.',
-        ],
-        'graphisme' => [
-            'title' => 'Graphisme',
-            'description' => 'Si tu aimes t\'amuser sur photoshop, l\'inté a besoin de toi pour de nombreux éléments : couverture du Gubu, t-shirt, supports de communication, etc.',
-        ],
-        'bouffe' => [
-            'title' => 'Bouffe',
-            'description' => 'Manger c\'est sacré ! Il nous faut des cuisto\' pour préparer les repas avec amour pour tous ces ventres affamés.',
-        ],
-        'deco' => [
-            'title' => 'Déco',
-            'description' => 'Créer une déco stylée pour habiller l\'UTT sur le thème de l\'intégration.',
-        ],
-        'animation' => [
+        // ÉVÉNEMENTS 
+        'anim' => [
             'title' => 'Animation',
-            'description' => 'Pourquoi on est là ?!',
+            'description' => 'Animer, divertir et motiver les nouveaux étudiants à chaque événement et moment de l\’inté. Et pourquoi on est là ??',
         ],
-        'partenariat' => [
-            'title' => 'Partenariat',
-            'description' => 'Aller voir des entreprises pour récupérer des goodies, des réductions pour les étudiants ou de l\'argent pour l\'inté.',
+        'arbitre' => [
+            'title' => 'Arbitre',
+            'description' => 'Mettre en place un système de points pour des activités de la semaine d\’inté, des règles en tout genre pour dynamiser la rivalité entre les factions',
         ],
-        'gubu' => [
-            'title' => 'GUBU',
-            'description' => 'Mettre à jour le GUBU avec les nouveaux bails.',
-        ],
-        'securite' => [
-            'title' => 'Securité',
-            'description' => 'Jouer les durs avec un talkie walkie, décider où vont les barrières pour éviter les morts et gérer les agents de sécurité.',
-        ],
-        'son-lumiere' => [
-            'title' => 'Son et lumière',
-            'description' => 'Quelques kilowatt de son, plein de lumières dans tous les sens et tout ça pour la soirée d\'intégration, le WEI et le M500.',
-        ],
-        'developpeur' => [
-            'title' => 'Développeur',
-            'description' => 'Il y a toujours de nouvelles fonctionnalités à ajouter au site de l\'inté et à l\'application mobile. A quand un décompte en temps réel du nombre de tour de rond points !',
-        ],
-        'dj' => [
-            'title' => 'DJ',
-            'description' => 'Parce qu\'à la soirée d\'inté comme au WEI, on a besoin de vrai set !',
-        ],
-        'traduction' => [
-            'title' => 'Traduction anglais',
-            'description' => 'L\'UTT c\'est 24% d\'étrangers, et si on les intégrait aussi ?',
-        ],
-        'media' => [
-            'title' => 'Argentique/Média',
-            'description' => 'Si tu aimes documenter la vie du jeune étudiant et mettre à profit toutes des compétences de photographie ou de création de vidéo cette com est pour toi ! L\'inté a besoin de toi pour les photos des soirées et durant toute la semaine, mais aussi pour les films de présentation et les Interview du wei !',
-        ],
-        'parrainages' => [
-            'title' => 'Parrainages',
-            'description' => 'Gérer les parrainages pendant l\'été, organiser la rencontre nouveaux / parrains.',
-        ],
-        'prevention' => [
-            'title' => 'Prévention',
-            'description' => 'Incorporer plus d\'actions de prévention pendant l\'intégration.',
-        ],
-
-        // Evènements
-        'defi-tc' => [
+        'defis' => [
             'title' => 'Défis TC',
-            'description' => 'Préparer l\'aprèm où les nouveaux TC devront faire preuve d\'ingéniosité.',
+            'description' => 'Préparer l\'aprèm où les nouveaux TC devront faire preuve d\'ingéniosité pour arriver au bout des défis que vous aurez préparé.',
         ],
-        'animations-m104' => [
-            'title' => 'Animations en M104',
-            'description' => 'Organiser, avec les CEs et les assos, des animations chill en M104 le Mardi et le Mercredi matin.',
+        'village' => [
+            'title' => 'Village Asso',
+            'description' => 'Organiser le village asso avec l\’aide des associations en amont et coordonner l\’évènement le jour J.',
         ],
-        'visite' => [
-            'title' => 'Visite des locaux',
-            'description' => 'Organiser une visite des locaux.',
-        ],
-        'faux-discours' => [
-            'title' => 'Faux discours',
-            'description' => 'Ecrire et réaliser un faux discours.',
-        ],
-        'olympiades-asso' => [
-            'title' => 'Olympiades Assos',
-            'description' => 'Organiser les Olympiades associatives, avec l\'aide des associations.',
-        ],
-        'bbq-asso' => [
-            'title' => 'BBQ Asso',
-            'description' => 'Organiser le BBQ Asso, l\'agencement de l\'évènement et les animations de la soirée.',
-        ],
-        'faux-test' => [
+        'faux_test' => [
             'title' => 'Faux test',
-            'description' => 'Organiser ce magnifique troll et faire un best-of des conneries qu\'ils auront écrits.',
+            'description' => 'Organiser l\’évènement du faux test, rédiger les tests, recruter de faux élèves et faux profs et à la fin faire une compilation des plus belles conneries écrites dans les tests. Être le chef d\’orchestre de cette belle épreuve qu\’est le faux test.',
         ],
-        'co-utt' => [
-            'title' => 'Course d\'Orientation à l\'UTT',
-            'description' => 'Organiser la course d\'orientation de découverte de l\'UTT, où les nouveaux pourront visiter des parties inaccessible de l’UTT.',
+        'faux_disc' => [
+            'title' => 'Faux discours',
+            'description' => 'Préparer et faire un faux discours pour faire une petite frayeur aux nouveaux',
         ],
-        'soiree-integration' => [
-            'title' => 'Soirée d’Intégration',
-            'description' => 'Organiser une petite soirée de 1000 personnes dans l\'UTT.',
+        'kda' => [
+            'title' => 'Kermess des Arts x Chill',
+            'description' => ' mettre en place une aprèm culture avec les asso/clubs artistiques qui présentent ce qu\’elles font, le tout de manière chill !',
+        ],
+        'soiree' => [
+            'title' => 'Soirée d\'intégration',
+            'description' => 'Préparer et organiser une soirée sur le campus de l’UTT durant la semaine d\’intégration (organisation des boissons, de la nourriture, du vestiaire, de la sécurité, des animations, etc). Vous serez en relation avec les professionnels de la sécurité pour encadrer l’événement.
+',
+        ],
+        'chasseTresor' => [
+            'title' => 'Chasse au trésor',
+            'description' => 'Organiser une maxi chasse au trésor sur le campus pour que les nouveaux découvrent l\’UTT et une petite surprise.',
         ],
         'rallye' => [
             'title' => 'Rallye',
-            'description' => 'Organiser les activités du rallye du Jeudi après-midi, regroupant toutes les équipes de nouveaux.',
+            'description' => 'Organiser une aprèm de folie pour les nouveaux avec pleins de jeux, d\’activités sportives et d\’autres idées que vous avez !',
         ],
         'wei' => [
             'title' => 'WEI',
-            'description' => 'Organiser le WEI.',
+            'description' => 'Organiser le Week-end d\’intégration (transport, animation, logistique, soirée, boisson), se coordonner avec les différentes team de l\’inté : log, bouffe, S&L, anim.',
         ],
+        
+        // Communication
+        'comm' => [
+            'title' => 'Communication',
+            'description' => 'Préparer et gérer toute la communication relative à l\’intégration (réseaux sociaux, plans de com, affiches, etc).',
+        ],
+        'graphisme' => [
+            'title' => 'Graphisme',
+            'description' => 'Designer les visuels de l\’inté (thèmes et posts pour les réseaux sociaux, affiches, stickers, T-Shirts, etc).',
+        ],
+        'deco' => [
+            'title' => 'Déco',
+            'description' => 'Être créatif et créer de quoi décorer l\'UTT au thème de l\’inté.',
+        ],
+        'media' => [
+            'title' => 'Médiatik',
+            'description' => 'Couvrir l\’ensemble des événements de l\’intégration, et publier tout ça pour laisser à tout le monde de beaux souvenirs.',
+        ],
+        'gubu' => [
+            'title' => 'GUBU',
+            'description' => 'Élaborer le futur GUBU des nouveaux avec des histoires, des recettes, des chants, des vannes...',
+        ],
+        
+        // Autres orga
+        'part' => [
+            'title' => 'Partenariats',
+            'description' => 'Rechercher et établir des partenariats utiles à l\’inté et aux nouveaux étudiants',
+        ],
+        'log' => [
+            'title' => 'Logistique',
+            'description' => 'Préparer, organiser et mettre en place tout le matériel nécessaire avant et pendant la semaine d\’intégration.',
+        ],
+        'SL' => [
+            'title' => 'Son et lumière',
+            'description' => 'Prévoir, installer et gérer les éléments de S&L durant les événement qui le nécessitent (soirée d\’inté, WEI, espace chill, etc).',
+        ],
+        'parrainage' => [
+            'title' => 'Parrainage',
+            'description' => 'Attribuer des parrains/marraines aux nouveaux étudiants de manière personnalisée',
+        ],
+        'bouffe' => [
+            'title' => 'Bouffe',
+            'description' => 'Prévoir, organiser et coordonner tous les repas de l\’inté. La bouffe c’est sacré !',
+        ],
+        'boisson' => [
+            'title' => 'Respo boisson',
+            'description' => 'Prévoir les commandes de boisson (soft et bières) pour les différents event de l\'inté (repas, soirée d\'inté, WEI, etc).',
+        ],
+        'prev' => [
+            'title' => 'DD & Prévention',
+            'description' => 'Guider les choix de l\’inté vers une optique durable et responsable (check des commandes de consommables, goodies, choix des produits, organisation générale, etc).',
+        ],
+        'respo_ce' => [
+            'title' => 'Respo CE',
+            'description' => 'Gérer l\’ensemble des CE ! Tu es moteur indispensable à l\’animation de l\’inté !!!!',
+        ],
+        
+        // Benevolat
         'benevole' => [
-            'title' => 'Bénévole',
-            'description' => 'Pas dispos avant pour l\'organisation, t\inquiète il y aura l\occasion d\'aider pendant la semaine.',
+            'title' => 'Benevole',
+            'description' => 'Tu n\’es pas là avant la semaine d\’intégration mais tu es désireux de nous fournir ton aide pour mettre en place du matériel, cuisiner et faire plein d\’autres trucs pendant la semaine, deviens bénévole.',
+        ],
+        'ce' => [
+            'title' => 'Chef d\'équipe (CE)',
+            'description' => 'Par groupe de 4/5 étudiants, être en charge d’une équipe d’environ 10 à 15 nouveaux étudiants, s\’occuper d\’eux, participer aux événements avec eux, réaliser des défis en équipe, répondre à leurs questions, etc : les accompagner autant que possible pendant leur première semaine à l\’UTT.',
+        ],
+        'dj_soiree' => [
+            'title' => 'DJ soirée d\'inté',
+            'description' => 'Tu sais faire des sets de musique et t\’aimes mixer en soirée, la soirée d\’intégration est une super opportunité pour partager tes talents !',
+        ],
+        'dj_wei' => [
+            'title' => 'DJ au WEI',
+            'description' => 'Tu sais faire des sets de musique et t\’aimes mixer en soirée, les soirées du WEI sont des super opportunités pour partager tes talents !',
+        ],
+        'trad' => [
+            'title' => 'Traduction en anglais',
+            'description' => 'Participer à la traduction des contenus publiés par l\’intégration en anglais (à destination des étudiants étrangers qui participeront également à cette semaine d\’inté).',
         ],
     ];
 
