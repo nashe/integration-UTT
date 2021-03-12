@@ -160,12 +160,12 @@ class User extends Model implements Authenticatable
             'description' => 'Organiser le village asso avec l’aide des associations en amont et coordonner l’évènement le jour J.',
         ],
         'faux_test' => [
-            'title' => 'Faux test',
-            'description' => 'Organiser l’évènement du faux test, rédiger les tests, recruter de faux élèves et faux profs et à la fin faire une compilation des plus belles conneries écrites dans les tests. Être le chef d’orchestre de cette belle épreuve qu’est le faux test.',
+            'title' => 'Test de niveau',
+            'description' => 'Organiser l’évènement du test de niveau, rédiger les tests, recruter de faux élèves et faux profs et à la fin faire une compilation des plus belles conneries écrites dans les tests. Être le chef d’orchestre de cette belle épreuve qu’est ce test.',
         ],
         'faux_disc' => [
-            'title' => 'Faux discours',
-            'description' => 'Préparer et faire un faux discours pour faire une petite frayeur aux nouveaux.',
+            'title' => 'Discours de rentrée',
+            'description' => 'Préparer et faire un discours de rentrée pour faire une petite frayeur aux nouveaux.',
         ],
         'kda' => [
             'title' => 'Kermess des Arts x Chill',
