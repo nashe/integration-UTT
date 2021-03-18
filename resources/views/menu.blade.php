@@ -44,11 +44,12 @@ Menu
                                 <a href="{{ route('referrals.edit') }}" class="btn form-control btn-success">Modifier mon profil !</a>
                                 <a class="form-control btn btn-danger" href="{{ route('referrals.destroy') }}">Ne plus être parrain</a>
                             @else
-                                <strong>Les inscriptions sont fermées.</strong><br/>
-                                    Contacte <a href="mailto:integration@utt.fr">integration@utt.fr</a> pour toute question.<br/>
+                                <!--<strong>Les inscriptions sont fermées.</strong><br/>-->
                                     @if (Authorization::countdown('student','referral'))
-                                        <strong>Ouverture dans {{ @countdown(Authorization::countdown('student','referral')) }}</strong>
+                                        <!--<strong>Ouverture dans {{ @countdown(Authorization::countdown('student','referral')) }}</strong>-->
+                                        <strong>Ouverture des inscriptions prochainement dans l'année 2021 !</strong><br/>
                                     @endif
+                                    Contacte <a href="mailto:integration@utt.fr">integration@utt.fr</a> pour toute question.
                             @endif
                         </div>
                     </div>
@@ -77,7 +78,9 @@ Menu
                                 <a href="{{ route('dashboard.ce.firsttime') }}" class="btn form-control btn-success">Rejoins ton équipe !</a>
                             @else
                                 @if (Authorization::countdown('ce','create'))
-                                    <strong>Ouverture dans {{ @countdown(Authorization::countdown('ce','create')) }}</strong><br/>
+                                    <!--<strong>Ouverture dans {{ @countdown(Authorization::countdown('ce','create')) }}</strong><br/>-->
+                                    <strong>Ouverture du shotgun CE le 5 mai 2021</strong><br/>
+                                    <strong>Inscrits toi dès maintenant en tant que bénévole en cochant la case CE.</strong><br/>
                                 @else
                                     <strong>Désolé, le nombre maximal d'équipes est atteint.</strong><br/>
                                     Si tu souhaites rejoindre ton équipe, demandes à ton chef d'équipe de t'inviter !</br>
