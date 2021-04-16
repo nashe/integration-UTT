@@ -78,9 +78,7 @@ Menu
                                 <a href="{{ route('dashboard.ce.firsttime') }}" class="btn form-control btn-success">Rejoins ton équipe !</a>
                             @else
                                 @if (Authorization::countdown('ce','create'))
-                                    <!--<strong>Ouverture dans {{ @countdown(Authorization::countdown('ce','create')) }}</strong><br/>-->
-                                    <strong>Ouverture du shotgun CE le 5 mai 2021</strong><br/>
-                                    <strong>Inscrits toi dès maintenant en tant que bénévole en cochant la case CE.</strong><br/>
+                                    <strong>Ouverture dans {{ @countdown(Authorization::countdown('ce','create')) }}</strong><br/>
                                 @else
                                     <strong>Désolé, le nombre maximal d'équipes est atteint.</strong><br/>
                                     Si tu souhaites rejoindre ton équipe, demandes à ton chef d'équipe de t'inviter !</br>
