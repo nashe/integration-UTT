@@ -60,31 +60,46 @@ Menu
                         </div>
                         <div class="panel-body">
                             Envie d'accompagner les nouveaux dans les épreuves de l'intégration ?<br/>
-                            Constitue ton équipe de 3 à 5 personnes en cliquant sur le bouton ci-desssous !
-                            <br/><br/>
-                            @if (Authorization::can('student','ce') || Authorization::can('ce','create'))
+                            Pré-inscris ton équipe de 3 à 5 personnes en cliquant sur le lien GForm ci-desssous :
+                            <br/>
+                            <a href="https://forms.gle/NUVRhmRm7G7KGVUQA">https://forms.gle/NUVRhmRm7G7KGVUQA</a> (une seule inscription par équipe suffit)
+                            <br/>
+                            <!--@if (Authorization::can('student','ce') || Authorization::can('ce','create'))
                                 <strong>Fermeture dans {{ @countdown(Authorization::countdown('ce','create')) }}</strong><br/>
                                 <strong>Plus que {{ $teamLeftTC }} équipes de TC et {{ $teamLeftBranch }} équipes de Branche avant fermeture</strong>
-                                <br/><br/>
-                                @if (Authorization::can('ce','create'))
-                                    <a href="{{ route('dashboard.index') }}" class="btn form-control btn-success">Devenir chef d'équipe !</a>
+                                @if (Authorization::can('student','ce') || Authorization::can('ce','create'))
+                                    <strong>Fermeture dans {{ @countdown(Authorization::countdown('ce','create')) }}</strong><br/>
+                                    <strong>Plus que {{ $teamLeftTC }} équipes de TC et {{ $teamLeftBranch }} équipes de Branche avant fermeture</strong>
+                                    <br/><br/>
+                                    @if (Authorization::can('ce','create'))
+                                        <a href="{{ route('dashboard.index') }}" class="btn form-control btn-success">Devenir chef d'équipe !</a>
+                                    @else
+                                        <a href="{{ route('dashboard.ce.firsttime') }}" class="btn form-control btn-success">Devenir chef d'équipe !</a>
+                                    @endif
+                                @elseif (Authorization::can('ce','inTeam'))
+                                    <a href="{{ route('dashboard.index') }}" class="btn form-control btn-success">Voir mon profil de chef d'équipe !</a>
+                                @elseif (Authorization::can('student','inTeam'))
+                                    <strong>Vous ne pouvez plus créer d'équipe, le nombre maximal est atteint.</strong></br>
+                                    <a href="{{ route('dashboard.ce.firsttime') }}" class="btn form-control btn-success">Rejoins ton équipe !</a>
                                 @else
-                                    <a href="{{ route('dashboard.ce.firsttime') }}" class="btn form-control btn-success">Devenir chef d'équipe !</a>
+                                    @if (Authorization::countdown('ce','create'))
+                                        <strong>Ouverture dans {{ @countdown(Authorization::countdown('ce','create')) }}</strong><br/>
+                                    @else
+                                        <strong>Désolé, le nombre maximal d'équipes est atteint.</strong><br/>
+                                        Si tu souhaites rejoindre ton équipe, demandes à ton chef d'équipe de t'inviter !</br>
+                                    @endif
+                                    Contacte <a href="mailto:integration@utt.fr">integration@utt.fr</a> pour toute autre question.
                                 @endif
-                            @elseif (Authorization::can('ce','inTeam'))
-                                <a href="{{ route('dashboard.index') }}" class="btn form-control btn-success">Voir mon profil de chef d'équipe !</a>
-                            @elseif (Authorization::can('student','inTeam'))
-                                <strong>Vous ne pouvez plus créer d'équipe, le nombre maximal est atteint.</strong></br>
-                                <a href="{{ route('dashboard.ce.firsttime') }}" class="btn form-control btn-success">Rejoins ton équipe !</a>
                             @else
+
                                 @if (Authorization::countdown('ce','create'))
                                     <strong>Ouverture dans {{ @countdown(Authorization::countdown('ce','create')) }}</strong><br/>
                                 @else
                                     <strong>Désolé, le nombre maximal d'équipes est atteint.</strong><br/>
                                     Si tu souhaites rejoindre ton équipe, demandes à ton chef d'équipe de t'inviter !</br>
-                                @endif
+                                @endif-->
                                 Contacte <a href="mailto:integration@utt.fr">integration@utt.fr</a> pour toute autre question.
-                            @endif
+                                Le shotgun ne s'effectue pas sur le site cette année.
                         </div>
                     </div>
 

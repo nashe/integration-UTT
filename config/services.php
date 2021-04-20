@@ -78,6 +78,7 @@ return [
         'maxTeamTc' => env('CE_MAXTEAM_TC'),
         'maxTeamBranch' => env('CE_MAXTEAM_BRANCH'),
         'teamNameOpening' => env('CE_TEAM_NAME_OPENING'),
+        'shotgun_through_website' => 'true',
     ],
     'wei' => [
         'open' => env('WEI_OPEN'),
