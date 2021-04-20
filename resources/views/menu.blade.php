@@ -60,9 +60,11 @@ Menu
                         </div>
                         <div class="panel-body">
                             Envie d'accompagner les nouveaux dans les épreuves de l'intégration ?<br/>
-                            Constitue ton équipe de 3 à 5 personnes en cliquant sur le bouton ci-desssous !
-                            <br/><br/>
-                            @if (Authorization::can('student','ce') || Authorization::can('ce','create'))
+                            Pré-inscris ton équipe de 3 à 5 personnes en cliquant sur le lien GForm ci-desssous :
+                            <br/>
+                            <a href="https://forms.gle/NUVRhmRm7G7KGVUQA">https://forms.gle/NUVRhmRm7G7KGVUQA</a> (une seule inscription par équipe suffit)
+                            <br/>
+                            <!--@if (Authorization::can('student','ce') || Authorization::can('ce','create'))
                                 <strong>Fermeture dans {{ @countdown(Authorization::countdown('ce','create')) }}</strong><br/>
                                 <strong>Plus que {{ $teamLeftTC }} équipes de TC et {{ $teamLeftBranch }} équipes de Branche avant fermeture</strong>
                                 <br/><br/>
@@ -82,7 +84,7 @@ Menu
                                 @else
                                     <strong>Désolé, le nombre maximal d'équipes est atteint.</strong><br/>
                                     Si tu souhaites rejoindre ton équipe, demandes à ton chef d'équipe de t'inviter !</br>
-                                @endif
+                                @endif-->
                                 Contacte <a href="mailto:integration@utt.fr">integration@utt.fr</a> pour toute autre question.
                             @endif
                         </div>
