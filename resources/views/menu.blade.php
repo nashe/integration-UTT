@@ -63,7 +63,8 @@ Menu
                                 Envie d'accompagner les nouveaux dans les épreuves de l'intégration ?<br/>
                                 Constitue ton équipe de 3 à 5 personnes en cliquant sur le bouton ci-desssous !
                                 <br/><br/>
-                                <a href="https://forms.gle/NUVRhmRm7G7KGVUQA">https://forms.gle/NUVRhmRm7G7KGVUQA</a> (une seule inscription par équipe suffit)
+                                <!--<a href="https://forms.gle/NUVRhmRm7G7KGVUQA">https://forms.gle/NUVRhmRm7G7KGVUQA</a> (une seule inscription par équipe suffit)-->
+                                    <a href="{{ route('dashboard.ce.firsttime') }}" class="btn form-control btn-success">Je m'inscrit en tant que chef d'équipe !</a>
                                 <br/><br/>
                                 @if (Authorization::can('student','ce') || Authorization::can('ce','create'))
                                     <strong>Fermeture dans {{ @countdown(Authorization::countdown('ce','create')) }}</strong><br/>
