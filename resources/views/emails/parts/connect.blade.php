@@ -15,9 +15,9 @@
               <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
                 <div style="text-align: justify;">
                     <span style="color:#696969; font-size:14px">
-                      Nous t'invitons à te connecter sur le site de l'intégration pour accéder à toutes les informations dont tu auras besoin notamment pour contacter ton <strong>parrain /</strong> ta<strong> marraine</strong> et ton <strong>équipe</strong> d’intégration.
+                      Nous t'invitons à te connecter sur le site de l'intégration pour accéder à toutes les informations dont tu auras besoin notamment pour contacter ton <strong>équipe</strong> d’intégration.
                       {{-- <br>&nbsp;<br>
-                      Ton parrain et ton équipe t’ont préparés un petit mot pour se présenter alors connecte toi vite sur le site pour aller les lire ! --}}
+                      Ton équipe t'a préparé un petit mot pour se présenter alors connecte toi vite sur le site pour aller le lire ! --}}
                     </span>
                 </div>
               </td>
