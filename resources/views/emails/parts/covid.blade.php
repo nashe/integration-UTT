@@ -6,12 +6,11 @@
 
 <div style="margin: 10px; text-align: center">
   <span style="font-family:merriweather sans,helvetica neue,helvetica,arial,sans-serif;">
-    Bon, là c’est la partie un peu moins fun (comme dirait Renaud, “coronavirus, connard de virus”).
+    Bon, là c’est la partie un peu moins fun.
     <br>&nbsp;<br>
-    Tout d’abord, si jamais tu présentes des symptômes pouvant suspecter que tu es atteint du COVID-19, il sera plus sage pour toi et pour tes (futurs) camarades de rester chez toi.
+    Tout au long de l'intégration, on te demandera de nous présenter un pass sanitaire. Si tu ne veux pas avoir à te faire tester plusieurs fois, nous t'invitons à te faire vacciner bien avant cela.
+
     <br>&nbsp;<br>
-    Pour plus de flow pendant ta semaine d’intégration, oublie pas ton masque le plus original à avoir toujours avec toi !
-    <br>&nbsp;<br>
-    Suite aux restrictions sanitaires, on ne peut malheureusement pas te faire visiter ton futur campus si tu passes à Troyes cet été. On reste quand même à ta disposition si tu as des questions (ou si tes parents en ont aussi), et pour ça les informations sont dans le paragraphe suivant.
+    On est à ta disposition pour n'importe quelle question si tu passes sur Troyes ou même à distance, et pour ça les informations sont dans le paragraphe suivant.
   </span>
 </div>
