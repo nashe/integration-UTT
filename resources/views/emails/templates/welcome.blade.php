@@ -68,7 +68,7 @@ Bienvenue à l'UTT
 </table>
 
 @include('emails.parts.connect')
-@include('emails.parts.godfather')
+<!--@include('emails.parts.godfather')-->
 @include('emails.parts.covid')
 
 @endsection
