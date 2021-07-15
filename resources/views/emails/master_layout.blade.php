@@ -46,7 +46,7 @@
                           </table>
                        </td>
                     </tr>
-                    <tr>
+                    <!--<tr>
                       <td valign="top" id="templatePreheader">
                         <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
                           <tbody class="mcnImageBlockOuter">
@@ -68,7 +68,7 @@
                           </tbody>
                         </table>
                       </td>
-                    </tr>
+                    </tr>-->
                     <tr>
                        <td valign="top" id="templateBody">
                           @yield('content')
