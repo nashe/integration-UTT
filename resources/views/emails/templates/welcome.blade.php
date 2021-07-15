@@ -52,7 +52,7 @@ Bienvenue à l'UTT
                     <span style="color:#696969">
                       Nous sommes l'équipe d'intégration, des étudiants bénévoles qui préparent minutieusement ton arrivée pour que celle-ci reste inoubliable.<br>
                       &nbsp;<br>
-                      Un tas d'événements incroyables, tous basés sur la base du volontariat, t'attendent dès le {{ Config::get('services.reentry.tc.date') }} si tu arrives en première année et dès le {{ Config::get('services.reentry.branches.date') }} si tu arrives en 3ème année. Tout est fait pour que tu t'éclates et que rencontrent les personnes qui feront de ton passage à l'UTT un moment inoubliable.
+                      Un tas d'événements incroyables, tous basés sur la base du volontariat, t'attendent dès le {{ Config::get('services.reentry.tc.date') }} si tu arrives en première année et dès le {{ Config::get('services.reentry.branches.date') }} si tu arrives en 3ème année ou en master. Tout est fait pour que tu t'éclates et que rencontrent les personnes qui feront de ton passage à l'UTT un moment inoubliable.
                     </span><br>
                     &nbsp;<br>
                     <span style="color:#696969">Mais avant toutes choses il faut te préparer. Assure toi de réaliser les tâches suivantes avant ton arrivée :</span>
