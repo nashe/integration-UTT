@@ -48,7 +48,7 @@ Informations diverses pour toi !
                 il va récapituler tous les petits trucs auxquels tu devras penser.
             </p>
             <div style="background-color: #E74360; margin: auto; padding: 10px 10px; text-align: center; width: max-content;">
-              <a href="{{ Config::get('services.socialNetwork.facebook.groupeNouveaux') }}" target="_blank" style="color: #FFFFFF; text-decoration: none;font-size: 1em;line-height: 1.3333333;">Clique pour rejoindre le groupe Facebook <br><strong>Nouveaux Intégration UTT {{ date("Y") }}</strong></a>
+              <a href="{{ Config::get('services.socialNetwork.facebook.groupeNouveaux') }}" target="_blank" style="color: #FFFFFF; text-decoration: none;font-size: 1em;line-height: 1.3333333;">Clique pour rejoindre le serveur Discord <br><strong> Intégration UTT {{ date("Y") }}</strong></a>
 	        </div>
             <div class="text-center">
                 <a class="btn btn-primary" href="{{{ route('newcomer.'.Auth::user()->getNextCheck()['page']) }}}">Prochaine action à faire<br/><strong>{{{ Auth::user()->getNextCheck()['action'] }}}</strong></a>
