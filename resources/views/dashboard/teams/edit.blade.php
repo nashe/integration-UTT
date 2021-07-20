@@ -70,9 +70,9 @@ Gestion des équipes
             </fieldset>
 
             <div class="form-group">
-                <label for="facebook" class="col-lg-2 control-label">Lien vers le groupe Facebook</label>
+                <label for="facebook" class="col-lg-2 control-label">Lien vers le serveur Discord</label>
                 <div class="col-lg-10">
-                    <input class="form-control" type="text" id="facebook" name="facebook" placeholder="https://facebook.com/.." value="{{{ old('facebook') ?? $team->facebook }}}">
+                    <input class="form-control" type="text" id="facebook" name="facebook" placeholder="Discord..." value="{{{ old('facebook') ?? $team->facebook }}}">
                 </div>
             </div>
 
