@@ -46,7 +46,8 @@ Pause partenaire !
             <a href="http://www.popeye-troyes.fr" target="_blank" class="btn btn-primary btn-lg">popeye-troyes.fr</a>
         </div>
 -->
-        <h3>Un compte bancaire pour te faire rembourser ton weekend</h3>
+        
+        <!--<h3>Un compte bancaire pour te faire rembourser ton weekend</h3>
         <p>LCL t’offre 55€ à l’ouverture d’un compte chez eux (ça te rembourse ton WEI), un découvert autorisé de 400€, une carte bancaire Visa Premier LCL pour seulement 1€ par an, ainsi que de nombreux autres avantages.</p>
         <p>Rendez-vous le mardi après-midi pour ouvrir ton compte !</p>
 
@@ -55,7 +56,7 @@ Pause partenaire !
                 <img src="{{ asset('img/sponsors/lcl/1euro.gif') }}" class="img-thumbnail hidden-xs" style="max-height:120px;"/>
                 <img src="{{ asset('img/sponsors/lcl/logo.jpg') }}" class="img-thumbnail" style="max-height:120px;" />
             </a>
-        </div>
+        </div>-->
 
         <h3>Plus de bon plans</h3>
         <p>Tu en veux plus ? <a href="{{ route('newcomer.deals')}}">Clique ici</a> pour découvrir les autres partenaires de l'intégration, ou rendez vous sur <a href="https://bde.utt.fr/fr/dashboard/benefits" target="_blank">bde.utt.fr</a> pour découvrir les partenaires du BDE à l'année.</p>
