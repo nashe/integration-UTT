@@ -116,7 +116,7 @@ class User extends Model implements Authenticatable
             'page' => 'referral',
         ],
         'team_disguise' => [
-            'action' => 'Rejoindre le groupe facebook de ton équipe et faire ton déguisement ',
+            'action' => 'Rejoindre le channel discord de ton équipe et faire ton déguisement ',
             'page' => 'team',
         ],
         'app_download' => [

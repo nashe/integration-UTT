@@ -18,13 +18,13 @@ Frequently Asked Questions
 	            <p id="question100" class="collapse">
 	                Pour les post-bac : {{ Config::get('services.reentry.tc.date') }} à {{ Config::get('services.reentry.tc.time') }}.<br/>
 	                Pour les branches (bac +2) : {{ Config::get('services.reentry.branches.date') }} à {{ Config::get('services.reentry.branches.time') }}.
-	                Pour les masters : {{ Config::get('services.reentry.masters.date') }} à {{ Config::get('services.reentry.masters.time') }}.
-	                <!-- <strong>On t’offre le petit-déjeuner !</strong> # TODO : Uncomment year after COVID -->
+	                Pour les masters : {{ Config::get('services.reentry.masters.date') }} à {{ Config::get('services.reentry.masters.time') }} pour les activités de l'intégration
+	                <strong>On t’offre le petit-déjeuner !</strong> tant que la situation le permet
 	            </p>
 
 				<h4><a href="#question200" data-toggle="collapse">Quel est l’emploi du temps de la semaine d’intégration ?</a></h4>
 	            <p id="question200" class="collapse">
-					Il t’a été envoyé par email. Tu en auras une recevera une copie à ton arrivée à l’UTT.
+					Il te sera envoyé par mail, et une copie papier sera distribué durant la semaine.
 	            </p>
 
 			    <h4><a href="#question300" data-toggle="collapse">Quand est-ce que je dois amener mon déguisement ?</a></h4>
@@ -34,9 +34,9 @@ Frequently Asked Questions
 
 			    <h4><a href="#question400" data-toggle="collapse">Les repas sont-ils compris ?</a></h4>
 	            <p id="question400" class="collapse">
-                    Malheureusement, cette année en raison de la COVID-19 nous n'avons pas le droit de vous servir de repas.
-					<!-- Le jour de ton arrivée (le lundi ou mardi), le petit déjeuner est offert par le BDE.
-					Pour les repas du lundi soir (pour les TC), mardi soir (pour tout le monde), jeudi midi et vendredi midi, il faudra prévoir un peu de monnaie mais pas de panique, cela reste à des prix très étudiants (entre 2 et 4€). TODO : Remove year after COVID -->
+					Le jour de ton arrivée (le lundi ou mardi), le petit déjeuner est offert par le BDE.
+					Pour les repas du lundi soir (pour les TC), mardi soir (pour tout le monde), jeudi midi et vendredi midi, il faudra prévoir un peu de monnaie mais pas de panique, cela reste à des prix très étudiants (entre 2 et 4€).
+                    (sous réserve d'évolution de la situation sanitaire)
 				</p>
 
 			    <h4><a href="#question500" data-toggle="collapse">Est-ce qu'il y a des cours la première semaine ?</a></h4>
@@ -107,7 +107,7 @@ Frequently Asked Questions
 					Oui, pour payer tes éventuelles consommations au bar. Il ne sera pas possible d’accéder à un distributeur sur place, des boissons non alcoolisées seront également proposées.
 				</p>
 
-				<h4><a href="#question2900" data-toggle="collapse">Est-ce que l’inté à l’UTT, c’est un bizutage ?</a></h4>
+				<h4><a href="#question2900" data-toggle="collapse">Est-ce que l'intégration est obligatoire ?</a></h4>
 				<p id="question2900" class="collapse">
 					Non, bien sûr. On ne te forcera jamais à rien faire ! Tu es libre de venir et toutes nos activités sont anti-bizutages, nous y tenons ! Tous nos bénévoles signent une charte de respect de ces engagements.<br>
 					Un numéro d'urgence vous sera communiqué à la rentrée si jamais une et une seule dérive survenait, des mesures contre le responsable de l'incident seraient immédiatement prises.
