@@ -60,7 +60,7 @@ Ton équipe !
                     @if(substr(Auth::user()->team->facebook, 0, 4) == 'http')
                         <div style="position:relative;margin-bottom:5px;">
                             <i class="fa fa-facebook" aria-hidden="true" style="position:absolute;top:3px;vertical-align:bottom;"></i>
-                            <span style="margin-left:25px;text-align:justify;">Rejoins ton équipe sur le <a href="{{ Auth::user()->team->facebook }}" target="_blank">groupe Facebook</a></span>
+                            <span style="margin-left:25px;text-align:justify;">Rejoins ton équipe sur le <a href="{{ Auth::user()->team->facebook }}" target="_blank">serveur Discord</a></span>
                         </div>
                     @endif
                 </div>
