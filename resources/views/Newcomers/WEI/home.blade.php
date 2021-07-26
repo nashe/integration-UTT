@@ -159,7 +159,7 @@ Le Week-End d'Intégration
                 </div>
             @else
             <div class="box-header with-border">
-                <h3 class="box-title"><--!Oups... Il semblerait que tu ne puisses pas t'inscire au WEI. Si tu penses qu'il s'agit d'une erreur, contacte nous.--> les inscriptions ne sont pas encore ouvertes. Ne t'inquiète pas, on te préviendra lorsqu'elles ouvriront.</h3>
+                <h3 class="box-title"><!--Oups... Il semblerait que tu ne puisses pas t'inscire au WEI. Si tu penses qu'il s'agit d'une erreur, contacte nous.--> les inscriptions ne sont pas encore ouvertes. Ne t'inquiète pas, on te préviendra lorsqu'elles ouvriront.</h3>
                 <p><a href="mailto:integration@utt.fr">integration@utt.fr</a></p>
             </div>
             @endif
