@@ -179,7 +179,28 @@ Ensuite il faut configurer les champs suivants dans le fichier `.env` :
 
 #### Application mobile
 
-Pour que l'application mobile puisse accéder au site etu, ses credentials doivent être configurés sur le site d'intégration.
+* Pour les nouveaux :
+
+L'application est considérée comme cliente du site d'intégration, il faut mettre ses credentials intégration dans le fichier config.js à la racine et builder les packages :
+
+```javascript
+export default  {
+  inte_client_id: "your client id",
+  inte_client_secret: "your client secret",
+  inte_url: "https://integration.utt.fr/api/",
+}
+```
+
+* Pour les anciens :
+
+L'authentification se fait via les étapes suivantes :
+
+* l'application requête une url du site d'intégration qui lui renvoie l'url du site etu avec le client id, ... générée via les variables `ETUUTT_MOBILE_CLIENT_ID` et `ETUUTT_MOBILE_CLIENT_SECRET`
+
+L'application mobile est identifiée comme une application externe sur le site etu : il faut donc la créer avec les paramètres suivants :
+
+* Accès données publiques et privées
+* URL de retour : `http://localhost:8100/`
 
 #### Reconfiguration annuelle
 
