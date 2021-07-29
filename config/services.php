@@ -137,6 +137,8 @@ return [
         'heyme' => 'true',
         'lcl' => 'true',
         'sncf' => 'true',
+        'homebox' => 'true',
+        'lasergame' => 'true',
     ],
 
     'socialNetwork' => [
