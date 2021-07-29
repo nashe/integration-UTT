@@ -57,6 +57,7 @@ Accueil
     <div class="row sponsor">
         <div class="text-center">
             <?php
+            <!--
                 $sponsors = [];
                 if ( Config::get('services.partners.ada') === 'true' ) { $sponsors[] = [ 'link' => 'http://www.ada.fr/location-voiture-troyes.html', 'img' => asset("img/sponsors/ada.png"), 'alt' => 'ADA Location de véhicules' ]; }
                 if ( Config::get('services.partners.damonte') === 'true' ) { $sponsors[] = [ 'link' => 'http://www.yves-damonte.fr', 'img' => asset("img/sponsors/damonte.png"), 'alt' => 'Damonte Immobilier' ]; }
@@ -66,7 +67,13 @@ Accueil
                 if ( Config::get('services.partners.heyme') === 'true' ) { $sponsors[] = [ 'link' => 'https://bit.ly/3g48nps', 'img' => asset("img/sponsors/heyme-white-background.png"), 'alt' => 'HEYME' ]; }
                 if ( Config::get('services.partners.lcl') === 'true' ) { $sponsors[] = [ 'link' => 'https://bienvenue.secure.lcl.fr/#/offre=ouvrir-un-compte-lcl-etudiant', 'img' => asset("img/sponsors/LCL-logo.jpg"), 'alt' => 'LCL' ]; }
                 if ( Config::get('services.partners.sncf') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.sncf.com/fr', 'img' => asset("img/sponsors/Logo_SNCF_2011.svg.png"), 'alt' => 'SNCF' ]; }
-                shuffle($sponsors);
+                shuffle($sponsors);-->
+                $sponsors = [];
+                if ( Config::get('services.partners.popeye') === 'true' ) { $sponsors[] = [ 'link' => 'http://www.auto-ecole-popeye.fr/', 'img' => asset("img/sponsors/POPEYE_logo_NEW.png"), 'alt' => 'Popeye auto-école' ]; }
+                if ( Config::get('services.partners.damonte') === 'true' ) { $sponsors[] = [ 'link' => 'http://www.yves-damonte.fr', 'img' => asset("img/sponsors/DAMONTE_logo.png"), 'alt' => 'Damonte Immobilier' ]; }
+                if ( Config::get('services.partners.homebox') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html', 'img' => asset("img/sponsors/HOMEBOX_logo.jpg"), 'alt' => 'HOMEBOX Garde meuble' ]; }
+                if ( Config::get('services.partners.sncf') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.sncf.com/fr', 'img' => asset("img/sponsors/SNCF_logo.png"), 'alt' => 'SNCF' ]; }
+                if ( Config::get('services.partners.lasergame') === 'true' ) { $sponsors[] = [ 'link' => 'https://troyes.lasergame-evolution.fr/', 'img' => asset("img/sponsors/LASERGAME_logo.png"), 'alt' => 'Laser Game Evolution' ]; }
             ?>
             @foreach($sponsors as $sponsor)
                 <a href="{{{ $sponsor['link'] }}}"><img src="{{{ $sponsor['img'] }}}" alt="{{{ $sponsor['alt'] }}}" /></a>
