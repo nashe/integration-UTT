@@ -41,7 +41,9 @@
                                         </ul>
                                     </li>
                                 @endif
-                                <li><a href="{{ route('newcomer.deals') }}" title="Bons plans"><i class="fa fa-thumbs-up" aria-hidden="true"></i><span class="hidden-sm"> Bons plans</span></a></li>
+				<!--
+				<li><a href="{{ route('newcomer.deals') }}" title="Bons plans"><i class="fa fa-thumbs-up" aria-hidden="true"></i><span class="hidden-sm"> Bons plans</span></a></li>
+                                -->
                                 <li><a href="{{ route('newcomer.faq') }}" title="FAQ"><i class="fa fa-question-circle" aria-hidden="true"></i><span class="hidden-sm"> FAQ</span></a></li>
                                 <li><a href="{{ route('contact') }}" title="Nous contacter"><i class="fa fa-envelope" aria-hidden="true"></i><span class="hidden-sm"> Nous contacter</span></a></li>
                                 <li><a href="{{ route('newcomer.auth.logout') }}" title="Se déconnecter"><i class="fa fa-power-off" aria-hidden="true"></i><span class="hidden-sm"> Déconnexion</span></a></li>
