@@ -51,6 +51,7 @@ Route::group(['middleware' => 'oauth'], function () {
 
 Route::get('/trombi', [
     'as'   => 'trombi',
+    'middleware' => 'authorize:orga',
     'uses' => 'All\PagesController@getTrombi'
 ]);
 
