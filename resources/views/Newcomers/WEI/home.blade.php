@@ -127,14 +127,19 @@ Le Week-End d'Intégration
 			</div>
 			<div class="box-body">
 				<ul>
-					<li>Un sac de couchage chaud</li>
-					<li>Ton déguisement</li>
-					<li>Des vêtements qui ne craignent rien</li>
-					<li>Des vêtements qui tiennent chaud</li>
-					<li>Un k-way</li>
-					<li>Ton autorisation parentale si tu es mineur</li>
-					<li>Un ananas (primordial)</li>
-					<li>Une boit à clous (primordial)</li>
+					<li>Un pass sanitaire valide ;</li>
+					<li>Ta carte d'identité et de l'argent si tu veux pouvoir acheter à boire au WEI ;</li>
+					<li>6 masques CHIRURGICAUX (minimum) ;</li>
+					<li>Un sac de couchage chaud ;</li>
+					<li>Ton déguisement ;</li>
+					<li>Des vêtements qui ne craignent rien ;</li>
+					<li>Des vêtements qui tiennent chaud ;</li>
+					<li>Un k-way ;</li>
+					<li>Une bombe anti-moustique (ton corps te remerciera) ;</li>
+					<li>Ton autorisation parentale si tu es mineur ;</li>
+					<li>Des bouchons d'oreilles si tu en as ;</li>
+					<li>Ton écocup, ton tupperware ainsi que des couverts (sinon, tu dis au revoir au miam miam) ;</li>
+					<li>Une boîte à clous (primordiale).</li>
 				</ul>
 			</div>
 		</div>
