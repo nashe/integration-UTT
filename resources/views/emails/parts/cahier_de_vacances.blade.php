@@ -7,6 +7,8 @@
 <div style="margin: 10px; text-align: center">
   <span style="font-family:merriweather sans,helvetica neue,helvetica,arial,sans-serif;">
 Ta chère et tendre équipe d’intégration t’a concocté pour ton plus grand plaisir un petit cahier de vacances, bien plus agréable que ceux qui te faisaient couler des larmes quand tu étais plus jeune. Attention, notre équipe de correcteur risque de vérifier à la rentrée et ils seront intransigeants !
+Alors tâche de faire tes devoirs et de l'envoyer par mail avant le 30/08/2021 à <a href="mailto:cahier.vacances.integration.utt@gmail.com">cahier.vacances.integration.utt@gmail.com</a>.
+(Sache que ce premier travail aura un rôle majeur dans votre premier semestre)
     <br>&nbsp;<br>
   </span>
   <a href="{{ asset('docs/cahier_de_vacances.pdf') }}" target="_blank" style="background-color: #E74360; border-color: #00acd6;border-radius: 3px;color: #fff;padding: 10px 16px;text-decoration: none;font-size: 15px;line-height: 1.3333333;">Télécharge le cahier de vacances</a><br/>
