@@ -42,12 +42,12 @@ Que l'intégration a trouvé pour toi !
         <p>L’auto-moto école Popeye t’accompagneras a des prix avantageux grace à ces moniteurs compétents.</p>
         <p><a href="https://www.popeye-troyes.fr/">https://www.popeye-troyes.fr/</a></p>
         
-        <p><a href="https://www.sncf.com/fr"><img src="img/sponsors/SNCF_logo.png" style="float:right" class="img-thumbnail" /></a></p>
+        <p><a href="https://www.sncf.com/fr"><img src="img/sponsors/SNCF_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="ada"> SNCF </h4> </p>
         <p>Vous la connaissez sûrement déjà, c’est la compagnie de trains qui vous permet de rejoindre Paris en 1h30 et plein d’autres destinations. Pensez à profitez des offres comme la carte avantage jeune et les cartes régionales.</p>
         <p><a href="https://www.sncf.com/fr">https://www.sncf.com/fr</a></p>
 
-        <p><a href="https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html"><img src="img/sponsors/HOMEBOX_resultat.jpg" style="float:right" class="img-thumbnail" /></a></p>
+        <p><a href="https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html"><img src="img/sponsors/deals/HOMEBOX_resultat.jpg" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="lcl"> HomeBox </h4> </p>
         <p>HomeBox c’est la solution de location de box, avec plus de 110 centres en France très sécurisés, vous pouvez louez des box de 2 à 50 m2 accessibles 24h/24 7j/7 a petit prix.</p>
         <p>2 à 10 rue Maryse Bastié 10600 Barberey-Saint-Sulpice</p>
@@ -60,7 +60,7 @@ Que l'intégration a trouvé pour toi !
         <p> 11 Bd. Georges Pompidou 10000 Troyes</p>
         <p><a href="https://troyes.lasergame-evolution.fr/">https://troyes.lasergame-evolution.fr/</a></p>
 
-        <p><a href="https://www.nigloland.fr/"><img src="img/sponsors/nigloland_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
+        <p><a href="https://www.nigloland.fr/"><img src="img/sponsors/deals/nigloland_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="nigloland"> Nigloland </h4> </p>
         <p>Nigloland est un parc d’attractions à seulement 30 minutes en voiture de Troyes.</p>
         <p>Regroupant 4 univers et 43 attractions, ce parc saura vous émerveiller et vous faire ressentir émotions et frissons.</p>
