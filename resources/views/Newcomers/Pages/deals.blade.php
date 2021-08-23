@@ -18,67 +18,74 @@ Que l'intégration a trouvé pour toi !
 
         <ul>
             <li><a href="#damonte">Damonte</a></li>
-            <li><a href="#ada">ADA</a></li>
-            <li><a href="#lcl">LCL</a></li>
             <li><a href="#popeye">Auto-école Popeye</a></li>
-            <li><a href="#mgel">MGEL (Mutuelle Générale de Etudiants de l’Est)</a></li>
+            <li><a href="#sncf">SNCF</a></li>
+            <li><a href="#homebox">Homebox</a></li>
+            <li><a href="#lasergame">Laser Game Evolution</a></li>
+            <li><a href="#nigloland">Nigloland</a></li>
+            <li><a href="#cgr">Cinéma CGR de Troyes</a></li>
+            <li><a href="#familyspace">Family Space</a></li>
+            <li><a href="#fathersons">Father & Sons</a></li>
         </ul>
 
         <hr/>
         <p><a href="http://www.yves-damonte.fr"><img src="img/sponsors/deals/damonte_resultat.jpg" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="damonte"> Damonte </h4> </p>
-        <p>C’est LE spécialiste de la location étudiante qui saura être à ton écoute pour trouver l’appartement qu’il te faut ! Tu cherches un appartement en résidence étudiante, ou plutôt en centre ville ? Ils ont forcément ce que tu cherches !</p>
+        <p>Tu cherches un appartement en résidence étudiante ? En centre ville ? Une maison avec piscine ? Damonte est l’agence qui saura trouver ce bijoux grâce à ces agents professionnels et passionnés.</p>
         <p>120 Rue du Général de Gaulle 10000 Troyes</p>
         <p>295 Rue du Faubourg Croncels 10000 Troyes</p>
         <p><a href="http://www.yves-damonte.fr">http://www.yves-damonte.fr</a></p>
 
-        <p><a href="http://www.ada.fr/location-voiture-troyes.html"><img src="img/sponsors/deals/ada_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
-        <p> <h4 id="ada"> ADA </h4> </p>
-        <p>C’est LE spécialiste en location de véhicules pour les étudiants. Tu pourras bénéficier de 15% de réduction sur ta location.
-        Tu viens d’avoir ton permis ?
-        Pas de soucis, avec ADA, dès 18 ans, tu peux louer tous les véhicules sans frais supplémentaire !</p>
-        <p>32 Rue de la Fontaine Saint Martin 10120 Saint André les Vergers </p>
-        <p><a href="http://www.ada.fr/location-voiture-troyes.html">http://www.ada.fr/location-voiture-troyes.html</a></p>
-
-        <p><a href="http://www.lcl.fr"><img src="img/sponsors/deals/lcl_resultat.jpg" style="float:right" class="img-thumbnail" /></a></p>
-        <p> <h4 id="lcl"> LCL </h4> </p>
-        <p>LCL t’offrira 55€ à l’ouverture d’un compte chez eux (ils t’offrent le WE d’inté). Tu pourras aussi bénéficier d’une carte bancaire pour seulement 1€ par mois. En cas d’imprévu, un découvert de 400€ te sera autorisé. Enfin, tu pourras bénéficier d’un emprunt au taux exceptionnel de 1%.</p>
-        <p>Tu pourras même ouvrir ton compte à l’UTT le mardi après-midi !</p>
-        <p>Il te suffit de te munir :</p>
-        <ul type="circle">
-            <li>d’un justificatif d’identité (carte d’identité, passeport, carte de séjour) ;</li>
-            <li>d’un original d'un justificatif de domicile daté de moins de 3 mois (quittance de loyer, facture d'un fournisseur d'énergie, d'eau, de téléphonie fixe, attestation de résidence) ;</li>
-            <li>(Et une autorisation parentale pour les mineurs).</li>
-        </ul>
-        <p>12 Place Audiffard 10000 Troyes </p>
-        <p>22 Rue de la République 10000 Troyes </p>
-        <p>18 Route d’Auxerre 10120 Saint André les Vergers</p>
-        <p><a href="http://www.lcl.fr">http://www.lcl.fr</a></p>
-
         <p><a href="http://www.auto-ecole-popeye.fr"><img src="img/sponsors/deals/popeye_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
-        <p> <h4 id="popeye"> Auto-école Popeye</h4> </p>
-        <p>Tu veux passer ton permis de conduire ? Rejoins une des quatre agence de l’auto-école la mieux implantée sur Troyes. Tu pourras alors obtenir 50€ de réduction lors de ton inscription à l’auto-école Popeye sur présentation de ta carte étudiante (si tu cotises au BDE).</p>
-        <p>C’est le permis moto qui t’intéresse ? Popeye te le fait passer pour 650 euros, tous frais compris ! </p>
-        <p>Pour t’inscrire à l’auto-école, il te suffit de te munir de :</p>
-        <ul type="circle">
-            <li>8 timbres poste tarif préférentiel ;</li>
-            <li>5 photos d’identité aux normes de la Préfecture ;</li>
-            <li>la photocopie de carte d’identité recto/verso élève + responsable légal ;</li>
-            <li>la photocopie de l’attestation de recensement ;</li>
-            <li>la photocopie de l’ ASSR 2 ;</li>
-            <li>2 justificatifs de domicile moins de 3 mois (+ attestation d'hébergement pour les mineurs) ;</li>
-            <li>2 lettres max 50 g format 16X23 sans adresse.</li>
-        </ul>
-        <p>27 bis Avenue des Lombards (proche de l’UTT) 10000 Troyes</p>
-        <p>69 Avenue Anatole France 10000 Troyes</p>
-        <p>Place de la Libération (Centre Ville) 10000 Troyes</p>
-        <p>4 Boulevard de l’Ouest 10600 La Chapelle Saint Luc</p>
-        <p><a href="http://www.auto-ecole-popeye.fr">http://www.auto-ecole-popeye.fr</a></p>
+        <p> <h4 id="popeye"> Auto-école Popeye </h4> </p>
+        <p>Tu n’as pas encore ton permis B ou tu souhaites ajouter une nouvelle lettre à ta collection ?</p>
+        <p>L’auto-moto école Popeye t’accompagneras a des prix avantageux grace à ces moniteurs compétents.</p>
+        <p><a href="https://www.popeye-troyes.fr/">https://www.popeye-troyes.fr/</a></p>
+        
+        <p><a href="https://www.sncf.com/fr"><img src="img/sponsors/deals/ada_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
+        <p> <h4 id="ada"> SNCF </h4> </p>
+        <p>Vous la connaissez sûrement déjà, c’est la compagnie de trains qui vous permet de rejoindre Paris en 1h30 et plein d’autres destinations. Pensez à profitez des offres comme la carte avantage jeune et les cartes régionales.</p>
+        <p><a href="https://www.sncf.com/fr">https://www.sncf.com/fr</a></p>
 
-        <p><a href="http://www.mgel.fr"><img src="img/sponsors/deals/mgel_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
-        <p> <h4 id="mgel">MGEL (Mutuelle Générale de Etudiants de l’Est) </h4> </p>
-        <p>C’est l'assurance étudiante qui s'occupe d'assurer ton logement, de prendre en charge tes dépenses médicales à l'étranger (AssurWorld) et tes maladresses au quotidien (Assurance responsabilité civil obligatoire pour ton inscription à l'UTT).</p>
-        <p>Pour toutes ces assurances, une seule adresse : <a href="https://bde.utt.fr/assurances-integration">https://bde.utt.fr/assurances</a></p>
+        <p><a href="https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html"><img src="img/sponsors/deals/lcl_resultat.jpg" style="float:right" class="img-thumbnail" /></a></p>
+        <p> <h4 id="lcl"> HomeBox </h4> </p>
+        <p>HomeBox c’est la solution de location de box, avec plus de 110 centres en France très sécurisés, vous pouvez louez des box de 2 à 50 m2 accessibles 24h/24 7j/7 a petit prix.</p>
+        <p>2 à 10 rue Maryse Bastié 10600 Barberey-Saint-Sulpice</p>
+        <p><a href="https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html">https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html</a></p>
+
+        <p><a href="https://troyes.lasergame-evolution.fr/"><img src="img/sponsors/deals/lasergame_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
+        <p> <h4 id="lasergame"> Laser Game Evolution </h4> </p>
+        <p>Laser Game Évolution est un jeu de tir laser ou les participants s’affrontent dans un labyrinthe obscur sur plusieurs étages.</p>
+        <p>C’est seulement 4€ par personne la partie de 20 minutes et du 7 au 10 septembre de 16h à 22h c’est 12€ pour un nombre illimité de parties !</p>
+        <p> 11 Bd. Georges Pompidou 10000 Troyes</p>
+        <p><a href="https://troyes.lasergame-evolution.fr/">https://troyes.lasergame-evolution.fr/</a></p>
+
+        <p><a href="https://www.nigloland.fr/"><img src="img/sponsors/nigloland_logo.jpg" style="float:right" class="img-thumbnail" /></a></p>
+        <p> <h4 id="nigloland"> Nigloland </h4> </p>
+        <p>Nigloland est un parc d’attractions à seulement 30 minutes en voiture de Troyes.</p>
+        <p>Regroupant 4 univers et 43 attractions, ce parc saura vous émerveiller et vous faire ressentir émotions et frissons.</p>
+        <p>Rue de la Vall. du Landion 10200 Dolancourt</p>
+        <p><a href="https://www.nigloland.fr/">https://www.nigloland.fr/</a></p>
+
+        <p><a href="https://www.cgrcinemas.fr/troyes/films-a-l-affiche/"><img src="img/sponsors/deals/cgr_logo.jpg" style="float:right" class="img-thumbnail" /></a></p>
+        <p> <h4 id="cgr"> Cinéma CGR de Troyes </h4> </p>
+        <p>Le cinéma de Troyes, avec ses 14 salles dont une doté de la technologie ICE, il propose tous les derniers films dés leur sortie.</p>
+        <p>Le prix d’une séance est réduit à 7,70€  en montrant votre carte étudiante.</p>
+        <p>13 Rue des Bas Trevois 10000 Troyes</p>
+        <p><a href="https://www.cgrcinemas.fr/troyes/films-a-l-affiche/">https://www.cgrcinemas.fr/troyes/films-a-l-affiche/</a></p>
+
+        <p><a href="https://lefamilyspace.fr/"><img src="img/sponsors/deals/familyspace_logo.jpg" style="float:right" class="img-thumbnail" /></a></p>
+        <p> <h4 id="cgr"> Family Space </h4> </p>
+        <p>Family Space est un complexe de loisir situé à Troyes qui regroupe un trampo parc, un bowling et plein d’autres activités à retrouver sur leur site internet.</p>
+        <p>Les tarifs sont accessibles et ils proposent des formules pour des anniversaires par exemple.</p>
+        <p>4 Rue de l'Orme de la Croix 10600 La Chapelle-Saint-Luc</p>
+        <p><a href="https://lefamilyspace.fr/">https://lefamilyspace.fr/</a></p>
+
+        <p><a href="https://www.fatherandsons.fr/"><img src="img/sponsors/deals/fathersons_logo.jpg" style="float:right" class="img-thumbnail" /></a></p>
+        <p> <h4 id="cgr"> Father & Sons </h4> </p>
+        <p>ather & Sons est une marque de vêtements pour homme, découvrez leur catalogue sur leur site internet et sachez qu’ils proposent une offre un costume + une chemise + un noeud papillon ou une cravate pour seulement 199€ ttc.</p>
+        <p>114 Bd de Dijon 10800 Saint-Julien-les-Villas</p>
+        <p><a href="https://www.fatherandsons.fr/">https://www.fatherandsons.fr/</a></p>
 
         </div>
     </div>
