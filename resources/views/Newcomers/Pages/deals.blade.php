@@ -70,7 +70,7 @@ Que l'intégration a trouvé pour toi !
         <p><a href="https://www.cgrcinemas.fr/troyes/films-a-l-affiche/"><img src="img/sponsors/deals/cgr_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="cgr"> Cinéma CGR de Troyes </h4> </p>
         <p>Le cinéma de Troyes, avec ses 14 salles dont une doté de la technologie ICE, il propose tous les derniers films dés leur sortie.</p>
-        <p>Le prix d’une séance est réduit à 7,70€  en montrant votre carte étudiante.</p>
+        <p>Le prix d’une séance est réduit à 6,50€  en montrant votre carte étudiante.</p>
         <p>13 Rue des Bas Trevois 10000 Troyes</p>
         <p><a href="https://www.cgrcinemas.fr/troyes/films-a-l-affiche/">https://www.cgrcinemas.fr/troyes/films-a-l-affiche/</a></p>
 
@@ -83,7 +83,7 @@ Que l'intégration a trouvé pour toi !
 
         <p><a href="https://www.fatherandsons.fr/"><img src="img/sponsors/deals/fathersons_resultat.jpg" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="cgr"> Father & Sons </h4> </p>
-        <p>ather & Sons est une marque de vêtements pour homme, découvrez leur catalogue sur leur site internet et sachez qu’ils proposent une offre un costume + une chemise + un noeud papillon ou une cravate pour seulement 199€ ttc.</p>
+        <p>Father & Sons est une marque de vêtements pour homme, découvrez leur catalogue sur leur site internet et sachez qu’ils proposent une offre un costume + une chemise + un noeud papillon ou une cravate pour seulement 199€ ttc.</p>
         <p>114 Bd de Dijon 10800 Saint-Julien-les-Villas</p>
         <p><a href="https://www.fatherandsons.fr/">https://www.fatherandsons.fr/</a></p>
 
