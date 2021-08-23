@@ -42,12 +42,12 @@ Que l'intégration a trouvé pour toi !
         <p>L’auto-moto école Popeye t’accompagneras a des prix avantageux grace à ces moniteurs compétents.</p>
         <p><a href="https://www.popeye-troyes.fr/">https://www.popeye-troyes.fr/</a></p>
         
-        <p><a href="https://www.sncf.com/fr"><img src="img/sponsors/SNCF_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
+        <p><a href="https://www.sncf.com/fr"><img src="img/sponsors/sncf_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="ada"> SNCF </h4> </p>
         <p>Vous la connaissez sûrement déjà, c’est la compagnie de trains qui vous permet de rejoindre Paris en 1h30 et plein d’autres destinations. Pensez à profitez des offres comme la carte avantage jeune et les cartes régionales.</p>
         <p><a href="https://www.sncf.com/fr">https://www.sncf.com/fr</a></p>
 
-        <p><a href="https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html"><img src="img/sponsors/deals/HOMEBOX_resultat.jpg" style="float:right" class="img-thumbnail" /></a></p>
+        <p><a href="https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html"><img src="img/sponsors/deals/homebox_resultat.jpg" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="lcl"> HomeBox </h4> </p>
         <p>HomeBox c’est la solution de location de box, avec plus de 110 centres en France très sécurisés, vous pouvez louez des box de 2 à 50 m2 accessibles 24h/24 7j/7 a petit prix.</p>
         <p>2 à 10 rue Maryse Bastié 10600 Barberey-Saint-Sulpice</p>
