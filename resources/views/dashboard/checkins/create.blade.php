@@ -13,7 +13,7 @@
     <div class="callout callout-info">
         <h4>Création d'un nouveau checkin</h4>
         <p>
-            Pour un créer un checkin, renseignez un nom à celui et choisissez les étudiants qui feront partit de ce checkin.
+            Pour un créer un checkin, renseignez un nom à celui-ci et choisissez les étudiants qui feront partit de ce checkin.
         </p>
     </div>
 

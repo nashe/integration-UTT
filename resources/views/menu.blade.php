@@ -61,10 +61,10 @@ Menu
                         <div class="panel-body">
                             @if ( Config::get('services.ce.shotgun_through_website') === 'true' )
                                 Envie d'accompagner les nouveaux dans les épreuves de l'intégration ?<br/>
-                                Constitue ton équipe de 3 à 5 personnes en cliquant sur le bouton ci-desssous !
+                                Constitue ton équipe de 3 à 5 personnes en cliquant sur le bouton ci-dessous !
                                 <br/><br/>
                                 <!--<a href="https://forms.gle/NUVRhmRm7G7KGVUQA">https://forms.gle/NUVRhmRm7G7KGVUQA</a> (une seule inscription par équipe suffit)-->
-                                    <a href="{{ route('dashboard.ce.firsttime') }}" class="btn form-control btn-success">Je m'inscrit en tant que chef d'équipe !</a>
+                                    <a href="{{ route('dashboard.ce.firsttime') }}" class="btn form-control btn-success">Je m'inscris en tant que chef d'équipe !</a>
                                 <br/><br/>
                                 @if (Authorization::can('student','ce') || Authorization::can('ce','create'))
                                     <strong>Fermeture dans {{ @countdown(Authorization::countdown('ce','create')) }}</strong><br/>
@@ -102,7 +102,7 @@ Menu
                                 <h3 class="panel-title">Deviens bénévole !</h3>
                             </div>
                             <div class="panel-body">
-                                Tu souhaite donner un petit coup de main pendant l'intégration ?<br/>
+                                Tu souhaites donner un petit coup de main pendant l'intégration ?<br/>
                                 En cliquant sur ce bouton, tu receveras des mails pour te tenir au courant de l'avancement de l'intégration et des moments où nous avons besoins de bénévoles.
                                 <br/><br/>
                                 @if (!$student->volunteer)

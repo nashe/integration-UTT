@@ -13,7 +13,7 @@ Ton équipe !
         <div class="callout">
             <h4>Tu n'es pas encore assigné à une équipe</h4>
             <p>
-                L'assignation aux équipes n'a pas encore commencé, tu recevras un mail prochainement lorsque l'une d'elle te sera attribué ;)
+                L'assignation aux équipes n'a pas encore commencé, tu recevras un mail prochainement lorsque l'une d'elle te sera attribuée ;)
             </p>
         </div>
     @else
@@ -71,7 +71,7 @@ Ton équipe !
                 <h4>Mais pourquoi avoir une équipe ?</h4>
                 <p>
                     Ton équipe est composée de nouveaux et de {{ Auth::user()->team->ce->count() }} chefs d'équipes.
-                    Ils t'accompagneront pendant toute ta semaine d'intégration, au cours des différents jeux et activités te seront proposés.<br/>
+                    Ils t'accompagneront pendant toute ta semaine d'intégration, au cours de laquelle différents jeux et activités te seront proposés.<br/>
                     Tout au long de la semaine, tu pourras rapporter des points à ton équipe et à ta faction en gagnant les différents jeux et en représentant au mieux ton équipe.<br/>
                 </p>
                 <p>
@@ -89,7 +89,7 @@ Ton équipe !
 
                 <div class="text-center">
                 @if(Auth::user()->isChecked('team_disguise'))
-                    <h4 id="question">Félicitations, tu as rejoins le channel Discord de ton équipe et tu as fait ton déguisement !</h4>
+                    <h4 id="question">Félicitations, tu as rejoint le channel Discord de ton équipe et tu as fait ton déguisement !</h4>
                     <a href="{{ route('newcomer.team', [ 'step' => 'cancel']) }}#question" class="btn btn-danger">Ce n'est pas le cas ?</a>
 
                     <div class="text-center">

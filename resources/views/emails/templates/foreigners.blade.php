@@ -38,7 +38,7 @@ Your integration team / Ton équipe d'intégration
         Your team is <strong>{{ $user->team->safeName ?? $user->team->name }}</strong><br/>
         Your faction is <strong>{{ $user->team->faction->name }}</strong><br/>
         @if(substr($user->team->facebook, 0, 4) == 'http')
-            You can join them on their <a href="{{ $user->team->facebook }}" style="color: #3c8dbc;" target="_blank">Facebook group</a>
+            You can join them on their <a href="{{ $user->team->facebook }}" style="color: #3c8dbc;" target="_blank">discord channel</a>
         @endif
     </div>
     <div style="clear:both"></div>
@@ -48,7 +48,7 @@ Your integration team / Ton équipe d'intégration
 
     @if(substr($user->team->facebook, 0, 4) == 'http')
         <div style="text-align:center; margin: 15px;">
-            <a href="{{ $user->team->facebook }}" target="_blank" style="background-color: #00c0ef;border-color: #00acd6;border-radius: 3px;color: #fff;padding: 10px 16px;text-decoration: none;font-size: 18px;line-height: 1.3333333;">Join them on facebook !</a><br/>
+            <a href="{{ $user->team->facebook }}" target="_blank" style="background-color: #00c0ef;border-color: #00acd6;border-radius: 3px;color: #fff;padding: 10px 16px;text-decoration: none;font-size: 18px;line-height: 1.3333333;">Join them on discord !</a><br/>
         </div>
     @endif
 @endif
@@ -80,7 +80,7 @@ Weekend
 <ul>
     <li>The price is 55€ all inclusive (meals, transport)</li>
     <li>There is also a 60€ deposit that will be refunded if everything goes well during the weekend !</li>
-    <li>3€25 if you want to take the sandwich offered before the bus friday, otherwise please take a sandwich.</li>
+    <li>3€30 if you want to take the sandwich offered before the bus friday, otherwise please take a sandwich.</li>
 </ul>
 
 {{-- <div style="text-align:center; margin: 15px;">

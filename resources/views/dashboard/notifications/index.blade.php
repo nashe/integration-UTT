@@ -32,7 +32,7 @@
                         <th>Titre</th>
                         <th>Message</th>
                         <th>Envoyée</th>
-                        <th>Date d'envoie</th>
+                        <th>Date d'envoi</th>
                         <th>Envoyée par</th>
                         <th>Actions</th>
                     </tr>

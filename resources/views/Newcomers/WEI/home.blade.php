@@ -35,7 +35,7 @@ Le Week-End d'Intégration
 				<h3 class="box-title">Mon inscription au Week-End</h3>
 			</div>
 			<div class="box-body">
-				<p>Le Week-End d’Intégration commence le vendredi {{ (new Datetime(Config::get('services.wei.start')))->format('j') }} septembre à 11h30 par un voyage en bus dans un lieu dont on garde le mystère (c’est pas en Creuse promis !). Durant ce week-end, de nombreuses activités, soirées et surprises te seront proposées, c’est surtout l’occasion de rencontrer pleins de nouveaux, des futurs potes ;-). On te ramène à Troyes le dimanche au soir vers 18h.</p>
+				<p>Le Week-End d’Intégration commence le vendredi {{ (new Datetime(Config::get('services.wei.start')))->format('j') }} septembre à 11h30 par un voyage en bus dans un lieu dont on garde le mystère (c’est pas en Creuse promis !). Durant ce week-end, de nombreuses activités, soirées et surprises te seront proposées, c’est surtout l’occasion de rencontrer plein de nouveaux, des futurs potes ;-). On te ramène à Troyes le dimanche au soir vers 18h.</p>
 				<p>Le prix du week-end est de {{ config('services.wei.price')/100 }}€, on te demandera également une caution de {{ config('services.wei.guaranteePrice')/100 }}.</p>
 
 
@@ -146,7 +146,7 @@ Le Week-End d'Intégration
     @elseif($count >= Config::get('services.wei.newcomerMax'))
         <div class="box box-default">
             <div class="box-header with-border">
-                <h3 class="box-title">On est vraiment désolés, il n'y a plus de places disponibles pour le WEI :(</h3>
+                <h3 class="box-title">On est vraiment désolé, il n'y a plus de places disponibles pour le WEI :(</h3>
             </div>
         </div>
     @else
@@ -164,7 +164,7 @@ Le Week-End d'Intégration
                 </div>
             @else
             <div class="box-header with-border">
-                <h3 class="box-title"><!--Oups... Il semblerait que tu ne puisses pas t'inscire au WEI. Si tu penses qu'il s'agit d'une erreur, contacte nous.--> les inscriptions ne sont pas encore ouvertes. Ne t'inquiète pas, on te préviendra lorsqu'elles ouvriront.</h3>
+                <h3 class="box-title"><!--Oups... Il semblerait que tu ne puisses pas t'inscire au WEI. Si tu penses qu'il s'agit d'une erreur, contacte nous.--> Les inscriptions ne sont pas encore ouvertes. Ne t'inquiète pas, on te préviendra lorsqu'elles ouvriront.</h3>
                 <p><a href="mailto:integration@utt.fr">integration@utt.fr</a></p>
             </div>
             @endif

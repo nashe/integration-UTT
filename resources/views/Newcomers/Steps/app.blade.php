@@ -28,7 +28,7 @@ Application de l'intégration
             ce qu'il se passe pendant l'inté !
         </p>
         <p>
-            Tu y retrouveras aussi ton profile et diverses informations. De plus, elle sera <strong>mise à jour tout l'été</strong> pour te fournir toujours plus de contenu !
+            Tu y retrouveras aussi ton profil et diverses informations. De plus, elle sera <strong>mise à jour tout l'été</strong> pour te fournir toujours plus de contenu !
         </p>
         <hr/>
 

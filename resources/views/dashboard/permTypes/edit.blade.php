@@ -32,7 +32,7 @@
                 </div>
 
                 <div class="form-group" id="student_autocomplete_container">
-                    <label>Ajouter des respos par nom/prénom (il faut rentrer tout les respos à chaque modification)</label>
+                    <label>Ajouter des respos par nom/prénom (il faut rentrer tous les respos à chaque modification)</label>
                     <input type="text" class="form-control" id="student_autocomplete">
                 </div>
                 <div id="student_autocomplete_matches_container">

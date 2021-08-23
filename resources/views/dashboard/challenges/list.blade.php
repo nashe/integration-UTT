@@ -21,8 +21,8 @@
                         <th>Nom</th>
                         <th>Description</th>
                         <th>Solo ?</th>
-                        <th>nombre de points</th>
-                        <th>deadline</th>
+                        <th>Nombre de points</th>
+                        <th>Deadline</th>
                     </tr>
 
                     @foreach($challenges as $challenge)
@@ -49,7 +49,7 @@
                                     @endif
                                     @if($team != null)
                                         @if($challenge->teamValidable($team) || $challenge->newComerValidable(Auth::user()))
-                                            <a href={{ route("challenges.submitForm", ["id" => $challenge->id]) }}><button class="btn btn-xs btn-primary">valider un défis</button></a>
+                                            <a href={{ route("challenges.submitForm", ["id" => $challenge->id]) }}><button class="btn btn-xs btn-primary">Valider un défis</button></a>
                                         @endif
                                     @endif
                                     </div>

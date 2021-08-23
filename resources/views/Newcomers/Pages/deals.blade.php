@@ -31,7 +31,7 @@ Que l'intégration a trouvé pour toi !
         <hr/>
         <p><a href="http://www.yves-damonte.fr"><img src="img/sponsors/deals/damonte_resultat.jpg" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="damonte"> Damonte </h4> </p>
-        <p>Tu cherches un appartement en résidence étudiante ? En centre ville ? Une maison avec piscine ? Damonte est l’agence qui saura trouver ce bijoux grâce à ces agents professionnels et passionnés.</p>
+        <p>Tu cherches un appartement en résidence étudiante ? En centre ville ? Une maison avec piscine ? Damonte est l’agence qui saura trouver ce bijou grâce à ses agents professionnels et passionnés.</p>
         <p>120 Rue du Général de Gaulle 10000 Troyes</p>
         <p>295 Rue du Faubourg Croncels 10000 Troyes</p>
         <p><a href="http://www.yves-damonte.fr">http://www.yves-damonte.fr</a></p>
@@ -39,17 +39,17 @@ Que l'intégration a trouvé pour toi !
         <p><a href="http://www.auto-ecole-popeye.fr"><img src="img/sponsors/deals/popeye_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="popeye"> Auto-école Popeye </h4> </p>
         <p>Tu n’as pas encore ton permis B ou tu souhaites ajouter une nouvelle lettre à ta collection ?</p>
-        <p>L’auto-moto école Popeye t’accompagneras a des prix avantageux grace à ces moniteurs compétents.</p>
+        <p>L’auto-moto école Popeye t’accompagnera à des prix avantageux grâce à ses moniteurs compétents.</p>
         <p><a href="https://www.popeye-troyes.fr/">https://www.popeye-troyes.fr/</a></p>
-        
+
         <p><a href="https://www.sncf.com/fr"><img src="img/sponsors/deals/sncf_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="ada"> SNCF </h4> </p>
-        <p>Vous la connaissez sûrement déjà, c’est la compagnie de trains qui vous permet de rejoindre Paris en 1h30 et plein d’autres destinations. Pensez à profitez des offres comme la carte avantage jeune et les cartes régionales.</p>
+        <p>Vous la connaissez sûrement déjà, c’est la compagnie de trains qui vous permet de rejoindre Paris en 1h30 et plein d’autres destinations. Pensez à profiter des offres comme la carte avantage jeune et les cartes régionales.</p>
         <p><a href="https://www.sncf.com/fr">https://www.sncf.com/fr</a></p>
 
         <p><a href="https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html"><img src="img/sponsors/deals/homebox_resultat.jpg" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="lcl"> HomeBox </h4> </p>
-        <p>HomeBox c’est la solution de location de box, avec plus de 110 centres en France très sécurisés, vous pouvez louez des box de 2 à 50 m2 accessibles 24h/24 7j/7 a petit prix.</p>
+        <p>HomeBox c’est la solution de location de box, avec plus de 110 centres en France très sécurisés, vous pouvez louer des box de 2 à 50 m2 accessibles 24h/24 7j/7 à petit prix.</p>
         <p>2 à 10 rue Maryse Bastié 10600 Barberey-Saint-Sulpice</p>
         <p><a href="https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html">https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html</a></p>
 
@@ -69,8 +69,8 @@ Que l'intégration a trouvé pour toi !
 
         <p><a href="https://www.cgrcinemas.fr/troyes/films-a-l-affiche/"><img src="img/sponsors/deals/cgr_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="cgr"> Cinéma CGR de Troyes </h4> </p>
-        <p>Le cinéma de Troyes, avec ses 14 salles dont une doté de la technologie ICE, il propose tous les derniers films dés leur sortie.</p>
-        <p>Le prix d’une séance est réduit à 6,50€  en montrant votre carte étudiante.</p>
+        <p>Le cinéma de Troyes, avec ses 14 salles dont une dotée de la technologie ICE, propose tous les derniers films dés leur sortie.</p>
+        <p>Le prix d’une séance est réduit à 6,50€ en montrant votre carte étudiante.</p>
         <p>13 Rue des Bas Trevois 10000 Troyes</p>
         <p><a href="https://www.cgrcinemas.fr/troyes/films-a-l-affiche/">https://www.cgrcinemas.fr/troyes/films-a-l-affiche/</a></p>
 
@@ -83,7 +83,7 @@ Que l'intégration a trouvé pour toi !
 
         <p><a href="https://www.fatherandsons.fr/"><img src="img/sponsors/deals/fathersons_resultat.jpg" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="cgr"> Father & Sons </h4> </p>
-        <p>Father & Sons est une marque de vêtements pour homme, découvrez leur catalogue sur leur site internet et sachez qu’ils proposent une offre un costume + une chemise + un noeud papillon ou une cravate pour seulement 199€ ttc.</p>
+        <p>Father & Sons est une marque de vêtements pour homme, découvrez leur catalogue sur leur site internet et sachez qu’ils proposent une offre un costume + une chemise + un noeud papillon ou une cravate pour seulement 199€ TTC.</p>
         <p>114 Bd de Dijon 10800 Saint-Julien-les-Villas</p>
         <p><a href="https://www.fatherandsons.fr/">https://www.fatherandsons.fr/</a></p>
 

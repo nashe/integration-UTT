@@ -20,7 +20,7 @@
 </div>
 <div style="text-align: justify; margin: 15px 10px;">
     <p>Alors panique pas, je sais que tu ne comprends pas la moitié mais on t'expliquera tout, tes chefs d'équipes (CE) sont là pour te guider ! Si tu n'as pas encore rejoint ton équipe ou contacté ton/ta parrain/marraine, il n'est pas trop tard pour le faire, <a href="http://integration.utt.fr" style="color:deepskyblue; font-weight:bold;">voici le site pour ton intégration en cas de besoin.</a></p>
-    <p>On espère de tout coeur que ton déguisement est reluisant et que tu nous le montreras fièrement chaque jour. Toutefois, pas de panique, il n'est en aucun cas obligatoire de faire quelque chose que tu ne souhaites pas faire et te déguiser ne fait pas exception. Après, si tu souhaites signer notre pétition pour rendre nécessaire le port d'un accoutrement ridicule à l'UTT, n'hésites pas à contacter le BDE !</p>
+    <p>On espère de tout coeur que ton déguisement est reluisant et que tu nous le montreras fièrement chaque jour. Toutefois, pas de panique, il n'est en aucun cas obligatoire de faire quelque chose que tu ne souhaites pas faire et te déguiser ne fait pas exception. Après, si tu souhaites signer notre pétition pour rendre nécessaire le port d'un accoutrement ridicule à l'UTT, n'hésite pas à contacter le BDE !</p>
 </div>
 @if ($user->isMaster())
     <div style="background-color: #E74360; text-align: center; padding: 15px">
@@ -29,7 +29,7 @@
       </span>
     </div>
     <div style="text-align: justify; margin: 15px 10px;">
-        <p>Tu arrives en master et on ne t'oublie pas ! Si tu souhaites participer à l'intégration, sache que tu seras accueilli les bras ouvert <span style="color:red;font-weight: bold">mardi 1er septembre à 13h</span> au niveau de l'accueil de l'UTT !</p>
+        <p>Tu arrives en master et on ne t'oublie pas ! Si tu souhaites participer à l'intégration, sache que tu seras accueilli les bras ouverts <span style="color:red;font-weight: bold">mardi 1er septembre à 13h</span> au niveau de l'accueil de l'UTT !</p>
     </div>
 @else
     <div style="background-color: #E74360; text-align: center; padding: 15px">

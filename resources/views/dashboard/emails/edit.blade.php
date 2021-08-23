@@ -28,7 +28,7 @@ Modification de modèle de mail
 <div class="callout callout-danger">
     <h4>DANGER !</h4>
     <p>
-        Si ce modèle est utilisé dans un email en cours d'envoi. Les emails qui ne sont pas encore envoyés seront modifiés.
+        Si ce modèle est utilisé dans un email en cours d'envoi, les emails qui ne sont pas encore envoyés seront modifiés.
     </p>
 </div>
 

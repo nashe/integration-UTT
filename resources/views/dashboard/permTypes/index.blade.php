@@ -12,9 +12,11 @@
 
     <div class="callout callout-info">
         <h4>Liste des types de permanences</h4>
+        {{--
         <p>
             Un type de permanence a fpjzpfzfzg todo
         </p>
+        --}}
     </div>
 
     <div class="box-header with-border">
@@ -26,7 +28,7 @@
 
     <div class="box box-default">
         <div class="box-header with-border">
-            <h3 class="box-title">Liste des types de permanences</h3>
+            <h3 class="box-title">Liste des types de permanence</h3>
         </div>
         <div class="box-body table-responsive no-padding">
             <table class="table table-hover">

@@ -13,7 +13,7 @@
 		<li><b>Mot de passe : </b> {{ $password }}</li>
 	</ul>
     @if($user->isNewcomer())
-	<p>Pour les utiliser, rends toi sur <a style="color: #3c8dbc;" href="https://integration.utt.fr">integration.utt.fr</a> et clique sur "Je suis nouveau" (même si tu n'es pas nouveau).
+	<p>Pour les utiliser, rends-toi sur <a style="color: #3c8dbc;" href="https://integration.utt.fr">integration.utt.fr</a> et clique sur "Je suis nouveau" (même si tu n'es pas nouveau).
 		Tu pourras ensuite te connecter avec les identifiants précédents afin de te déclarer bénévole pour, par exemple, participer au WEI.
 	</p>
 	@else

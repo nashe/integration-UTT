@@ -14,7 +14,7 @@
 </div>
 <div style="text-align: justify; margin: 15px 10px;">
     <span>
-        Afin de préparer votre prochaine rentrée 2020/2021, <span style="font-weight: bold;">le BDE UTT et HEYME</span> vous expliquent les points clés du système de santé français pour vous permettrede connaître les dispositifs auxquels vous avez droit.
+        Afin de préparer votre prochaine rentrée 2020/2021, <span style="font-weight: bold;">le BDE UTT et HEYME</span> vous expliquent les points clés du système de santé français pour vous permettre de connaître les dispositifs auxquels vous avez droit.
     </span>
 </div>
 <div style="text-align: justify; margin: 15px 10px; font-weight: bold;">
@@ -47,7 +47,7 @@
                 Je vérifie que mon RIB est renseigné pour percevoir mes remboursements
             </li>
             <li>
-                Je vérifie que mon médecin traitant est renseigné pour un remboursement optimal 
+                Je vérifie que mon médecin traitant est renseigné pour un remboursement optimal
             </li>
         </ul>
     </span>
@@ -77,7 +77,7 @@
                     <span style="font-weight: bold; color:blue">
                         la part obligatoire
                     </span>
-                , prise en charge par la Sécurité Sociale. Elle permet leremboursement d’une partie ou totalité de tes frais de santé selon les tarifs conventionnés (ex: 25€ pour une consultation chez un médecin généraliste). Ces remboursements varient en fonction de leur nature : entre 15% (pharmacie) et 100% (hospitalisation).
+                , prise en charge par la Sécurité Sociale. Elle permet le remboursement d’une partie ou totalité de tes frais de santé selon les tarifs conventionnés (ex: 25€ pour une consultation chez un médecin généraliste). Ces remboursements varient en fonction de leur nature : entre 15% (pharmacie) et 100% (hospitalisation).
                 </td>
             </tr>
             <tr>
@@ -105,7 +105,7 @@
 </div>
 <div style="text-align: justify; padding: 20px; margin: 15px 10px; border: 2px solid red; border-radius : 20px;">
     <span>
-        <span style="color:red; font-weight: bold;">RECOMMANDATION  HEYME :</span> Même si elle n’est pas obligatoire, l’adhésion à une complémentaire santé est fortement recommandée car elle me permet d’obtenir un remboursement optimal de mes frais de santé et ainsi <span style="font-weight: bold">réduire le coût restant à ma charge.</span>
+        <span style="color:red; font-weight: bold;">RECOMMANDATION HEYME :</span> Même si elle n’est pas obligatoire, l’adhésion à une complémentaire santé est fortement recommandée car elle me permet d’obtenir un remboursement optimal de mes frais de santé et ainsi <span style="font-weight: bold">réduire le coût restant à ma charge.</span>
     </span>
 </div>
 <div style="text-align: center; margin: 15px 10px;">
@@ -125,7 +125,7 @@
                 Tu as ta carte Vitale: ton médecin va transmettre automatiquement les informations auprès de ta caisse d’Assurance Maladie, et tu seras ainsi remboursé en une semaine sans avoir besoin de transmettre de feuille de soins.
             </li>
             <li>
-                Tu n’as pas ta carte Vitale ou ton médecin n’est pas équipé: il te remettra une feuille de soins papier. Pense à bien la compléter avec tes informationspersonnelles et adressez-la à ta caisse d'Assurance Maladie pour être remboursé.
+                Tu n’as pas ta carte Vitale ou ton médecin n’est pas équipé: il te remettra une feuille de soins papier. Pense à bien la compléter avec tes informations personnelles et adresse-la à ta caisse d'Assurance Maladie pour être remboursé.
             </li>
         </ul>
     </span>

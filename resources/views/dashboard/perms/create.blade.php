@@ -12,9 +12,11 @@
 
     <div class="callout callout-info">
     <h4>Création d'une permanence de type {{ $permType->name }}</h4>
+        {{--
         <p>
-            Pour créér une permanence... TODO
+            Pour créer une permanence... TODO
         </p>
+        --}}
     </div>
 
     <div class="box box-default">

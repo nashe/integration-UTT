@@ -24,7 +24,7 @@ Parrainage
                 <h1>Parrainage</h1>
                 <p>
                 Comme chaque année, nous te proposons de remplir un formulaire
-                avec tes informations basiques afn de te permettre d'avoir un fillot !
+                avec tes informations basiques afin de te permettre d'avoir un fillot !
                 </p>
                 <p>
                 Nous enverrons une petite fiche à tes fillots, alors tente de faire un message

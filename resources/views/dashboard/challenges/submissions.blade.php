@@ -5,7 +5,7 @@
 @endsection
 
 @section("smalltitle")
-    il faut valider ces défi envoyés par les équipes !
+    il faut valider ces défis envoyés par les équipes !
 @endsection
 
 @section("content")
@@ -31,7 +31,7 @@
                             <td>
                                 @if($validation->isPic())
                                     <a href={{ route("validation_proofs.normal", ["name" => $validation->proof_url]) }}>
-                                            <img src="{{ route("validation_proofs.small", ["name" => $validation->proof_url]) }}" class="img-fluid rounded" alt="Image de validation du défis">
+                                            <img src="{{ route("validation_proofs.small", ["name" => $validation->proof_url]) }}" class="img-fluid rounded" alt="Image de validation du défi">
                                     </a>
                                 @else
                                     <iframe class="embed-responsive-item" src="{{ $validation->proof_url }}" width=400 heigth=400></iframe>
@@ -58,7 +58,7 @@
                 <thead>
                     <tr>
                         <th>Nom de l'équipe</th>
-                        <th>Nom du défis</th>
+                        <th>Nom du défi</th>
                         <th>Preuve</th>
                         <th>Statut</th>
                         <th>Message</th>

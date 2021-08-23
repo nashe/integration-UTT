@@ -10,7 +10,7 @@ Pause partenaire !
 @section('content')
 <div class="box box-default">
     <div class="box-body">
-        <p>L'intégration et le BDE se joint à des partenaires locaux pour t'offrir différentes réductions et permettre de financer les activités les plus folles de l'Intégration.
+        <p>L'intégration et le BDE se joignent à des partenaires locaux pour t'offrir différentes réductions et permettre de financer les activités les plus folles de l'Intégration.
         On tenait à te présenter les plus importants ;)</p>
 
         <h3>Pour trouver un logement</h3>

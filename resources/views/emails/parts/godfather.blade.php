@@ -8,7 +8,7 @@
     <tr>
         <td style="padding: 10px;">
             <p style="margin-top:0; text-align: justify;">Lorsque tu arrives à l'UTT, un étudiant plus ancien devient ton parrain ou ta marraine.
-            Cet étudiant sera ton contact privilégié pour découvrir l'école, mais aussi la vie étudiante&nbsp;troyenne.
+            Cet étudiant sera ton contact privilégié pour découvrir l'école, mais aussi la vie étudiante troyenne.
             Il pourra répondre à toutes tes questions, que ce soit sur l’UTT, les logements, les cours, la vie à Troyes...
             </p>
 

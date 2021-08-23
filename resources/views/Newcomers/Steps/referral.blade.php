@@ -94,9 +94,9 @@ La personne qui te guidera tout au long de ta vie à l'UTT
                 @elseif($step == 'notAnswered')
                     <h4 id="question">Ah :/</h4>
                     <p>{{ (Auth::user()->godFather->sex)?'Ta marraine':'Ton parrain' }} est peut-être en vacances ou à l'étranger..</p>
-                    <p>Tente de {{ (Auth::user()->godFather->sex)?'la':'le' }} contacter par tous les moyens disponibles : SMS, mail, Facebook, canard..</p>
+                    <p>Tente de {{ (Auth::user()->godFather->sex)?'la':'le' }} contacter par tous les moyens disponibles : SMS, mail, Facebook, canard ...</p>
                     @if(!Auth::user()->referral_emailed)
-                        <p>Si tu le souhaites, nous pouvons lui envoyer tes coordonées par mail, pour qu'{{ (Auth::user()->godFather->sex)?'elle':'il' }} puisse te contacter dès que possible.</p>
+                        <p>Si tu le souhaites, nous pouvons lui envoyer tes coordonnées par mail, pour qu'{{ (Auth::user()->godFather->sex)?'elle':'il' }} puisse te contacter dès que possible.</p>
                         <div class="row">
                             <div class="col-lg-6 col-lg-offset-3">
                                 <form action="{{ route('newcomer.referral.submit') }}"method="post">
@@ -114,7 +114,7 @@ La personne qui te guidera tout au long de ta vie à l'UTT
                     <h4 id="question">Bah alors ?</h4>
                     <p>Essaye de lui envoyer un petit SMS, mail ou un message Facebook rapidement !</p>
                     @if(!Auth::user()->referral_emailed)
-                        <p>Si tu le souhaites, nous pouvons aussi lui envoyer tes coordonées par mail, pour qu'{{ (Auth::user()->godFather->sex)?'elle':'il' }} puisse te contacter de lui même.</p>
+                        <p>Si tu le souhaites, nous pouvons aussi lui envoyer tes coordonnées par mail, pour qu'{{ (Auth::user()->godFather->sex)?'elle':'il' }} puisse te contacter de lui même.</p>
                         <div class="row">
                             <div class="col-lg-6 col-lg-offset-3">
                                 <form action="{{ route('newcomer.referral.submit') }}"method="post">

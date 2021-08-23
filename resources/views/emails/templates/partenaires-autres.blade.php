@@ -529,7 +529,7 @@
                                                                 <table class="mcnImageCardRightTextContentContainer" align="right" border="0" cellpadding="0" cellspacing="0" width="352">
                                                                     <tbody><tr>
                                                                         <td valign="top" class="mcnTextContent" style="padding-right: 18px;padding-top: 18px;padding-bottom: 18px;color: #F2F2F2;font-family: Helvetica;font-size: 14px;font-weight: normal;line-height: 100%;text-align: center;">
-                                                                            <h2 class="null" style="text-align: center;"><span style="color:#FFB300">Intégration de l'UTT Édition 2017<br>
+                                                                            <h2 class="null" style="text-align: center;"><span style="color:#FFB300">Intégration de l'UTT Édition 2021<br>
 Mail 3/3</span></h2>
 
                                                                         </td>

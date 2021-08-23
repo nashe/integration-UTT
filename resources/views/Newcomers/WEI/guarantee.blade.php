@@ -43,7 +43,7 @@ Le Week-End d'Intégration
     <div class="callout callout-info">
         <h4>Comment fonctionne la caution en ligne ?</h4>
         <p>
-            L'opération de dépôt de caution est assimilable à un <strong>simple paiement en ligne</strong>. Assurez-vous donc d'avoir les fonds suffisant, car la somme sera bien prélevée de votre compte.
+            L'opération de dépôt de caution est assimilable à un <strong>simple paiement en ligne</strong>. Assurez-vous donc d'avoir les fonds suffisants, car la somme sera bien prélevée de votre compte.
         </p>
         <p>
             Contrairement à un paiement classique, vous recevrez un <strong>remboursement sur la carte qui a émis le paiement</strong>, la semaine suivant le WEI (sauf si nous devons encaisser la caution).
@@ -66,7 +66,7 @@ Le Week-End d'Intégration
                             <td>
                                 <strong>Caution du Week-End</strong>
                                 <p>
-                                    La somme sera prélevée sur le compte puis remboursé automatiquement sur la carte bancaire émettrice une semaine après le WEI.<br/>
+                                    La somme sera prélevée sur le compte puis remboursée automatiquement sur la carte bancaire émettrice une semaine après le WEI.<br/>
                                     Les conditions d'encaissement de la caution sont disponibles dans les <a href="{{asset('docs/cgv.pdf')}}">Conditions Générales de Vente</a>.
                                 </p>
                             </td>
@@ -98,7 +98,7 @@ Le Week-End d'Intégration
                     <a href="#cannotpay" data-toggle="collapse">Je ne peux pas donner de caution en ligne !</a>
                     <p id="cannotpay" class="collapse">
                         Il faudra passer nous voir à la rentrée pour donner ta caution par chèque au nom de <em>BDE UTT</em>.<br/>
-                        <a href="{{ route('newcomer.wei.authorization')}}" class="btn btn-warning">Passer cette étape<br/>Je viendrais donner un chèque à la rentrée</a>
+                        <a href="{{ route('newcomer.wei.authorization')}}" class="btn btn-warning">Passer cette étape<br/>Je viendrai donner un chèque à la rentrée</a>
                     </p>
                 </div>
             </div>

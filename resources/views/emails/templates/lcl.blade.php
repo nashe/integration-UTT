@@ -13,7 +13,7 @@
     </span>
     <ul>
         <li>55€ offerts pour toute ouverture de compte,</li>
-        <li>La carte Visa Premier à 1€ pendant 4 ans,</li>
+        <li>La carte Visa Premier à 1€ par an pendant 4 ans,</li>
         <li>Des offres internationales étudiantes pour ton futur semestre à l’étranger,</li>
         <li>La possibilité d'ouvrir ton compte depuis chez toi <a href="https://bienvenue.secure.lcl.fr/#/offre=ouvrir-un-compte-lcl-etudiant" style="color: blue;">(clique ici)</a>,</li>
         <li>Une plateforme LCL Mon Campus adaptée aux étudiants</li>

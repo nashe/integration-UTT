@@ -8,7 +8,7 @@ Inscription au weekend ouvertes
     <div style="text-align:left;">
         <span style="font-size:30px">Salut {{ $user->first_name }} !</span>
         <p>On espère que tu es prêt à vivre une semaine incroyable à nos côtés ! Comme vous avez pu le voir l’inscription au Week-end d’Intégration est désormais ouverte !</p>
-        <p>Le départ de ce fameux week-end se fera vendredi après manger, on te conseille de prendre le repas fourni par le Crous, au modique prix de 3€25 (un repas au restaurant universitaire) afin de te rassasier avant le grand départ !</p>
+        <p>Le départ de ce fameux week-end se fera vendredi après manger, on te conseille de prendre le repas fourni par le Crous, au modique prix de 3€30 (un repas au restaurant universitaire) afin de te rassasier avant le grand départ !</p>
 
         <div style="text-align:center; margin: 15px;">
             <a href="https://integration.utt.fr" target="_blank" style="background-color: #00c0ef;border-color: #00acd6;border-radius: 3px;color: #fff;padding: 10px 16px;text-decoration: none;font-size: 18px;line-height: 1.3333333;">Inscription sur integration.utt.fr</a><br/>

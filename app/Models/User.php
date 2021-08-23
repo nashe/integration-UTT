@@ -142,7 +142,7 @@ class User extends Model implements Authenticatable
     ];
 
     const VOLUNTEER_PREFERENCES = [
-        // ÉVÉNEMENTS 
+        // ÉVÉNEMENTS
         'anim' => [
             'title' => 'Animation',
             'description' => 'Animer, divertir et motiver les nouveaux étudiants à chaque événement et moment de l’inté. Et pourquoi on est là ??',
@@ -181,13 +181,13 @@ class User extends Model implements Authenticatable
         ],
         'rallye' => [
             'title' => 'Rallye',
-            'description' => 'Organiser une aprèm de folie pour les nouveaux avec pleins de jeux, d’activités sportives et d’autres idées que vous avez !',
+            'description' => 'Organiser une aprèm de folie pour les nouveaux avec plein de jeux, d’activités sportives et d’autres idées que vous avez !',
         ],
         'wei' => [
             'title' => 'WEI',
             'description' => 'Organiser le Week-end d’intégration (transport, animation, logistique, soirée, boisson), se coordonner avec les différentes team de l’inté : log, bouffe, S&L, anim.',
         ],
-        
+
         // Communication
         'comm' => [
             'title' => 'Communication',
@@ -209,7 +209,7 @@ class User extends Model implements Authenticatable
             'title' => 'GUBU',
             'description' => 'Élaborer le futur GUBU des nouveaux avec des histoires, des recettes, des chants, des vannes...',
         ],
-        
+
         // Autres orga
         'part' => [
             'title' => 'Partenariats',
@@ -243,7 +243,7 @@ class User extends Model implements Authenticatable
             'title' => 'Respo CE',
             'description' => 'Gérer l’ensemble des CE ! Tu es moteur indispensable à l’animation de l’inté !!!!',
         ],
-        
+
         // Benevolat
         'benevole' => [
             'title' => 'Benevole',

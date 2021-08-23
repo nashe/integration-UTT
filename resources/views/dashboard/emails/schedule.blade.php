@@ -30,7 +30,7 @@ Programmation de l'envoi d'un mail
             </div>
 
             <div class="form-group">
-                <label for="lists" class="col-lg-2 control-label">Destinataires<br/> (Ctrl+Click pour la selection multiple)</label>
+                <label for="lists" class="col-lg-2 control-label">Destinataires<br/> (Ctrl+Clic pour la selection multiple)</label>
                 <div class="col-lg-10">
                     <select multiple name="lists[]" class="form-control" size="{{ count($lists) }}">
                         @foreach ($lists as $id => $description)

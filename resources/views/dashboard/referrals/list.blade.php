@@ -151,7 +151,7 @@ Liste de toutes les personnes qui ont visionné le formulaire au moins une fois.
             </tr>
             <tr>
                 <td colspan="6">
-                    Maximum de fillots attentus :
+                    Maximum de fillots attendus :
                     @foreach ($max as $branch => $count)
                         {{ $count }} {{ $branch }} |
                     @endforeach
@@ -167,7 +167,7 @@ Liste de toutes les personnes qui ont visionné le formulaire au moins une fois.
             </tr>
             <tr>
                 <td colspan="6">
-                    Maximum de fillots attentus par les parrains validés :
+                    Maximum de fillots attendus par les parrains validés :
                     @foreach ($maxV as $branch => $count)
                         {{ $count }} {{ $branch }} |
                     @endforeach
@@ -202,7 +202,7 @@ Liste de toutes les personnes qui ont visionné le formulaire au moins une fois.
         <textarea class="form-control" readonly>{{ $emailsValidated }}</textarea>
 
         <h4>Tous les profils incomplets</h4>
-        <p><em>Note: Les personnes qui sont dans cette liste ont parfois juste regardé le formulaire.<br/>
+        <p><em>Note : Les personnes qui sont dans cette liste ont parfois juste regardé le formulaire.<br/>
         Il ne veulent donc pas forcément devenir parrain. Prenez ça en compte si vous leur écrivez un mail.</em></p>
         <textarea class="form-control" readonly>{{ $emailsIncomplete }}</textarea>
 

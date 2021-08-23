@@ -24,18 +24,18 @@ Frequently Asked Questions
 
 				<h4><a href="#question200" data-toggle="collapse">Quel est l’emploi du temps de la semaine d’intégration ?</a></h4>
 	            <p id="question200" class="collapse">
-					Il te sera envoyé par mail, et une copie papier sera distribué durant la semaine.
+					Il te sera envoyé par mail, et une copie papier sera distribuée durant la semaine.
 	            </p>
 
 			    <h4><a href="#question300" data-toggle="collapse">Quand est-ce que je dois amener mon déguisement ?</a></h4>
 	            <p id="question300" class="collapse">
-	                Il te sera utile dès le premier après-midi de la semaine, on te conseille de faire un déguisement qui déchire, pour rendre tes chefs d’équipes fiers !
+	                Il te sera utile dès le premier après-midi de la semaine, on te conseille de faire un déguisement qui déchire, pour rendre fiers tes chefs d’équipes !
 	            </p>
 
 			    <h4><a href="#question400" data-toggle="collapse">Les repas sont-ils compris ?</a></h4>
 	            <p id="question400" class="collapse">
 					Le jour de ton arrivée (le lundi ou mardi), le petit déjeuner est offert par le BDE.
-					Pour les repas du lundi soir (pour les TC), mardi soir (pour tout le monde), jeudi midi et vendredi midi, il faudra prévoir un peu de monnaie mais pas de panique, cela reste à des prix très étudiants (entre 2 et 4€).
+					Pour les repas du lundi soir (pour les TC), mardi soir (pour tout le monde), jeudi midi et vendredi midi, il faudra prévoir un peu de monnaie mais pas de panique, cela reste à des prix étudiants (entre 2 et 4€).
                     (sous réserve d'évolution de la situation sanitaire)
 				</p>
 
@@ -64,7 +64,7 @@ Frequently Asked Questions
 
 				<h4><a href="#question2000" data-toggle="collapse">Qu’est ce que c’est le WEI ?</a></h4>
 				<p id="question2000" class="collapse">
-					WEI signifie Week-End d’Intégration, c’est un événement qui clôture en beauté la semaine d’intégration. Pleins de surprises t’y attendent c’est également un bon moment pour se faire pleins de potes !
+					WEI signifie Week-End d’Intégration, c’est un événement qui clôture en beauté la semaine d’intégration. Pleins de surprises t’y attendent et c’est également un bon moment pour se faire plein de potes !
 				</p>
 
 				<h4><a href="#question2100" data-toggle="collapse">C’est quand ?</a></h4>
@@ -94,7 +94,7 @@ Frequently Asked Questions
 
 				<h4><a href="#question2600" data-toggle="collapse">Combien ça coûte ?</a></h4>
 				<p id="question2600" class="collapse">
-					La totalité du week-end coûte {{ Config::get('services.wei.price')/100 }}€, nourriture et transport compris, prévoit juste de la monnaie pour tes consommations en soirée (entre 1€ et 2€ le verre).
+					La totalité du week-end coûte {{ Config::get('services.wei.price')/100 }}€, nourriture et transport compris, prévois juste de la monnaie pour tes consommations en soirée (entre 1€ et 2€ le verre).
 				</p>
 
 				<h4><a href="#question2700" data-toggle="collapse">Les repas sont-ils compris ?</a></h4>
