@@ -32,7 +32,6 @@ Pause partenaire !
         </p>
         <div class="text-center">
             <a href="http://www.popeye-troyes.fr" target="_blank"><img src="{{ asset('img/sponsors/deals/popeye_resultat.png') }}" class="img-thumbnail" /></a>
-            <a href="http://www.popeye-troyes.fr" target="_blank" class="btn btn-primary btn-lg">popeye-troyes.fr</a>
         </div>
 
         <h3>Plus de bon plans</h3>

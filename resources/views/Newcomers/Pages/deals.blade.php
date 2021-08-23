@@ -47,7 +47,7 @@ Que l'intégration a trouvé pour toi !
         <p>Vous la connaissez sûrement déjà, c’est la compagnie de trains qui vous permet de rejoindre Paris en 1h30 et plein d’autres destinations. Pensez à profitez des offres comme la carte avantage jeune et les cartes régionales.</p>
         <p><a href="https://www.sncf.com/fr">https://www.sncf.com/fr</a></p>
 
-        <p><a href="https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html"><img src="img/sponsors/HOMEBOX_logo.jpg" style="float:right" class="img-thumbnail" /></a></p>
+        <p><a href="https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html"><img src="img/sponsors/HOMEBOX_resultat.jpg" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="lcl"> HomeBox </h4> </p>
         <p>HomeBox c’est la solution de location de box, avec plus de 110 centres en France très sécurisés, vous pouvez louez des box de 2 à 50 m2 accessibles 24h/24 7j/7 a petit prix.</p>
         <p>2 à 10 rue Maryse Bastié 10600 Barberey-Saint-Sulpice</p>
@@ -60,28 +60,28 @@ Que l'intégration a trouvé pour toi !
         <p> 11 Bd. Georges Pompidou 10000 Troyes</p>
         <p><a href="https://troyes.lasergame-evolution.fr/">https://troyes.lasergame-evolution.fr/</a></p>
 
-        <p><a href="https://www.nigloland.fr/"><img src="img/sponsors/nigloland_logo.png" style="float:right" class="img-thumbnail" /></a></p>
+        <p><a href="https://www.nigloland.fr/"><img src="img/sponsors/nigloland_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="nigloland"> Nigloland </h4> </p>
         <p>Nigloland est un parc d’attractions à seulement 30 minutes en voiture de Troyes.</p>
         <p>Regroupant 4 univers et 43 attractions, ce parc saura vous émerveiller et vous faire ressentir émotions et frissons.</p>
         <p>Rue de la Vall. du Landion 10200 Dolancourt</p>
         <p><a href="https://www.nigloland.fr/">https://www.nigloland.fr/</a></p>
 
-        <p><a href="https://www.cgrcinemas.fr/troyes/films-a-l-affiche/"><img src="img/sponsors/deals/cgr_logo.png" style="float:right" class="img-thumbnail" /></a></p>
+        <p><a href="https://www.cgrcinemas.fr/troyes/films-a-l-affiche/"><img src="img/sponsors/deals/cgr_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="cgr"> Cinéma CGR de Troyes </h4> </p>
         <p>Le cinéma de Troyes, avec ses 14 salles dont une doté de la technologie ICE, il propose tous les derniers films dés leur sortie.</p>
         <p>Le prix d’une séance est réduit à 7,70€  en montrant votre carte étudiante.</p>
         <p>13 Rue des Bas Trevois 10000 Troyes</p>
         <p><a href="https://www.cgrcinemas.fr/troyes/films-a-l-affiche/">https://www.cgrcinemas.fr/troyes/films-a-l-affiche/</a></p>
 
-        <p><a href="https://lefamilyspace.fr/"><img src="img/sponsors/deals/familyspace_logo.png" style="float:right" class="img-thumbnail" /></a></p>
+        <p><a href="https://lefamilyspace.fr/"><img src="img/sponsors/deals/familyspace_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="cgr"> Family Space </h4> </p>
         <p>Family Space est un complexe de loisir situé à Troyes qui regroupe un trampo parc, un bowling et plein d’autres activités à retrouver sur leur site internet.</p>
         <p>Les tarifs sont accessibles et ils proposent des formules pour des anniversaires par exemple.</p>
         <p>4 Rue de l'Orme de la Croix 10600 La Chapelle-Saint-Luc</p>
         <p><a href="https://lefamilyspace.fr/">https://lefamilyspace.fr/</a></p>
 
-        <p><a href="https://www.fatherandsons.fr/"><img src="img/sponsors/deals/fathersons_logo.jpg" style="float:right" class="img-thumbnail" /></a></p>
+        <p><a href="https://www.fatherandsons.fr/"><img src="img/sponsors/deals/fathersons_resultat.jpg" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="cgr"> Father & Sons </h4> </p>
         <p>ather & Sons est une marque de vêtements pour homme, découvrez leur catalogue sur leur site internet et sachez qu’ils proposent une offre un costume + une chemise + un noeud papillon ou une cravate pour seulement 199€ ttc.</p>
         <p>114 Bd de Dijon 10800 Saint-Julien-les-Villas</p>
