@@ -15,7 +15,7 @@
 	  </span>
 	</div>
 
-    @if($user->isNewcomer())
+    @if($user && $user->isNewcomer())
     <div style="background-color: #E74360; margin: auto; padding: 10px 10px; text-align: center; width: max-content;">
       <a href="{{ Config::get('services.socialNetwork.facebook.groupeNouveaux') }}" target="_blank" style="color: #FFFFFF; text-decoration: none;font-size: 1em;line-height: 1.3333333;">Clique pour rejoindre le serveur discord <br><strong> Intégration UTT {{ date("Y") }}</strong></a>
 	</div>
