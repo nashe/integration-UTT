@@ -19,7 +19,7 @@
                     <textarea name="commentary" class="form-control">{{ old('commentary') }}</textarea>
                 </div>
                 <div class="form-group">
-                    <label for="pointsPenalty">Points de pénalité (une personne absente ne gagne de base aucuns points, mais vous pouvez en plus lui en retirer)</label>
+                    <label for="pointsPenalty">Points de pénalité (une personne absente ne gagne de base aucun point, mais vous pouvez en plus lui en retirer)</label>
                     <input type="number" name="pointsPenalty" class="form-control" value="0">
                 </div>
                 <button type="submit" class="btn btn-success" id="formSubmit">Ajouter l'absence</button>

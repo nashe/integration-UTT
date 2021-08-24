@@ -15,7 +15,7 @@ Le Week-End d'Intégration
             </div>
 		    <div class="box-body text-center">
                 <p>Comme tu es mineur, nous avons besoin de l'autorisation de tes parents pour pouvoir t'emmener dans une base nautique à 15 minutes de Troyes le jeudi et au week-end.</p>
-                <p>Télécharge l'autorisation parentale, fait la signer et met là dans ton sac pour ne pas l'oublier !</p>
+                <p>Télécharge l'autorisation parentale, fais-la signer et mets-la dans ton sac pour ne pas l'oublier !</p>
                 <a href="{{ asset('docs/autorisation.pdf')}}" class="btn btn-primary">Télécharger l'autorisation parentale</a><br/>
                 <br/>
 

@@ -16,14 +16,14 @@ Gestion de mon équipe
             @if(Authorization::can('ce','edit'))
                 <div class="box-countdown">Fermeture dans {{ @countdown(Authorization::countdown('ce','edit')) }}</div>
             @else
-                <div class="box-countdown">Les modifications d'équipe ne sont plus autorisés.</div>
+                <div class="box-countdown">Les modifications d'équipe ne sont plus autorisées.</div>
             @endif
             <h3 class="box-title">Votre participation</h3>
         </div>
         <div class="box-body">
             <div class="box-body">
                 <p>
-                    <strong></strong> a proposé de vous ajouter à l'équipe. Souhaites-vous la rejoindre ?
+                    <strong></strong> a proposé de vous ajouter à l'équipe. Souhaitez-vous la rejoindre ?
                 </p>
                 <a href="{{{ route('dashboard.ce.join') }}}" class="btn btn-success form-control">Rejoindre l'équipe
                     @if($team->name != null)
@@ -61,7 +61,7 @@ Gestion de mon équipe
     <div class="box-body table-responsive no-padding">
         <div class="box-body text-center">
             Seul le responsable de l'équipe peut ajouter des membres à l'équipe.<br/>
-            Les membres ajoutés doivent ensuite se connecter au site de l'intégration pour valider leurs participation.<br/>
+            Les membres ajoutés doivent ensuite se connecter au site de l'intégration pour valider leur participation.<br/>
         </div>
         <table class="table table-hover trombi">
             <tbody>

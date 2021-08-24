@@ -5,7 +5,7 @@
 @endsection
 
 @section("smalltitle")
-    Tu as fais une erreur en ajoutant un nouveau défi ? pas de problème, corrige donc :)
+    Tu as fais une erreur en ajoutant un nouveau défi ? Pas de problème, corrige donc :)
 @endsection
 
 @section("content")

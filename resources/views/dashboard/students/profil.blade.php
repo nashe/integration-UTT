@@ -79,7 +79,7 @@ Parce que l'intégration, c'est surtout vous !
                     <p class="text-justify">
                         Afin qu'on puisse demander ton aide en fonction de ce que as envie de faire, nous avons besoin d'en savoir un peu plus sur tes préférences.<br/>
                         Tu peux cocher plusieurs cases, ça n'engage à rien et tu n'auras pas moins de chance de faire chef d'équipe (ou autre) parce que tu coches d'autres cases, bien au contraire ;-)<br/>
-                        Si tu veux plus d'infos concernant les commissions (ordre de missions, dates...), tu peux consulter le document qui suit : <a href="https://docs.google.com/spreadsheets/d/1pklhDnpv38Q8uAUOgQsr728lXdAj77KLTIbMDgzElEE/edit#gid=0">Document ordres de missions</a>
+                        Si tu veux plus d'infos concernant les commissions (ordres de mission, dates...), tu peux consulter le document qui suit : <a href="https://docs.google.com/spreadsheets/d/1pklhDnpv38Q8uAUOgQsr728lXdAj77KLTIbMDgzElEE/edit#gid=0">Document ordres de mission</a>
                     </p>
 
                     <div class="form-group">
@@ -106,7 +106,7 @@ Parce que l'intégration, c'est surtout vous !
                         <p class="text-justify">
                             En étant bénévole pour cette intégration, vous aurez automatiquement un rôle de modèle et d'exemple vis-à-vis des nouveaux.
                             C'est normal, vous avez déjà passé un peu de temps dans cette école et donc vous en savez plus. Cependant,
-                            c'est dans cette situation que vous pouvez être amené à <strong>bizuter, sans parfois même vous en rendre compte ou sans la volonter de nuire</strong>.</p>
+                            c'est dans cette situation que vous pouvez être amené à <strong>bizuter, sans parfois même vous en rendre compte ou sans la volonté de nuire</strong>.</p>
                         </p>
 
                         <ul class="hidden-xs">
@@ -119,7 +119,8 @@ Parce que l'intégration, c'est surtout vous !
 
                         <p class="text-justify">
                             <strong>Le bizutage est un <em>délit</em>, puni par la <em>loi</em>. Ceux qui le pratiquent risquent des peines de prison ou de fortes amendes.
-                            Ils seront immédiatement et définitivement exclus de l’école sans attendre les poursuites judiciaires éventuelles.</strong>
+                            En marge des poursuites judiciaires engagées, ils peuvent être présentés aux sections disciplinaires de l'UTT, avec des sanctions pouvant aller
+                            jusqu'à l'exclusion définitive de tout établissement d'enseignement supérieur français.</strong>
                         </p>
 
                         <div class="well convention-well hidden-xs">
@@ -154,7 +155,7 @@ Parce que l'intégration, c'est surtout vous !
                         <div class="checkbox">
                             <label>
                                 <input type="checkbox" id="convention" name="convention" @if ($student->volunteer == 1) checked="checked" @endif/>
-                                <strong>Je comprends l'objectif de l'intégration et je comprends que mes actions peuvent être punies par une peine d'emprisonnement et 15 000 € d'amende.</strong>
+                                <strong>Je comprends l'objectif de l'intégration et je comprends que mes actions peuvent être punies par une sanction disciplinaire et une peine d'emprisonnement et 15 000 € d'amende.</strong>
                             </label>
                         </div>
                     </div>

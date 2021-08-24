@@ -18,7 +18,7 @@ Modification de profil
         @endif
         @if ($student->admitted_id)
             <a href="{{ route('dashboard.newcomers.unsync', ['id' => $student->id ]) }}" class="btn btn-xs btn-danger pull-right"
-                title="Si le nouveau ne vient finalement pas à l'utt, vous pouver désactiver le compte afin qu'il ne soit plus récupéré automatiquement depuis l'UTT">
+                title="Si le nouveau ne vient finalement pas à l'UTT, vous pouver désactiver le compte afin qu'il ne soit plus récupéré automatiquement depuis l'UTT">
                 Désactiver définitivement
             </a>
         @endif
@@ -80,7 +80,7 @@ Modification de profil
 
             @if ($student->is_newcomer)
                 <div class="form-group">
-                    <label for="name" class="col-lg-2 control-label">Majorité au wei</label>
+                    <label for="name" class="col-lg-2 control-label">Majorité au WEI</label>
                     <div class="col-lg-10">
                         {{ $student->wei_majority ? 'Majeur' : 'Mineur' }}
                     </div>
@@ -179,7 +179,7 @@ Modification de profil
                 </div>
 
                 <div class="form-group">
-                    <label for="registration_phone" class="col-lg-2 text-right">Téléphone fix Post-Bac/3uT</label>
+                    <label for="registration_phone" class="col-lg-2 text-right">Téléphone fixe Post-Bac/3uT</label>
                     <div class="col-lg-10">
                         <input class="form-control" name="registration_phone" id="registration_phone" type="text" value="{{{ old('registration_phone') ?? $student->registration_phone }}}" disabled>
                     </div>
@@ -259,7 +259,7 @@ Modification de profil
                     </div>
 
                     <div class="form-group">
-                        <label for="postal_code" class="col-lg-2 control-label">Code postal (met 0 si tu viens de l'étranger)</label>
+                        <label for="postal_code" class="col-lg-2 control-label">Code postal (mets 0 si tu viens de l'étranger)</label>
                         <div class="col-lg-10">
                             <input class="form-control" name="postal_code" id="postal_code" placeholder="Code postal" type="text" value="{{{ old('postal_code') ?? $student->postal_code }}}">
                         </div>
@@ -305,7 +305,7 @@ Modification de profil
                     </div>
 
                     <div class="form-group">
-                        <label for="postal_code" class="col-lg-2 control-label">Code postal (met 0 si tu viens de l'étranger)</label>
+                        <label for="postal_code" class="col-lg-2 control-label">Code postal (mets 0 si tu viens de l'étranger)</label>
                         <div class="col-lg-10">
                             <input class="form-control" name="postal_code" id="postal_code" placeholder="Code postal" type="text" value="{{{ old('postal_code') ?? $student->postal_code }}}">
                         </div>
@@ -413,12 +413,12 @@ Modification de profil
                         <div class="col-lg-10">
                             <input type="checkbox" id="wei" name="wei" @if (old('wei') ?? ($student->wei == 1)) checked="checked" @endif disabled/>
                             <br/>
-                            <small class="text-muted">A effectué au moins le paiement ou la caution du wei. Et compte donc déjà dans les inscrits au wei, même si son inscription est incomplète.</small>
+                            <small class="text-muted">A effectué au moins le paiement ou la caution du WEI. Et compte donc déjà dans les inscrits au WEI, même si son inscription est incomplète.</small>
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label for="wei_payment" class="col-lg-2 text-right">Paiement du wei</label>
+                        <label for="wei_payment" class="col-lg-2 text-right">Paiement du WEI</label>
                         <div class="col-lg-10">
                             @if ($student->weiPayment)
                                 {{ $student->weiPayment->state }}

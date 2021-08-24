@@ -27,7 +27,7 @@ Informations diverses pour toi !
             @if (Auth::user()->isAdmin())
                 <hr/>
                 <p>
-                    Comme tu es administrateur, ce site te permettra de faire pleins d'autres truc, mais j'ai la flemme de tous les décrire.
+                    Comme tu es administrateur, ce site te permettra de faire plein d'autres trucs, mais j'ai la flemme de tous les décrire.
                     Du coup je te laisse faire joujou avec. ;)<br/> <em>Enfin.. évite de tout casser, hein !</em>
                 </p>
             @endif

@@ -55,7 +55,7 @@ Le Week-End d'Intégration
     							<td>
     								<strong>Week-End d'Intégration</strong>
     								<ul>
-    									<li>Départ le vendredi {{ (new Datetime(Config::get('services.wei.start')))->format('j') }} septembre 2016 à 11h30</li>
+    									<li>Départ le vendredi {{ (new Datetime(Config::get('services.wei.start')))->format('j') }} septembre 2021 à 11h30</li>
     									<li>Retour à Troyes le dimanche vers 18h</li>
     									<li>Hébergement compris (sauf sac de couchage)</li>
     									<li>Repas compris</li>
@@ -108,7 +108,7 @@ Le Week-End d'Intégration
     				<div class="text-center">
     					<a href="#cannotpay" data-toggle="collapse">Je ne peux pas payer en ligne !</a>
     					<p id="cannotpay" class="collapse">
-    						Il faudra passer nous voir à la rentrée pour payer par chèque au nom de <em>BDE UTT</em>, par carte bancaire ou en espèce.<br/>
+    						Il faudra passer nous voir à la rentrée pour payer par chèque au nom de <em>BDE UTT</em>, par carte bancaire ou en espèces.<br/>
     						<a href="{{ route('newcomer.wei.guarantee')}}" class="btn btn-warning">Passer cette étape<br/>Je viendrai payer à la rentrée</a>
     					</p>
     				</div>

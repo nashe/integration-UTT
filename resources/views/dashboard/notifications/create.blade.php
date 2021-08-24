@@ -11,7 +11,7 @@
         <h4>Création d'une notification</h4>
         <p>
             Pour un créer une notification, renseignez un titre, un message et choisissez les destinataires.
-            Ensuite précisez la date d'envoie.
+            Ensuite précisez la date d'envoi.
         </p>
     </div>
 

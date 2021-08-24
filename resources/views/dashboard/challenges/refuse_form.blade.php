@@ -5,7 +5,7 @@
 @endsection
 
 @section("smalltitle")
-    L'équipe a été trop mauvaise ? Remet la à sa place...
+    L'équipe a été trop mauvaise ? Remets-la à sa place...
 @endsection
 
 

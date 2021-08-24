@@ -12,9 +12,11 @@
 
     <div class="callout callout-info">
         <h4>Liste de toutes les permanences</h4>
+        {{--
         <p>
             Une permanence a TODO
         </p>
+        --}}
     </div>
 
     <div class="box-header with-border">

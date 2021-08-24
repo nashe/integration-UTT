@@ -13,7 +13,7 @@
     <div class="callout callout-info">
         <h4>Informations</h4>
         <p>
-            Cette page vous permet d'interagir avec l'ensemble des paramètres disponibles. La fonctionnalité est réservée à un public averti ! La modification n'étant pas anodine.
+            Cette page vous permet d'interagir avec l'ensemble des paramètres disponibles. La fonctionnalité est réservée à un public averti, les modifications n'étant pas anodines.
         </p>
     </div>
 

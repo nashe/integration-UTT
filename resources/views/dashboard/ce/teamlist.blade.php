@@ -20,7 +20,7 @@ Liste des équipes
         <div class="box-body text-center">
             <p>
                 <b>Un seul membre de votre équipe doit créer l'équipe puis ajouter les autres.</b>
-                Le reste des membres de l'équipe devrons ensuite se connecter pour accepter d'être dans l'équipe.
+                Les autres membres de l'équipe devront ensuite se connecter pour accepter d'être dans l'équipe.
             </p>
             <form class="" action="{{ route('dashboard.ce.teamcreate') }}" method="post">
                 <!--<input type="text" name="name" class="form-control text-center" placeholder="Nom de l'équipe" required>-->
@@ -36,7 +36,7 @@ Liste des équipes
         </div>
         <div class="box-body">
             <p>
-                Les inscriptions pour chef d'équipe ne sont pas ouvertes.
+                Les inscriptions pour être chef d'équipe ne sont pas ouvertes.
             </p>
         </div>
     </div>

@@ -60,7 +60,7 @@ Connexion
                                         <strong>Bonjour à toi, ami nouveau !</strong> Tu trouveras les identifiants du site d'intégration sur l'email que tu receveras courant juillet.
                                     </p>
                                     <p>
-                                        Si tu n'as toujours pas reçu tes identifiants début août ou pour toute autre question, <a href="{{ route('contact') }}">envoie nous un message</a>.
+                                        Si tu n'as toujours pas reçu tes identifiants début août ou pour toute autre question, <a href="{{ route('contact') }}">envoie-nous un message</a>.
                                     </p>
                                     <form action="{{ route('newcomer.auth.login') }}" method="post">
                                         <input type="text" name="login" class="form-control" placeholder="Identifiant"/>

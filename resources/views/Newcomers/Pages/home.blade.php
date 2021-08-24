@@ -23,7 +23,7 @@ Informations diverses pour toi !
             </p>
             <p>
                 Ta première semaine dans notre belle école sera plutôt chargée en activités,
-                mais ne t'inquiètes pas tu receveras un planning détaillé de ta semaine dès ton arrivée.
+                mais ne t'inquiète pas tu receveras un planning détaillé de ta semaine dès ton arrivée.
                 @if(Auth::user()->branch == 'TC')
                     Tout ce que tu as à savoir pour le moment, c'est que tu dois être là <strong>{{ Config::get('services.reentry.tc.date') }} à {{ Config::get('services.reentry.tc.time') }} à l'UTT</strong>,
                     pour que nous puissions <strong>t'offrir un petit dej'</strong> de bienvenue.

@@ -20,6 +20,6 @@
 		{{$newcomer->email}}
 	</p>
 	<p>
-		Envoie lui rapidement un message pour pouvoir répondre à toutes ses questions. :)
+		Envoie-lui rapidement un message pour pouvoir répondre à toutes ses questions. :)
 	</p>
 @endsection

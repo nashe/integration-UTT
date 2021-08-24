@@ -38,14 +38,14 @@ Affichage des profils
                         </td>
                         <td>
                             <span title="Mail donné volontairement sur ce site">{{{ $newcomer->email }}}</span><br/>
-                            <del title="Mail donné lors de l'inscription à l'UTT. A n'utiliser qu'en cas de necessité.">{{{ $newcomer->registration_email }}}</del>
+                            <del title="Mail donné lors de l'inscription à l'UTT. A n'utiliser qu'en cas de nécessité.">{{{ $newcomer->registration_email }}}</del>
                         </td>
                         <td>
                             @if($newcomer->phone)
                                 <span title="Téléphone donné volontairement sur ce site">{{{ $newcomer->phone }}}</span><br/>
                             @endif
                             @if($newcomer->registration_phone)
-                                <del title="Téléphone fixe donné lors de l'inscription à l'UTT. A n'utiliser qu'en cas de necessité.">{{{ $newcomer->registration_phone }}}</del><br/>
+                                <del title="Téléphone fixe donné lors de l'inscription à l'UTT. A n'utiliser qu'en cas de nécessité.">{{{ $newcomer->registration_phone }}}</del><br/>
                             @endif
                         </td>
                         <td>
@@ -84,7 +84,7 @@ Affichage des profils
     </div>
     <div class="box-body">
         <p>Merci de n'appuyer sur ces boutons qu'une fois tous les nouveaux ajoutés à la liste.</p>
-        <a href="{{{ route('dashboard.newcomers.sync') }}}" class="btn btn-success">Raffraichir la liste avec les serveurs UTT (asynchrone)</a>
+        <a href="{{{ route('dashboard.newcomers.sync') }}}" class="btn btn-success">Rafraichir la liste avec les serveurs UTT (asynchrone)</a>
         <a href="{{{ route('dashboard.teams.match') }}}" class="btn btn-danger">Répartir les nouveaux qui n'ont pas d'équipes dans les équipes</a>
         <a href="{{{ route('dashboard.referrals.prematch') }}}" class="btn btn-danger">Donner des parrains aux nouveaux qui n'en n'ont pas</a>
         <p>Pour annuler des répartitions, ça se passe en base de données.</p>
@@ -110,7 +110,7 @@ Affichage des profils
         <div class="callout callout-danger">
             <h4>DANGER !</h4>
             <p>
-                Ce formulaire ne doit être utilisé que par des utilisateurs averti. Les nouveaux sont automatiquement importés, vous n'avez donc pas besoin d'utiliser ce formulaire.
+                Ce formulaire ne doit être utilisé que par des utilisateurs avertis. Les nouveaux sont automatiquement importés, vous n'avez donc pas besoin d'utiliser ce formulaire.
             </p>
         </div>
 

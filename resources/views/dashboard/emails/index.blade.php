@@ -32,7 +32,7 @@ Envoi de mails en maaasse
     <div class="box box-default collapsed-box">
 @endif
     <div class="box-header with-border">
-        <h3 class="box-title">Nouvelle modèle de mail</h3>
+        <h3 class="box-title">Nouveau modèle de mail</h3>
         <button class="btn btn-box-tool" data-widget="collapse">
             @if(Request::old())
                 <i class="fa fa-minus"></i>
@@ -158,12 +158,12 @@ Envoi de mails en maaasse
                                 <strong>En cours</strong> : {{ $cron->count_sending }}<br/>
                                 <strong>Erreurs</strong> : {{ $cron->count_error }}<br/>
                                 <strong>Lu</strong> : {{ $cron->count_opened }} / {{ $cron->count_sent }}<br/>
-                                <strong title="Personnes qui aurraient reçu cet email s'il avait été envoyé plus tard:{{ "\n".implode("\n", array_keys($updatedRecipients[$cron->id] ?? []))}}">
+                                <strong title="Personnes qui auraient reçu cet email s'il avait été envoyé plus tard:{{ "\n".implode("\n", array_keys($updatedRecipients[$cron->id] ?? []))}}">
                                     Non prévu</strong> : {{ count($updatedRecipients[$cron->id] ?? []) }}
                             @else
                                 <span class="label label-success">Envoyé</span><br/>
                                 <strong>Lu</strong> : {{ $cron->count_opened }} / {{ $cron->count_sent }}<br/>
-                                <strong title="Personnes qui aurraient reçu cet email s'il avait été envoyé plus tard:{{ "\n".implode("\n", array_keys($updatedRecipients[$cron->id] ?? []))}}">
+                                <strong title="Personnes qui auraient reçu cet email s'il avait été envoyé plus tard:{{ "\n".implode("\n", array_keys($updatedRecipients[$cron->id] ?? []))}}">
                                     Non prévu</strong> : {{ count($updatedRecipients[$cron->id] ?? []) }}
                             @endif
                         </td>
