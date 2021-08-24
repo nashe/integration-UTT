@@ -32,7 +32,7 @@ Envoi de mails en maaasse
     <div class="box box-default collapsed-box">
 @endif
     <div class="box-header with-border">
-        <h3 class="box-title">Nouvelle modèle de mail</h3>
+        <h3 class="box-title">Nouveau modèle de mail</h3>
         <button class="btn btn-box-tool" data-widget="collapse">
             @if(Request::old())
                 <i class="fa fa-minus"></i>
