@@ -138,7 +138,8 @@ return [
         'lcl' => 'true',
         'sncf' => 'true',
         'homebox' => 'true',
-        'lasergame' => 'true',
+	'lasergame' => 'true',
+	'cic' => 'true',
     ],
 
     'socialNetwork' => [

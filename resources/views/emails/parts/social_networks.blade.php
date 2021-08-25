@@ -8,7 +8,7 @@
 	<div style="text-align: center; margin-bottom: 10px;">
 	  <span style="font-family:merriweather sans,helvetica neue,helvetica,arial,sans-serif;">
 		On sera présent sur les réseaux tout l’été pour te tenir informé(e), te partager des astuces, te faire découvrir l’équipe qui est derrière toute l’intégration, et plein d’autres trucs trop cool !
-        	@if($user && $user-->isNewcomer())
+        	@if($user && $user->isNewcomer())
 		<br>&nbsp;<br>
 		Ah et aussi, on t'invites à rejoindre le serveur discord de l'intégration, tu pourras y poser toutes les questions que tu veux.
 	    @endif
