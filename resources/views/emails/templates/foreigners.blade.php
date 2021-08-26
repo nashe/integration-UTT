@@ -78,9 +78,9 @@ Weekend
 <p>You will have the chance to dance all night, eat some meals made with love and engage in many outdoors activities !</p>
 <p>For the weekend :</p>
 <ul>
-    <li>The price is 55€ all inclusive (meals, transport)</li>
-    <li>There is also a 60€ deposit that will be refunded if everything goes well during the weekend !</li>
-    <li>3€30 if you want to take the sandwich offered before the bus friday, otherwise please take a sandwich.</li>
+    <li>The price is {{ Config::get('services.wei.price'))/100 }} € all inclusive (meals, transport)</li>
+    <li>There is also a {{ Config::get('services.wei.guaranteePrice'))/100 }} € deposit that will be refunded if everything goes well during the weekend !</li>
+    <li> {{ Config::get('services.wei.sandwichPrice'))/100 }} € if you want to take the sandwich offered before the bus friday, otherwise please take a sandwich.</li>
 </ul>
 
 {{-- <div style="text-align:center; margin: 15px;">
@@ -173,9 +173,9 @@ Weekend
 <p>Vous aurez la chance de danser toute la nuit, manger des repas préparé avec amour et participer à des activités diverses et variées en plein air !</p>
 <p>Pour le weekend :</p>
 <ul>
-    <li>Le prix est de 55€ tout compris (repas, transport)</li>
-    <li>60€ de caution qui vous sera rendu si tout se passe bien pendant le weekend !</li>
-    <li>3€25 si vous voulez prendre le repas prévu avant le bus du vendredi, sinon amenez à manger.</li>
+    <li>Le prix est de {{ Config::get('services.wei.price'))/100 }} € tout compris (repas, transport)</li>
+    <li> {{ Config::get('services.wei.guaranteePrice'))/100 }} € de caution qui vous sera rendu si tout se passe bien pendant le weekend !</li>
+    <li> {{ Config::get('services.wei.sandwichPrice'))/100 }} € si vous voulez prendre le repas prévu avant le bus du vendredi, sinon amenez à manger.</li>
 </ul>
 
 {{-- <div style="text-align:center; margin: 15px;">
