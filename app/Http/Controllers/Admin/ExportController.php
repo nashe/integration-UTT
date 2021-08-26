@@ -142,7 +142,7 @@ class ExportController extends Controller
         ->orderBy('start')
         ->join('perm_users', 'users.id', '=', 'perm_users.user_id')
         ->join('perms', 'perms.id', '=', 'perm_users.perm_id')
-        ->addSelect([\DB::raw('first_name'), \DB::raw('last_name'), \DB::raw('phone'), \DB::raw('respo'), \DB::raw('place'), \DB::raw('FROM_UNIXTIME(start) as start'), \DB::raw('FROM_UNIXTIME(end) as end', \DB::raw('description'))])
+        ->addSelect([\DB::raw('first_name'), \DB::raw('last_name'), \DB::raw('phone'), \DB::raw('respo'), \DB::raw('place'), \DB::raw('FROM_UNIXTIME(start) as start'), \DB::raw('FROM_UNIXTIME(end) as end'), \DB::raw('description')])
         ->get();
 
         return Excel::create('Perms', function ($file) use ($perms) {
