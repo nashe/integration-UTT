@@ -556,6 +556,10 @@ Route::group(['prefix' => 'dashboard'], function () {
                 'as'   => 'dashboard.exports.raw-students',
                 'uses' => 'Admin\ExportController@getExportRawUsers'
             ]);
+            Route::get('/perms', [
+                'as'   => 'dashboard.exports.perms',
+                'uses' => 'Admin\ExportController@getPerms'
+            ]);
         });
 
         Route::group(['prefix' => 'championship'], function()
