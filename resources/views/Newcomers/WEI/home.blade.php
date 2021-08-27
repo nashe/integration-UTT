@@ -132,7 +132,7 @@ Le Week-End d'Intégration
 					<li>6 masques CHIRURGICAUX (minimum) ;</li>
 					<li>Un sac de couchage chaud ;</li>
 					<li>Ton déguisement ;</li>
-					<li>Des vêtements qui ne craignent rien ;</li>
+					<li>Des vêtements qui ne craignent rien (dès le départ en bus vendredi matin) ;</li>
 					<li>Des vêtements qui tiennent chaud ;</li>
 					<li>Un k-way ;</li>
 					<li>Une bombe anti-moustique (ton corps te remerciera) ;</li>
