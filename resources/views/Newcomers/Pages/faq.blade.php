@@ -84,7 +84,7 @@ Frequently Asked Questions
 
 				<h4><a href="#question2400" data-toggle="collapse">Qu’est-ce que je dois emmener ?</a></h4>
 				<p id="question2400" class="collapse">
-					Un pass sanitaire valide, un sac de couchage (chaud), des vêtements qui ne craignent rien et d’autres qui tiennent chaud, un k-way, 6 masques CHIRURGICAUX (minimum), une bombe anti-moustique (ton corps te remerciera), ton déguisement, des bouchons d'oreilles si tu en as, ton écocup, ton tupperware ainsi que des couverts, une boite à clous et ton autorisation parentale si tu es mineur.
+					Un pass sanitaire valide, un sac de couchage (chaud), des vêtements qui ne craignent rien (dès le départ en bus vendredi matin) et d’autres qui tiennent chaud, un k-way, 6 masques CHIRURGICAUX (minimum), une bombe anti-moustique (ton corps te remerciera), ton déguisement, des bouchons d'oreilles si tu en as, ton écocup, ton tupperware ainsi que des couverts, une boite à clous et ton autorisation parentale si tu es mineur.
 				</p>
 
 				<h4><a href="#question2500" data-toggle="collapse">Est-ce que je peux venir si je suis mineur(e) ?</a></h4>
