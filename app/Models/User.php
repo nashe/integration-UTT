@@ -272,7 +272,7 @@ class User extends Model implements Authenticatable
     }
 
     public function challenges() {
-        $pivots = ['submittedOn', 'validated', 'pic_url', 'last_update', 'update_author', 'message', 'team_id'];
+        $pivots = ['submittedOn', 'validated', 'proof_url', 'last_update', 'update_author', 'message', 'team_id'];
         return $this->belongsToMany('App\Models\Challenge', 'challenge_validations')->withPivot($pivots)->where('user_id', '=', $this->id);
     }
 
