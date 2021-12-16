@@ -1,4 +1,4 @@
-FROM larueli/php-base-image:7.1
+FROM larueli/php-base-image:7.4
 
 USER 0
 
