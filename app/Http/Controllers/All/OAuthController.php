@@ -62,7 +62,7 @@ class OAuthController extends Controller
         ];
 
         try {
-            $response = $client->post('/api/oauth/token', ['form_params' => $params]);
+            $response = $client->post('/api/oauth/token', ['form_params' => $params, 'verify' => false]);
         } catch (\GuzzleHttp\Exception\GuzzleException $e) {
             // An error 400 from the server is usual when the authorization_code
             // has expired. Redirect the user to the OAuth gateway to be sure
@@ -78,7 +78,7 @@ class OAuthController extends Controller
         $refresh_token = $json['refresh_token'];
 
         try {
-            $response = $client->get('/api/private/user/account?access_token=' . $json['access_token']);
+            $response = $client->get('/api/private/user/account?access_token=' . $json['access_token'], ['verify' => false]);
         } catch (\GuzzleHttp\Exception\GuzzleException $e) {
             App::abort(500);
         }

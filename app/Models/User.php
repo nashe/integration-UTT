@@ -159,9 +159,9 @@ class User extends Model implements Authenticatable
             'title' => 'Village Asso',
             'description' => 'Organiser le village asso avec l’aide des associations en amont et coordonner l’évènement le jour J.',
         ],
-        'faux_test' => [
-            'title' => 'Test de niveau',
-            'description' => 'Organiser l’évènement du test de niveau, rédiger les tests, recruter de faux élèves et faux profs et à la fin faire une compilation des plus belles conneries écrites dans les tests. Être le chef d’orchestre de cette belle épreuve qu’est ce test.',
+        'faux_cours' => [
+            'title' => 'Amphi de remédiation',
+            'description' => 'Créer un faux premier cours compliqué pour les TC avec des professeurs et des faux élèves durant la première semaine.',
         ],
         'faux_disc' => [
             'title' => 'Discours de rentrée',
@@ -190,12 +190,8 @@ class User extends Model implements Authenticatable
 
         // Communication
         'comm' => [
-            'title' => 'Communication',
+            'title' => 'Communication & Graphisme',
             'description' => 'Préparer et gérer toute la communication relative à l’intégration (réseaux sociaux, plans de com, affiches, etc).',
-        ],
-        'graphisme' => [
-            'title' => 'Graphisme',
-            'description' => 'Designer les visuels de l’inté (thèmes et posts pour les réseaux sociaux, affiches, stickers, T-Shirts, etc).',
         ],
         'deco' => [
             'title' => 'Déco',
@@ -219,6 +215,10 @@ class User extends Model implements Authenticatable
             'title' => 'Logistique',
             'description' => 'Préparer, organiser et mettre en place tout le matériel nécessaire avant et pendant la semaine d\’intégration.',
         ],
+        'secu' => [
+            'title' => 'Sécu',
+            'description' => 'Gérer la sécurité de l’évènement notamment durant le WEI et la soirée d’Inté.',
+        ],
         'SL' => [
             'title' => 'Son et lumière',
             'description' => 'Prévoir, installer et gérer les éléments de S&L durant les événement qui le nécessitent (soirée d’inté, WEI, espace chill, etc).',
@@ -236,12 +236,16 @@ class User extends Model implements Authenticatable
             'description' => 'Prévoir les commandes de boisson (soft et bières) pour les différents event de l\'inté (repas, soirée d\'inté, WEI, etc).',
         ],
         'prev' => [
-            'title' => 'DD & Prévention',
+            'title' => 'Prévention',
             'description' => 'Guider les choix de l’inté vers une optique durable et responsable (check des commandes de consommables, goodies, choix des produits, organisation générale, etc).',
         ],
         'respo_ce' => [
             'title' => 'Respo CE',
             'description' => 'Gérer l’ensemble des CE ! Tu es moteur indispensable à l’animation de l’inté !!!!',
+        ],
+        'respo_nouveaux' => [
+            'title' => 'Respo Nouveaux/bénévoles',
+            'description' => 'Venir en aide aux nouveaux qui auraient des problèmes et répondre à leurs questions durant l’été notamment sur discord et gérer les bénévoles pendant la semaine d’Intégration',
         ],
 
         // Benevolat
