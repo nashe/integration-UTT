@@ -5,7 +5,7 @@ USER 0
 ENV APACHE_DOCUMENT_ROOT="/var/www/html/public"
 
 COPY . /var/www/html/
-RUN echo "cd /var/www/html && /usr/local/bin/php artisan config:clear" > /docker-entrypoint-init.d/a_cache_clear.sh && \
+RUN echo "cd /var/www/html && /usr/local/bin/php artisan config:cache" > /docker-entrypoint-init.d/a_cache_config.sh && \
     echo "cd /var/www/html && /usr/local/bin/php artisan migrate --force" > /docker-entrypoint-init.d/b_migrations.sh && \
     echo 'cd /var/www/html && /usr/local/bin/php -d memory_limit=-1 artisan queue:work --sleep=3 --tries=3 --daemon &' > /docker-entrypoint-init.d/c_queue.sh && \
     ./composer install --no-interaction --no-ansi && \
