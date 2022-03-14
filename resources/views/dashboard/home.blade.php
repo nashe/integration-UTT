@@ -16,11 +16,11 @@ Informations diverses pour toi !
         </div>
         <div class="box-body">
             <p>Si tu vois ce message, c'est que tu fais partie de la grande famille des bénévoles de l'intégration. <strong>Et nous t'en remercions !</strong></p>
-            <p>Ta mission la plus importante sur ce site est de tenir tes informations de contact à jour et de rejoindre le groupe Facebook suivant afin de pouvoir être contacté lorsque l'intégration a besoin de toi !</p>
+            <p>Ta mission la plus importante sur ce site est de tenir tes informations de contact à jour et de rejoindre le Discord suivant afin de pouvoir être contacté lorsque l'intégration a besoin de toi !</p>
 
-            <p><a class="btn btn-success" href="https://www.facebook.com/groups/inteutta21benevoles/" target="_blank">
-                <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                Rejoindre le groupe facebook des bénévoles
+            <p><a class="btn btn-success" href="https://discord.gg/AbCaRJxN4d" target="_blank">
+                <i class="fa fa-discord" aria-hidden="true"></i>
+                Rejoindre le discord de l'Intégration
             </a></p>
 
 
