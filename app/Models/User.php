@@ -219,6 +219,10 @@ class User extends Model implements Authenticatable
             'title' => 'Parrainage',
             'description' => 'Attribuer des parrains/marraines aux nouveaux étudiants de manière personnalisée.',
         ],
+        'partenariat' => [
+            'title' => 'Partenariat',
+            'description' => 'Rechercher et établir des partenariats utiles pour l\'Intégration et pour les nouveaux étudiants',
+        ],
         'prev' => [
             'title' => 'Prévention',
             'description' => 'Mettre en place des mesures durant l\'Intégration contre certains risques.',
