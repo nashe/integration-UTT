@@ -57,6 +57,7 @@ $factory->define(App\Models\User::class, function (Faker\Generator $faker) {
             'surname' => $faker->firstName,
             'email' => $faker->safeEmail,
             'phone' => '03.12.34.56.78',
+            'discord' => 'User#1234',
             'postal_code' => $faker->randomNumber(5),
             'city' => $faker->city,
             'country' => $faker->country,
