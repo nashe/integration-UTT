@@ -103,8 +103,9 @@ class EtuUTT
                 'email'         => $json['email'],
                 'facebook'      => $json['facebook'],
                 'phone'         => ($json['phonePrivacy'] == 'public') ? $json['phone'] : null,
+                'discord'       => ($json['discordTagPrivacy'] == 'public') ? $json['discordTag']: null,
                 'branch'        => $json['branch'],
-                'level'         => $json['level']
+                'level'         => $json['level'],
             ]);
             $student->etuutt_access_token = $access_token;
             $student->etuutt_refresh_token = $refresh_token;

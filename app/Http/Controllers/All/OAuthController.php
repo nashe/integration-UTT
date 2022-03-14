@@ -84,7 +84,6 @@ class OAuthController extends Controller
         }
 
         $json = json_decode($response->getBody()->getContents(), true)['data'];
-
         $user = EtuUTT::updateOrCreateUser($json, $access_token, $refresh_token);
 
         // Remember the user accross the whole website.

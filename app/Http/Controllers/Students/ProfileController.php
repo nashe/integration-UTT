@@ -43,6 +43,7 @@ class ProfileController extends Controller
             'sex' => 'required|boolean',
             'email' => 'required|email',
             'phone' => 'required|min:8|max:20',
+            'discord' => 'required|min:4'
         ];
 
         $student = Auth::user();
@@ -61,7 +62,8 @@ class ProfileController extends Controller
             'surname',
             'sex',
             'email',
-            'phone'
+            'phone',
+            'discord'
         ));
         $volunteer_preferences = [];
         foreach (User::VOLUNTEER_PREFERENCES as $key => $value) {

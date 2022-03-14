@@ -54,7 +54,7 @@ Menu
                         </div>
                     </div>
 
-                    <div class="panel panel-default">
+                    {{-- <div class="panel panel-default">
                         <div class="panel-heading">
                             <h3 class="panel-title">Deviens chef d'équipe !</h3>
                         </div>
@@ -94,7 +94,7 @@ Menu
                                 Contacte <a href="mailto:integration@utt.fr">integration@utt.fr</a> pour toute autre question.
                             @endif
                         </div>
-                    </div>
+                    </div> --}}
 
                     @if (!$student->volunteer || (!Authorization::can('ce','inTeam') && !$student->orga && !$student->admin))
                         <div class="panel panel-default">
