@@ -398,6 +398,12 @@ Modification de profil
                         </div>
                     </div>
                     <div class="form-group">
+                        <label for="ce" class="col-lg-2 text-right">CE</label>
+                        <div class="col-lg-10">
+                            <input type="checkbox" id="ce" name="ce" @if (old('ce') ?? ($student->ce == 1)) checked="checked" @endif/><br/>
+                        </div>
+                    </div>
+                    <div class="form-group">
                         <label for="secu" class="col-lg-2 text-right">Secu</label>
                         <div class="col-lg-10">
                             <input type="checkbox" id="secu" name="secu" @if (old('secu') ?? ($student->secu == 1)) checked="checked" @endif/><br/>

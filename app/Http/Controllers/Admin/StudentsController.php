@@ -180,6 +180,7 @@ class StudentsController extends Controller
             'medical_note',
             'admin',
             'orga',
+            'ce',
             'secu',
             'wei_validated',
             'parent_authorization',
@@ -242,6 +243,7 @@ class StudentsController extends Controller
             $student->referral_validated = !empty($data['referral_validated']);
             $student->admin = (!empty($data['admin']))?100:0;
             $student->orga = !empty($data['orga']);
+            $student->ce = !empty($data['ce']);
             $student->secu = !empty($data['secu']);
             $student->mission = $data['mission'];
             $student->mission_order = $data['mission_order'];
