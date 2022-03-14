@@ -65,6 +65,12 @@ Parce que l'intégration, c'est surtout vous !
                     </div>
                 </div>
 
+                <div class="form-group">
+                    <label for="discord" class="col-lg-2 control-label">Discord</label>
+                    <div class="col-lg-10">
+                        <input class="form-control" name="discord" id="discord" placeholder="Tag Discord" pattern=".*#[0-9]{4}" type="text" value="{{{ old('discord') ?? Auth::user()->discord }}}">
+                    </div>
+                </div>
 
                 <div class="form-group">
                     <label for="semester" class="col-lg-2 control-label">Semestre en cours</label>

@@ -83,8 +83,7 @@ class OAuthController extends Controller
             App::abort(500);
         }
 
-        $json = json_decode($response->getBody()->getContents(), true)['data'];
-
+        $json = json_decode(str_replace("discordTag", "discord", $response->getBody()->getContents()), true)['data'];
         $user = EtuUTT::updateOrCreateUser($json, $access_token, $refresh_token);
 
         // Remember the user accross the whole website.
