@@ -42,6 +42,7 @@ class User extends Model implements Authenticatable
         'birth',
         'surname',
         'email',
+        'discord',
         'phone',
         'postal_code',
         'city',
@@ -142,22 +143,53 @@ class User extends Model implements Authenticatable
     ];
 
     const VOLUNTEER_PREFERENCES = [
-        // ÉVÉNEMENTS
         'anim' => [
             'title' => 'Animation',
             'description' => 'Animer, divertir et motiver les nouveaux étudiants à chaque événement et moment de l’inté. Et pourquoi on est là ??',
+        ],
+        'aprem_chill' => [
+            'title' => 'Aprem Chill',
+            'description' => 'Mettre en place une après-midi en proposant différentes activités, le tout de manière chill !',
         ],
         'arbitre' => [
             'title' => 'Arbitre',
             'description' => 'Mettre en place un système de points pour des activités de la semaine d’inté, des règles en tout genre pour dynamiser la rivalité entre les factions.',
         ],
+        'benevole' => [
+            'title' => 'Benevole',
+            'description' => 'Tu n’es pas là avant la semaine d’intégration mais tu es désireux de nous fournir ton aide pour mettre en place du matériel, cuisiner et faire plein d’autres trucs pendant la semaine, deviens bénévole.',
+        ],
+        'boisson' => [
+            'title' => 'Boisson',
+            'description' => 'Prévoir les commandes de boisson (soft et bières) pour les différents event de l\'inté (repas, soirée d\'inté, WEI, etc).',
+        ],
+        'bouffe' => [
+            'title' => 'Bouffe',
+            'description' => 'Prévoir, organiser et coordonner tous les repas de l’inté. La bouffe c’est sacré !',
+        ],
+        'cahier_vacances' => [
+            'title' => 'Cahier de vacances',
+            'description' => 'Elaborer le futur cahier de vacances des nouveaux.',
+        ],
+        'ce' => [
+            'title' => 'Chef d\'équipe (CE)',
+            'description' => 'Par groupe de 4/5 étudiants, être en charge d’une équipe d’environ 10 à 15 nouveaux étudiants, s’occuper d’eux, participer aux événements avec eux, réaliser des défis en équipe, répondre à leurs questions, etc : les accompagner autant que possible pendant leur première semaine à l’UTT.',
+        ],
+        'comm' => [
+            'title' => 'Communication & Graphisme',
+            'description' => 'Préparer et gérer toute la communication relative à l’intégration (réseaux sociaux, plans de com, affiches, etc).',
+        ],
+        'deco' => [
+            'title' => 'Déco',
+            'description' => 'Être créatif et créer de quoi décorer l\'UTT au thème de l’inté.',
+        ],
         'defis' => [
             'title' => 'Défis TC',
             'description' => 'Préparer l\'aprèm où les nouveaux TC devront faire preuve d\'ingéniosité pour arriver au bout des défis que vous aurez préparé.',
         ],
-        'village' => [
-            'title' => 'Village Asso',
-            'description' => 'Organiser le village asso avec l’aide des associations en amont et coordonner l’évènement le jour J.',
+        'dj' => [
+            'title' => 'DJ',
+            'description' => 'Tu sais faire des sets de musique et t\'aimes mixer en soirée, l\'Intégration est une super opportunité pour partager tes talents !',
         ],
         'faux_cours' => [
             'title' => 'Amphi de remédiation',
@@ -167,77 +199,33 @@ class User extends Model implements Authenticatable
             'title' => 'Discours de rentrée',
             'description' => 'Préparer et faire un discours de rentrée pour faire une petite frayeur aux nouveaux.',
         ],
-        'kda' => [
-            'title' => 'Kermess des Arts x Chill',
-            'description' => ' Mettre en place une aprèm culture avec les asso/clubs artistiques qui présentent ce qu’elles font, le tout de manière chill !',
-        ],
-        'soiree' => [
-            'title' => 'Soirée d\'intégration',
-            'description' => 'Préparer et organiser une soirée sur le campus de l’UTT durant la semaine d’intégration (organisation des boissons, de la nourriture, du vestiaire, de la sécurité, des animations, etc). Vous serez en relation avec les professionnels de la sécurité pour encadrer l’événement.',
-        ],
-        'chasseTresor' => [
-            'title' => 'Chasse au trésor',
-            'description' => 'Organiser une maxi chasse au trésor sur le campus pour que les nouveaux découvrent l’UTT et une petite surprise.',
-        ],
-        'rallye' => [
-            'title' => 'Rallye',
-            'description' => 'Organiser une aprèm de folie pour les nouveaux avec plein de jeux, d’activités sportives et d’autres idées que vous avez !',
-        ],
-        'wei' => [
-            'title' => 'WEI',
-            'description' => 'Organiser le Week-end d’intégration (transport, animation, logistique, soirée, boisson), se coordonner avec les différentes team de l’inté : log, bouffe, S&L, anim.',
-        ],
-
-        // Communication
-        'comm' => [
-            'title' => 'Communication & Graphisme',
-            'description' => 'Préparer et gérer toute la communication relative à l’intégration (réseaux sociaux, plans de com, affiches, etc).',
-        ],
-        'deco' => [
-            'title' => 'Déco',
-            'description' => 'Être créatif et créer de quoi décorer l\'UTT au thème de l’inté.',
-        ],
-        'media' => [
-            'title' => 'Médiatik',
-            'description' => 'Couvrir l’ensemble des événements de l’intégration, et publier tout ça pour laisser à tout le monde de beaux souvenirs.',
-        ],
         'gubu' => [
             'title' => 'GUBU',
             'description' => 'Élaborer le futur GUBU des nouveaux avec des histoires, des recettes, des chants, des vannes...',
         ],
-
-        // Autres orga
-        'part' => [
-            'title' => 'Partenariats',
-            'description' => 'Rechercher et établir des partenariats utiles à l’inté et aux nouveaux étudiants.',
+        'kda' => [
+            'title' => 'Kermesse des Arts',
+            'description' => 'Mettre en place une aprèm culture avec les asso/clubs artistiques qui présentent ce qu’elles font !',
         ],
         'log' => [
             'title' => 'Logistique',
             'description' => 'Préparer, organiser et mettre en place tout le matériel nécessaire avant et pendant la semaine d\’intégration.',
         ],
-        'secu' => [
-            'title' => 'Sécu',
-            'description' => 'Gérer la sécurité de l’évènement notamment durant le WEI et la soirée d’Inté.',
-        ],
-        'SL' => [
-            'title' => 'Son et lumière',
-            'description' => 'Prévoir, installer et gérer les éléments de S&L durant les événement qui le nécessitent (soirée d’inté, WEI, espace chill, etc).',
+        'media' => [
+            'title' => 'Médiatik',
+            'description' => 'Couvrir l’ensemble des événements de l’intégration, et publier tout ça pour laisser à tout le monde de beaux souvenirs.',
         ],
         'parrainage' => [
             'title' => 'Parrainage',
             'description' => 'Attribuer des parrains/marraines aux nouveaux étudiants de manière personnalisée.',
         ],
-        'bouffe' => [
-            'title' => 'Bouffe',
-            'description' => 'Prévoir, organiser et coordonner tous les repas de l’inté. La bouffe c’est sacré !',
-        ],
-        'boisson' => [
-            'title' => 'Respo boisson',
-            'description' => 'Prévoir les commandes de boisson (soft et bières) pour les différents event de l\'inté (repas, soirée d\'inté, WEI, etc).',
-        ],
         'prev' => [
             'title' => 'Prévention',
-            'description' => 'Guider les choix de l’inté vers une optique durable et responsable (check des commandes de consommables, goodies, choix des produits, organisation générale, etc).',
+            'description' => 'Mettre en place des mesures durant l\'Intégration contre certains risques.',
+        ],
+        'rallye' => [
+            'title' => 'Rallye',
+            'description' => 'Organiser une aprèm de folie pour les nouveaux avec plein de jeux, d’activités sportives et d’autres idées que vous avez !',
         ],
         'respo_ce' => [
             'title' => 'Respo CE',
@@ -247,27 +235,37 @@ class User extends Model implements Authenticatable
             'title' => 'Respo Nouveaux/bénévoles',
             'description' => 'Venir en aide aux nouveaux qui auraient des problèmes et répondre à leurs questions durant l’été notamment sur discord et gérer les bénévoles pendant la semaine d’Intégration',
         ],
-
-        // Benevolat
-        'benevole' => [
-            'title' => 'Benevole',
-            'description' => 'Tu n’es pas là avant la semaine d’intégration mais tu es désireux de nous fournir ton aide pour mettre en place du matériel, cuisiner et faire plein d’autres trucs pendant la semaine, deviens bénévole.',
+        'salon_vie_etudiante' => [
+            'title' => 'Salon Vie Etudiante',
+            'description' => 'Organier les Salons de la Vie Etudiante la 2ème semaine de l\'Intégration avec les différents acteurs de la vie étudiante de l\'UTT.',
         ],
-        'ce' => [
-            'title' => 'Chef d\'équipe (CE)',
-            'description' => 'Par groupe de 4/5 étudiants, être en charge d’une équipe d’environ 10 à 15 nouveaux étudiants, s’occuper d’eux, participer aux événements avec eux, réaliser des défis en équipe, répondre à leurs questions, etc : les accompagner autant que possible pendant leur première semaine à l’UTT.',
+        'secu' => [
+            'title' => 'Sécu',
+            'description' => 'Gérer la sécurité de l’évènement notamment durant le WEI et la soirée d’Inté.',
         ],
-        'dj_soiree' => [
-            'title' => 'DJ soirée d\'inté',
-            'description' => 'Tu sais faire des sets de musique et t’aimes mixer en soirée, la soirée d’intégration est une super opportunité pour partager tes talents !',
+        'soiree' => [
+            'title' => 'Soirée d\'intégration',
+            'description' => 'Préparer et organiser une soirée sur le campus de l’UTT durant la semaine d’intégration (organisation des boissons, de la nourriture, du vestiaire, de la sécurité, des animations, etc). Vous serez en relation avec les professionnels de la sécurité pour encadrer l’événement.',
         ],
-        'dj_wei' => [
-            'title' => 'DJ au WEI',
-            'description' => 'Tu sais faire des sets de musique et t’aimes mixer en soirée, les soirées du WEI sont des super opportunités pour partager tes talents !',
+        'son_lumiere' => [
+            'title' => 'Son et lumière',
+            'description' => 'Prévoir, installer et gérer les éléments de S&L durant les événement qui le nécessitent (soirée d’inté, WEI, espace chill, etc).',
         ],
         'trad' => [
             'title' => 'Traduction en anglais',
             'description' => 'Participer à la traduction des contenus publiés par l’intégration en anglais (à destination des étudiants étrangers qui participeront également à cette semaine d’inté).',
+        ],
+        'village' => [
+            'title' => 'Village Asso',
+            'description' => 'Organiser le village asso avec l’aide des associations en amont et coordonner l’évènement le jour J.',
+        ],
+        'visites' => [
+            'title' => 'Visites',
+            'description' => 'Organiser les visites du Samedi aprem avant l\'Intégration et celles pendant l\'Intégration pour les TC et les branches.',
+        ],
+        'wei' => [
+            'title' => 'WEI',
+            'description' => 'Organiser le Week-end d’intégration (transport, animation, logistique, soirée, boisson), se coordonner avec les différentes team de l’inté : log, bouffe, S&L, anim.',
         ],
     ];
 
