@@ -121,6 +121,13 @@ Modification de profil
             </div>
 
             <div class="form-group">
+                <label for="discord" class="col-lg-2 control-label">Discord</label>
+                <div class="col-lg-10">
+                    <input class="form-control" name="discord" id="discord" placeholder="Discord" type="text" value="{{{ old('discord') ?? $student->discord }}}">
+                </div>
+            </div>
+
+            <div class="form-group">
                 <label for="phone" class="col-lg-2 control-label">Portable</label>
                 <div class="col-lg-10">
                     <input class="form-control" name="phone" id="phone" placeholder="Portable" type="text" value="{{{ old('phone') ?? $student->phone }}}">
