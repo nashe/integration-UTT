@@ -161,6 +161,7 @@ class StudentsController extends Controller
             'sex',
             'email',
             'phone',
+            'discord',
             'branch',
             'level',
             'parent_name',
@@ -195,6 +196,7 @@ class StudentsController extends Controller
             'sex' => 'boolean',
             'email' => 'email',
             'phone' => 'min:8|max:20',
+            'discord' => 'min:4',
             'referral_max' => 'integer|max:100|min:1',
             'mission_order' => 'integer',
         ]);
@@ -215,6 +217,7 @@ class StudentsController extends Controller
         // Update student informations
         $student->email = $data['email'];
         $student->phone = $data['phone'];
+        $student->discord = $data['discord'];
         $student->branch = $data['branch'];
         $student->city = $data['city'];
         $student->postal_code = $data['postal_code'];
