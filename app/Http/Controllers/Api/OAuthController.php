@@ -43,6 +43,14 @@ class OAuthController extends Controller
             return Response::json(["message" => "missing parameter : access_token"], 401);
         }
 
+        $client = new \GuzzleHttp\Client([
+            'base_uri' => Config::get('services.etuutt.baseuri.api'),
+            'auth' => [
+                Config::get('services.etuutt.mobile_client.id'),
+                Config::get('services.etuutt.mobile_client.secret')
+            ]
+        ]);
+
         try {
             $response = $client->get('/api/private/user/account?access_token=' .Request::input('access_token'));
         } catch (\GuzzleHttp\Exception\GuzzleException $e) {
@@ -51,10 +59,10 @@ class OAuthController extends Controller
 
         $json = json_decode($response->getBody()->getContents(), true)['data'];
 
-        $user = EtuUTT::updateOrCreateUser($json, $access_token, $access_token);
+        $user = EtuUTT::updateOrCreateUser($json, Request::input('access_token'), Request::input('access_token'));
 
         // generate auth token for this student
-        $createdToken = $user->createToken("etu utt");
+        $createdToken = $user->createToken("discord");
         $passport_access_token = $createdToken->accessToken;
         $passport_expires_at = $createdToken->token->expires_at->getTimestamp() * 1000;
 
