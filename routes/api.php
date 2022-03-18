@@ -3,6 +3,7 @@
 Route::get('/oauth/etuutt/link', ['uses' => 'Api\OAuthController@getRedirectLink']);
 Route::post('/oauth/etuutt/callback', ['uses' => 'Api\OAuthController@mobileCallback']);
 
+Route::post('/oauth/discord/callback', ['uses' => 'Api\OAuthController@discordCallback']);
 
 
 Route::get('/gubu/{payload}.pdf', ['uses' => 'Api\GubuController@download', 'as'   => 'api.gubu.pdf']);

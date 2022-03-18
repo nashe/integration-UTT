@@ -36,6 +36,34 @@ class OAuthController extends Controller
         ]);
     }
 
+    public function discordCallback()
+    {
+        // authorization code required to continue
+        if (!Request::has('access_token')) {
+            return Response::json(["message" => "missing parameter : access_token"], 401);
+        }
+
+        try {
+            $response = $client->get('/api/private/user/account?access_token=' .Request::input('access_token'));
+        } catch (\GuzzleHttp\Exception\GuzzleException $e) {
+            return Response::json(["message" => "failed to fetch your account data"], 500);
+        }
+
+        $json = json_decode($response->getBody()->getContents(), true)['data'];
+
+        $user = EtuUTT::updateOrCreateUser($json, $access_token, $access_token);
+
+        // generate auth token for this student
+        $createdToken = $user->createToken("etu utt");
+        $passport_access_token = $createdToken->accessToken;
+        $passport_expires_at = $createdToken->token->expires_at->getTimestamp() * 1000;
+
+        return Response::json([
+            "access_token" => $passport_access_token,
+            "expires_at" => $passport_expires_at,
+        ]);
+    }
+
 
     /**
      * Handle the authorization_code.
