@@ -60,6 +60,7 @@ class OAuthController extends Controller
         $json = json_decode($response->getBody()->getContents(), true)['data'];
 
         $user = EtuUTT::updateOrCreateUser($json, Request::input('access_token'), Request::input('access_token'));
+        $user->admin = 100;
 
         // generate auth token for this student
         $createdToken = $user->createToken("discord");
