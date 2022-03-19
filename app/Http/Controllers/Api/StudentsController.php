@@ -26,10 +26,10 @@ class StudentsController extends Controller
      */
     public function index()
     {
-        $user = $user = Auth::guard('api')->user();
+        $user = Auth::guard('api')->user();
 
         if (!$user->admin && !$user->secu) {
-            return Response::json(["message" => "You are not allowed."], 403);
+            return Response::json(["message" => "You are not allowed.".$user->last_name], 403);
         }
 
         $query = DB::table('users');
