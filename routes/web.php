@@ -685,11 +685,13 @@ Route::group(['prefix' => 'oauth'], function () {
 // Contact page
 Route::get('/contact', [
     'as'   => 'contact',
+    'middleware' => 'auth',
     'uses' => 'All\ContactController@contact'
 ]);
 
 Route::post('/contact', [
     'as'   => 'contact.submit',
+    'middleware' => 'auth',
     'uses' => 'All\ContactController@contactSubmit'
 ]);
 
