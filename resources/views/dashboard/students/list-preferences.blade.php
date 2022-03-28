@@ -39,7 +39,7 @@ Liste de tous les bénévoles classés par préférences
                         <td><a href="{{ asset('/uploads/students-trombi/'.$student->student_id.'.jpg') }}"><img src="{{ asset('/uploads/students-trombi/'.$student->student_id.'.jpg') }}" alt="Photo"/></a></td>
                         <td>{{{ $student->first_name . ' ' . $student->last_name }}}</td>
                         <td>{{{ $student->phone }}}</td>
-                        <td>{{{ $student->branch }}}</td>
+                        <td>{{{ $student->branch . $student->level }}}</td>
                         <td>
                             {{{ $student->mission }}}
                             @if ($student->team_accepted && $student->ce && $student->team_id)
