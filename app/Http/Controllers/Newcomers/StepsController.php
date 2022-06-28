@@ -45,13 +45,16 @@ class StepsController extends Controller
             'phone' => [
                 'regex:/^(?:(?:00|\+)(?!33)[0-9\.\- \(\)]+|(?:0([0-9])|(?:00|\+)33[\. -]?([0-9]))[\. -]?([0-9]{2})[\. -]?([0-9]{2})[\. -]?([0-9]{2})[\. -]?([0-9]{2})[\. -]?)$/',
             ],
+            'discord' => 'regex:/^.+#[0-9]{4}$/',
         ],
         [
-            'phone.regex' => 'Le champ téléphone doit contenir un numéro de téléphone valide. Pour un numéro étranger, utilisez le préfix international.'
+            'phone.regex' => 'Le champ téléphone doit contenir un numéro de téléphone valide. Pour un numéro étranger, utilisez le préfix international.',
+            'discord.regex' => 'Le champ Discord doit contenir un tag Discord valide.'
         ]);
 
         $newcomer = Auth::user();
         $newcomer->update(Request::only([
+            'discord',
             'email',
             'parent_name',
             'parent_phone',

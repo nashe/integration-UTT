@@ -48,6 +48,13 @@ Mes informations personnelles
                     </div>
                 </div>
 
+                <div class="form-group {{{ Auth::user()->isChecked('profil_discord')?'form-group-success':'' }}}">
+                    <label for="discord" class="col-lg-2 control-label">Discord</label>
+                    <div class="col-lg-10">
+                        <input class="form-control" name="discord" id="discord" placeholder="User#1234" type="text" value="{{{ old('discord') ?? Auth::user()->discord }}}">
+                        <small class="text-muted">Il permettra d'avoir un espace de discussion avec ton équipe d'Intégration. Pour l'obtenir, il </small>
+                    </div>
+                </div>
 
             </fieldset>
             <fieldset>
