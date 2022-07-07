@@ -89,8 +89,8 @@ class TeamsController extends Controller
           $uniqueSafeName = '|unique:teams';
         }
         $this->validate(Request::instance(), [
-            'name' => 'min:3|max:70'.$uniqueName.',name,'.$team->id,
-            'safe_name' => 'min:3|max:30'.$uniqueSafeName.',safe_name,'.$team->id,
+            'name' => 'min:3|max:100'.$uniqueName.',name,'.$team->id,
+            'safe_name' => 'min:3|max:100'.$uniqueSafeName.',safe_name,'.$team->id,
             'img' => 'image',
             'facebook' => 'url'
         ],

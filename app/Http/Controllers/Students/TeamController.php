@@ -111,8 +111,8 @@ class TeamController extends Controller
         $team = Auth::user()->team;
         $data = Request::only(['name', 'safe_name', 'description', 'img', 'facebook']);
         $this->validate(Request::instance(), [
-            'name' => 'min:3|max:30|unique:teams,name,'.Auth::user()->team->id,
-            'safe_name' => 'min:3|max:30|unique:teams,safe_name,'.Auth::user()->team->id,
+            'name' => 'min:3|max:100|unique:teams,name,'.Auth::user()->team->id,
+            'safe_name' => 'min:3|max:100|unique:teams,safe_name,'.Auth::user()->team->id,
             'description' => 'min:250',
             'img' => 'image',
             'facebook' => 'url'
