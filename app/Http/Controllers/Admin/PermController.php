@@ -299,4 +299,18 @@ class PermController extends Controller
 
         return redirect()->route('perm.users', ['id' => $id]);
     }
+
+    /**
+     * Read an uploaded CSV file of PermTypes via the request and store them in the database.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function import()
+    {
+        $file = Request::file('csv');
+        $filePath = $file->getRealPath();
+        // print path as text response
+        return $filePath;
+        return redirect()->route('permType.index');
+    }
 }
