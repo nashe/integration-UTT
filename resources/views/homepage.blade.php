@@ -42,7 +42,7 @@ Accueil
                 <a href="{{ route('newcomer.auth.login') }}" class="btn btn-primary">Je suis nouveau !</a><br/>
                 <a href="{{ route('dashboard.index') }}" class="btn btn-default">Je suis étudiant à l'UTT</a>
                     {{--@if(((new DateTime(Config::get('services.wei.registrationStart')))->diff(new DateTime()))->invert)
-                        <p>Ouverture des inscriptions pour le weekend dans</p>
+                        <p>Ouverture des inscriptions pour le weekend dans </p>
                         <div class="countdown hidden-xs" style="width:640px;margin:20px auto;"></div>
                         <p><big class="visible-xs">{{ ((new DateTime(Config::get('services.wei.registrationStart')))->diff(new DateTime()))->format('%d jrs %h hrs %i min et %s sec') }}</big></p>
                     @else
@@ -66,7 +66,7 @@ Accueil
                 //if ( Config::get('services.partners.heyme') === 'true' ) { $sponsors[] = [ 'link' => 'https://bit.ly/3g48nps', 'img' => asset("img/sponsors/heyme-white-background.png"), 'alt' => 'HEYME' ]; }
                 //if ( Config::get('services.partners.lcl') === 'true' ) { $sponsors[] = [ 'link' => 'https://bienvenue.secure.lcl.fr/#/offre=ouvrir-un-compte-lcl-etudiant', 'img' => asset("img/sponsors/LCL-logo.jpg"), 'alt' => 'LCL' ]; }
                 //if ( Config::get('services.partners.sncf') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.sncf.com/fr', 'img' => asset("img/sponsors/Logo_SNCF_2011.svg.png"), 'alt' => 'SNCF' ]; }
-                
+
                 if ( Config::get('services.partners.popeye') === 'true' ) { $sponsors[] = [ 'link' => 'http://www.auto-ecole-popeye.fr/', 'img' => asset("img/sponsors/popeye_a21.png"), 'alt' => 'Popeye auto-école' ]; }
                 if ( Config::get('services.partners.damonte') === 'true' ) { $sponsors[] = [ 'link' => 'http://www.yves-damonte.fr', 'img' => asset("img/sponsors/DAMONTE_logo_white.png"), 'alt' => 'Damonte Immobilier' ]; }
                 if ( Config::get('services.partners.homebox') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html', 'img' => asset("img/sponsors/HOMEBOX_logo.jpg"), 'alt' => 'HOMEBOX Garde meuble' ]; }
