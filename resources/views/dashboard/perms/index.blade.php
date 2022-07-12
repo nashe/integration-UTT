@@ -27,7 +27,7 @@
             </a>
         </div>
         <form method="POST" action="{{ url('dashboard/perm/import') }}" enctype="multipart/form-data" class="col-md-4 text-right" id="form">
-            <input type="file" name="csv" accept=".csv" class="hidden" required>
+            <input type="file" name="csv" accept=".csv,.xls,.xlsx" class="hidden" required>
             <button type="button" class="btn btn-default">
                 Importer un fichier CSV
             </button>

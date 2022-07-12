@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Admin\Imports\ImportPerms;
+use Excel;
 use App\Http\Controllers\Controller;
 use App\Models\Perm;
 use App\Models\PermType;
@@ -307,10 +309,11 @@ class PermController extends Controller
      */
     public function import()
     {
-        $file = Request::file('csv');
-        $filePath = $file->getRealPath();
-        // print path as text response
-        return $filePath;
-        return redirect()->route('permType.index');
+        Validator::make(Request::all(), [
+            'csv' => 'required|file|max:2048|mimetypes:text/plain,text/csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel',
+        ])->validate();
+
+        Excel::import(new ImportPerms, request()->file('csv'));
+        return redirect()->route('perm.index');
     }
 }
