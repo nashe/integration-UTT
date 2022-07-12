@@ -106,7 +106,7 @@ class TeamsController extends Controller
             $size = getimagesize($_FILES['img']['tmp_name']);
             if ($size[0] == 200 && $size[1] == 200) {
                 $extension = pathinfo($_FILES['img']['name'], PATHINFO_EXTENSION);
-                move_uploaded_file($_FILES['img']['tmp_name'], realpath(dirname(getcwd())) . '/uploads/teams-logo/' . $team->id . '.' . $extension);
+                move_uploaded_file($_FILES['img']['tmp_name'], realpath(getcwd()) . '/uploads/teams-logo/' . $team->id . '.' . $extension);
             } else {
                 $imageError = 'Cependant l\'image n\'a pas pu être sauvegardée car elle a une taille différente d\'un carré de 200px par 200px. Veuillez la redimensionner.';
             }
