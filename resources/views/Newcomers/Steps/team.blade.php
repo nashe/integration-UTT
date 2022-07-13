@@ -77,7 +77,7 @@ Ton équipe !
                 <p>
                     Pour être sûr d'avoir un maximum de chances de marquer des points, commence par faire les actions suivantes :
                 <ul>
-                    <li>Rejoins le <a href="{{ Auth::user()->team->facebook }}" target="_blank">channel discord</a> de ton équipe</li>
+                    <li>Rejoins le channel discord de ton équipe</li>
                     <li>Fais un déguisement qui déchire !
                         <br/>Si tu ne sais pas quoi faire, demande des conseils à ton équipe sur Discord.</li>
                     <li>Poste une photo de ton déguisement dans le channel Discord de ton équipe.</li>
@@ -86,21 +86,25 @@ Ton équipe !
 
                 </p>
                 <hr/>
-
+                <a href="https://discord.gg/9wFZCnmmXe" target="_blank" id="discord-btn" class="btn btn-primary btn-lg">Clique ici pour rejoindre le channel discord de ton équipe</a>
                 <div class="text-center">
                 @if(Auth::user()->isChecked('team_disguise'))
-                    <h4 id="question">Félicitations, tu as rejoint le channel Discord de ton équipe et tu as fait ton déguisement !</h4>
+                    <h4 id="question">Félicitations, tu as rejoint le channel Discord de ton équipe !</h4>
                     <a href="{{ route('newcomer.team', [ 'step' => 'cancel']) }}#question" class="btn btn-danger">Ce n'est pas le cas ?</a>
 
                     <div class="text-center">
                         <a class="btn btn-primary" href="{{{ route('newcomer.'.Auth::user()->getNextCheck()['page']) }}}">Prochaine action à faire<br/><strong>{{{ Auth::user()->getNextCheck()['action'] }}}</strong></a>
                     </div>
                 @else
-                    <h4 id="question">As-tu fait ton déguisement et rejoins ton équipe sur Discord ?</h4>
-                    <a href="{{ route('newcomer.team', [ 'step' => 'yes']) }}#question" class="btn btn-success">Oui !</a>
+                    <h4 id="question">As-tu rejoins ton équipe sur Discord ?</h4>
+                    <a href="{{ route('newcomer.team', [ 'step' => 'yes']) }}#question" id="submit-btn" class="btn btn-success">Oui !</a>
                 @endif
                 </div>
             </div>
         @endif
 </div>
+@endsection
+
+@section('js')
+    <script type="text/javascript" src="{{ asset('js/discord-btn.js') }}" defer></script>
 @endsection

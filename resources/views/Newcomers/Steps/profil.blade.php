@@ -19,10 +19,8 @@ Mes informations personnelles
             <fieldset>
                 <legend>Informations de contact</legend>
                 <p class="text-center">
-                    Pour que tu sois sûr de ne rien rater de ton intégration, nous avons besoin de pouvoir t'envoyer des petits messsages !<br/>
-                    Toutes les informations personnelles que tu entres ici seront supprimées juste après l'intégration et en aucun cas
-                    elles ne seront transmises à d'autres personnes qu'aux organisateurs de l'intégration.
-                    On est des étudiants, comme toi, on n'a pas envie de recevoir du spam. ;)
+                    Pour que tu sois sûr de ne rien rater de ton intégration, nous avons besoin de pouvoir t'envoyer des petits messages !<br />
+                    Toutes les informations personnelles que tu entres ici seront supprimées juste après l'intégration et en aucun cas elles ne seront transmises à d'autres personnes qu'aux organisateurs de l'intégration. On est des étudiants, comme toi, on n'a pas envie de recevoir du spam. ;)
                 </p>
 
                 <div class="form-group">
@@ -52,7 +50,7 @@ Mes informations personnelles
                     <label for="discord" class="col-lg-2 control-label">Discord</label>
                     <div class="col-lg-10">
                         <input class="form-control" name="discord" id="discord" placeholder="User#1234" type="text" value="{{{ old('discord') ?? Auth::user()->discord }}}">
-                        <small class="text-muted">Il permettra de contacter ton équipe d'Intégration.</small>
+                        <small class="text-muted">Il te permettra de contacter ton équipe d’intégration, les autres nouveaux et les organisateurs te relaieront des informations tout au long de l’intégration.</small>
                     </div>
                 </div>
 
@@ -60,9 +58,9 @@ Mes informations personnelles
             <fieldset>
                 <legend>Informations <em>en cas de soucis</em></legend>
                 <p class="text-center">
-                    Pendant l'intégration, tu seras amené à manger des repas que nous t'aurons préparés et à faire des activités sportives.<br/>
-                    Ces informations seront utilisés uniquement pour réagir rapidement en cas de problème.<br/>
-                    Elles ne seront accessibles que par les coordinateurs de l'intégration, les secouristes présents la semaine (association SecUTT) et l'infirmière de l'UTT.
+                    Pendant l'intégration, tu seras amené à manger des repas que nous t'aurons préparé et à faire des activités sportives.<br/>
+                    Ces informations seront utilisées uniquement pour réagir rapidement en cas de problème.<br/>
+                    Elles ne seront accessibles qu’aux coordinateurs de l'intégration, les secouristes présents la semaine (association SecUTT) et le pôle santé de l'UTT.
                 </p>
 
                 <div class="form-group {{{ Auth::user()->isChecked('profil_parent_name')?'form-group-success':'' }}}">
