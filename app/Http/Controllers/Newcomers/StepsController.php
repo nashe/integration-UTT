@@ -41,11 +41,11 @@ class StepsController extends Controller
     public function profilFormSubmit()
     {
         $this->validate(Request::instance(), [
-            'email' => 'email',
+            'email' => 'email|required',
             'phone' => [
-                'regex:/^(?:(?:00|\+)(?!33)[0-9\.\- \(\)]+|(?:0([0-9])|(?:00|\+)33[\. -]?([0-9]))[\. -]?([0-9]{2})[\. -]?([0-9]{2})[\. -]?([0-9]{2})[\. -]?([0-9]{2})[\. -]?)$/',
+                'regex:/^(?:(?:00|\+)(?!33)[0-9\.\- \(\)]+|(?:0([0-9])|(?:00|\+)33[\. -]?([0-9]))[\. -]?([0-9]{2})[\. -]?([0-9]{2})[\. -]?([0-9]{2})[\. -]?([0-9]{2})[\. -]?)$/|required',
             ],
-            'discord' => 'regex:/^.+#[0-9]{4}$/',
+            'discord' => 'regex:/^.+#[0-9]{4}$/|required',
         ],
         [
             'phone.regex' => 'Le champ téléphone doit contenir un numéro de téléphone valide. Pour un numéro étranger, utilisez le préfix international.',
