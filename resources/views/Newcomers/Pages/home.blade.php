@@ -12,18 +12,18 @@ Informations diverses pour toi !
 <div class="box box-default">
 
         <div class="box-header with-border">
-            <h3 class="box-title">Bonjour à toi nouveau !</h3>
+            <h3 class="box-title">Bienvenue et félicitations !</h3>
         </div>
         <div class="box-body">
             <p>
-                Tu fais maintenant partie de la grande famille des UTTiens !
-                Et pour t'accueillir, nous te préparons une semaine d'intégration
-                digne de ce nom ! Le but de cette semaine est de rencontrer les anciens
-                et nouveaux UTTiens autour des différents repas et activités que nous organisons pour toi.
+                Ça y est, après tant d’efforts tu y es arrivé ! Ton rêve se réalise enfin  ! Tu fais maintenant partie de la grande famille des UTTiens !
+            </p>
+            <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/l4JyOCNEfXvVYEqB2" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+            <p>
+                Pour t'accueillir, nous te préparons une semaine d'intégration digne de ce nom ! Le but de cette semaine est de rencontrer les anciens et nouveaux UTTiens autour des différents repas et activités que nous organisons tout spécialement pour toi.
             </p>
             <p>
-                Ta première semaine dans notre belle école sera plutôt chargée en activités,
-                mais ne t'inquiète pas tu receveras un planning détaillé de ta semaine dès ton arrivée.
+                Ta première semaine dans notre belle école sera plutôt chargée en activités, mais ne t'inquiète pas ! Tu recevras un planning détaillé de ta semaine dès ton arrivée.
                 @if(Auth::user()->branch == 'TC')
                     Tout ce que tu as à savoir pour le moment, c'est que tu dois être là <strong>{{ Config::get('services.reentry.tc.date') }} à {{ Config::get('services.reentry.tc.time') }} à l'UTT</strong>,
                     pour que nous puissions <strong>t'offrir un petit dej'</strong> de bienvenue.
@@ -43,15 +43,16 @@ Informations diverses pour toi !
                     <a href="https://www.instagram.com/bdeutt/" /><img src="{{ asset('img/icons/instagram.png') }}" style="height: 70px; vertical-align:top;"/></a>
                 </div>
             <p>
-                Ce site est là pour te permettre d'être prêt pour ton intégration,
-                il va récapituler tous les petits trucs auxquels tu devras penser.
+                Ce site est là pour te permettre d'être prêt pour ton intégration, il va récapituler tous les petits trucs auxquels tu devras penser.<br />
+                J’espère que tu es prêt à vivre une de tes meilleures semaines étudiantes, embarque, met ta ceinture et zéééé parti
+            </p>
+            <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/L9bVhfDi9Va3pKPNje" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+            <p>
+                Si tu as la moindre question, tu peux nous contacter sur <a href="https://www.facebook.com/bde.utt/" target="_blank">Facebook</a> ou en <a href="{{ route('contact') }}">cliquant ici</a> !
             </p>
             <div class="text-center">
                 <a class="btn btn-primary" href="{{{ route('newcomer.'.Auth::user()->getNextCheck()['page']) }}}">Prochaine action à faire<br/><strong>{{{ Auth::user()->getNextCheck()['action'] }}}</strong></a>
             </div>
-            <p>
-                Si tu as la moindre question, tu peux nous contacter sur <a href="https://www.facebook.com/bde.utt/" target="_blank">Facebook</a> ou en <a href="{{ route('contact') }}">cliquant ici</a> !
-            </p>
         </div>
 
     </div>
