@@ -10,6 +10,7 @@ RUN echo "cd /var/www/html && /usr/local/bin/php artisan config:cache" > /docker
     echo "cd /var/www/html && /usr/local/bin/php -d memory_limit=-1 artisan queue:work --sleep=3 --tries=3 --daemon &" > /docker-entrypoint-init.d/c_queue.sh && \
     ./composer self-update --2 && \
     ./composer install --no-interaction --no-ansi && \
-    chmod g+rwx -R /var/www/html /docker-entrypoint-init.d
+    chmod g+rwx -R /var/www/html /docker-entrypoint-init.d && \
+    chmod -R 777 /var/www/html/public/uploads
 
 USER 675654
