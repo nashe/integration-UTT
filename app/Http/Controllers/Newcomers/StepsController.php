@@ -43,7 +43,7 @@ class StepsController extends Controller
         $this->validate(Request::instance(), [
             'email' => 'email|required',
             'phone' => [
-                'regex:/^(?:(?:00|\+)(?!33)[0-9\.\- \(\)]+|(?:0([0-9])|(?:00|\+)33[\. -]?([0-9]))[\. -]?([0-9]{2})[\. -]?([0-9]{2})[\. -]?([0-9]{2})[\. -]?([0-9]{2})[\. -]?)$/|required',
+                'required|regex:/^(?:(?:\+|00)33|0)\s*[1-9](?:[\s.-]*\d{2}){4}$/',
             ],
             'discord' => 'regex:/^.+#[0-9]{4}$/|required',
         ],
