@@ -50,7 +50,7 @@ Mes informations personnelles
                     <label for="discord" class="col-lg-2 control-label">Discord</label>
                     <div class="col-lg-10">
                         <input class="form-control" name="discord" id="discord" placeholder="User#1234" type="text" value="{{{ old('discord') ?? Auth::user()->discord }}}">
-                        <small class="text-muted">Il te permettra de contacter ton équipe d’intégration, les autres nouveaux et les organisateurs te relaieront des informations tout au long de l’intégration. <a href="#">Si tu n'as pas de compte discord, clique ici.</a></small>
+                        <small class="text-muted">Il te permettra de contacter ton équipe d’intégration, les autres nouveaux et les organisateurs te relaieront des informations tout au long de l’intégration. <a href="https://discord.com/register">Si tu n'as pas de compte discord, clique ici.</a></small>
                     </div>
                 </div>
 
