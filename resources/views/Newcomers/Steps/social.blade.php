@@ -1,7 +1,7 @@
 @extends('layouts.newcomer')
 
 @section('title')
-Application de l'intégration
+Réseaux Sociaux
 @endsection
 
 @section('smalltitle')
@@ -11,7 +11,7 @@ Application de l'intégration
 <div class="box box-default">
 
     <div class="box-header with-border">
-        <h3 class="box-title">Réseaux Sociaux</h3>
+        <h3 class="box-title">Nos Réseaux Sociaux</h3>
     </div>
     <div class="box-body">
         {{-- <div class="caption col-lg-10">
