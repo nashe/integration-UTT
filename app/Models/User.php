@@ -610,7 +610,7 @@ class User extends Model implements Authenticatable
                 $count++;
             }
         }
-        return floor(($count/count($this->getChecklist()))*100);
+        return floor((($count-1)/count($this->getChecklist()))*100);
     }
 
     public function getNextCheck()

@@ -27,7 +27,7 @@ La personne qui te guidera tout au long de ta vie à l'UTT
             Si tu ne le remplis pas, il te sera attribué au hasard, ça serait dommage.
             <br />
             Une fois le questionnaire rempli, nous t'enverrons dans les jours qui viennent ses coordonnées
-            Mais pas d'inquiétude ! Tu as le choix de le contacter ou non : tu auras ses coordonnées mais il n'aura pas les tiennes.
+            mais pas d'inquiétude ! Tu as le choix de le contacter ou non : tu auras ses coordonnées mais il n'aura pas les tiennes.
         </p>
         <div class="text-center">
             <a href="https://forms.gle/QD1awJ8paPhAtGwP9" class="btn btn-link btn-secondary">Questionnaire si tu rentres en Tronc Commun (1ère année)</a>

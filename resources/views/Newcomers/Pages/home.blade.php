@@ -18,7 +18,7 @@ Informations diverses pour toi !
             <p>
                 Ça y est, après tant d’efforts tu y es arrivé ! Ton rêve se réalise enfin  ! Tu fais maintenant partie de la grande famille des UTTiens !
             </p>
-            <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/l4JyOCNEfXvVYEqB2" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+            <img src="{{ asset('img/gifs/welcome.webp') }}" alt="Welcome" style="text-align:center; max-width:50%; max-height: 200px;">
             <p>
                 Pour t'accueillir, nous te préparons une semaine d'intégration digne de ce nom ! Le but de cette semaine est de rencontrer les anciens et nouveaux UTTiens autour des différents repas et activités que nous organisons tout spécialement pour toi.
             </p>
@@ -34,19 +34,12 @@ Informations diverses pour toi !
                     Tout ce que tu as à savoir pour le moment, c'est que tu dois être là <strong>{{ Config::get('services.reentry.branches.date') }} à {{ Config::get('services.reentry.branches.time') }} à l'UTT</strong>,
                     pour que nous puissions <strong>t'offrir un petit dej'</strong> de bienvenue.
                 @endif
-            </p><p>
-                Pour te tenir au courant des dernières infos sur ton intégration, tu <del>peux</del> <strong>dois</strong> suivre la page Facebook et/ou l'insta :)
             </p>
-                <div class="text-center">
-                    <!-- <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fbde.utt&tabs&width=340&height=70&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=false&appId=248954165119490" width="340" height="70" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe> TODO : Fix issue where iframe is not loaded (maybe because of headers ?) -->
-                    <a href="https://www.facebook.com/bde.utt/" /><img src="{{ asset('img/icons/facebook.png') }}" style="height: 70px; vertical-align:top;"/></a>
-                    <a href="https://www.instagram.com/bdeutt/" /><img src="{{ asset('img/icons/instagram.png') }}" style="height: 70px; vertical-align:top;"/></a>
-                </div>
             <p>
                 Ce site est là pour te permettre d'être prêt pour ton intégration, il va récapituler tous les petits trucs auxquels tu devras penser.<br />
                 J’espère que tu es prêt à vivre une de tes meilleures semaines étudiantes, embarque, met ta ceinture et zéééé parti
             </p>
-            <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/L9bVhfDi9Va3pKPNje" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+            <img src="{{ asset('img/gifs/cestparti.webp') }}" alt="Let's go" style="text-align:center; max-width:50%; max-height: 200px;">
             <p>
                 Si tu as la moindre question, tu peux nous contacter sur <a href="https://www.facebook.com/bde.utt/" target="_blank">Facebook</a> ou en <a href="{{ route('contact') }}">cliquant ici</a> !
             </p>

@@ -222,16 +222,9 @@ class StepsController extends Controller
      */
     public function appForm($step = '')
     {
-        if ($step == 'yes') {
-            Auth::user()->setCheck('app_download', true);
-            Auth::user()->save();
-        } elseif ($step == 'cancel') {
-            Auth::user()->setCheck('app_download', false);
-            Auth::user()->save();
-        }
-        return View::make('Newcomers.Steps.app', [
-            'step' => $step
-        ]);
+        Auth::user()->setCheck('app_download', true);
+        Auth::user()->save();
+        return route('newcomer.'.Auth::user()->getNextCheck()['page']);
     }
 
     /**

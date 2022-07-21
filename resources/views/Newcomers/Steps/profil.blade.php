@@ -86,7 +86,7 @@ Mes informations personnelles
                 </div>
 
                 <div class="form-group {{{ Auth::user()->isChecked('profil_parent_phone')?'form-group-success':'' }}}">
-                    <label for="medical_treatment" class="col-lg-2 control-label">Traitement ou régime particulier pendant la semaine d'intégration</label>
+                    <label for="medical_treatment" class="col-lg-2 control-label">Régime particulier pendant la semaine d'intégration</label>
                     <div class="col-lg-10">
                         <textarea class="form-control" name="medical_treatment" id="medical_treatment">{{{ old('medical_treatment') ?? Auth::user()->medical_treatment }}}</textarea>
                     </div>
