@@ -14,6 +14,7 @@ use Mail;
 use Auth;
 use Redirect;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\Redirect as FacadesRedirect;
 
 /**
  *
@@ -222,9 +223,14 @@ class StepsController extends Controller
      */
     public function appForm($step = '')
     {
-        Auth::user()->setCheck('app_download', true);
-        Auth::user()->save();
-        return route('newcomer.'.Auth::user()->getNextCheck()['page']);
+        if ($step == 'yes') {
+            Auth::user()->setCheck('app_download', true);
+            Auth::user()->save();
+            return redirect()->route('newcomer.'.Auth::user()->getNextCheck()['page']);
+        }
+        return View::make('Newcomers.Steps.social', [
+            'step' => $step,
+        ]);
     }
 
     /**

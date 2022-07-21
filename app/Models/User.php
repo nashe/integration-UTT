@@ -121,7 +121,7 @@ class User extends Model implements Authenticatable
             'page' => 'team',
         ],
         'app_download' => [
-            'action' => 'Télécharger l\'application de l\'intégration',
+            'action' => 'Rejoindre les réseaux sociaux de l\'Intégration',
             'page' => 'app',
         ],
         'back_to_school' => [
@@ -610,7 +610,7 @@ class User extends Model implements Authenticatable
                 $count++;
             }
         }
-        return floor((($count-1)/count($this->getChecklist()))*100);
+        return floor(($count/(count($this->getChecklist()) - 2))*100);
     }
 
     public function getNextCheck()

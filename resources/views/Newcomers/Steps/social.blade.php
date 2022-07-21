@@ -14,23 +14,18 @@ Réseaux Sociaux
         <h3 class="box-title">Nos Réseaux Sociaux</h3>
     </div>
     <div class="box-body">
-        {{-- <div class="caption col-lg-10">
-            <div class="clearfix"></div>
 
-
-            <a href="{{ route('app') }}" class="btn btn-success" target="_blank">Télécharger l'application</a>
+        <p>
+            N'hésite pas à nous rejoindre sur nos différents réseaux sociaux afin de ne louper aucune information concernant l'Intégration ! On communiquera essentiellement par <strong>Facebook</strong> (BDE UTT), <strong>Instagram</strong> (@bdeutt) et <strong>Discord</strong> !
+        </p>
+        <div class="text-center">
+            <img src="{{ asset('img/icons/facebook.png') }}" alt="Facebook" style="max-width:75px; margin-left:5px; margin-right: 5px;">
+            <img src="{{ asset('img/icons/instagram.png') }}" alt="Instagram" style="max-width:75px; margin-left:5px; margin-right: 5px;">
+            <img src="{{ asset('img/icons/discord.png') }}" alt="Discord" style="max-width:90px; margin-left:5px; margin-right: 5px;">
         </div>
-        <div class="clearfix"></div>
-        <hr/>
-        <h4>Mais pourquoi télécharger l'application ?</h4>
         <p>
-            Cette application te permet de <strong>recevoir des notifications</strong> tout au long de l'intégration ! De plus elle intègre un <strong>calendrier des événements</strong> pour être toujours au courant de
-            ce qu'il se passe pendant l'inté !
+            Et si tu as la moindre question, tu peux nous la poser sur l'un de ces réseaux !
         </p>
-        <p>
-            Tu y retrouveras aussi ton profil et diverses informations. De plus, elle sera <strong>mise à jour tout l'été</strong> pour te fournir toujours plus de contenu !
-        </p>
-        <hr/> --}}
 
         <div class="text-center">
             <a class="btn btn-primary" href="{{ route('newcomer.app', [ 'step' => 'yes']) }}#question">Prochaine action à faire<br/><strong>{{{ Auth::user()->getNextCheck()['action'] }}}</strong></a>

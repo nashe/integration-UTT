@@ -754,7 +754,7 @@ Route::get('/team/{step?}', [
     'uses' => 'Newcomers\StepsController@TeamForm'
 ]);
 
-Route::get('/appdownload/{step?}', [
+Route::get('/socials/{step?}', [
   'as'   => 'newcomer.app',
   'middleware' => 'authorize:newcomer',
   'uses' => 'Newcomers\StepsController@AppForm'

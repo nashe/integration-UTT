@@ -57,6 +57,7 @@ Le Week-End d'Intégration
 							<big class="visible-xs">{{ ((new DateTime(Config::get('services.wei.registrationStart')))->diff(new DateTime()))->format('%d jours %h heures %i minutes et %s secondes') }}</big>
 						</div>
 					</div> --}}
+                    <p>Et c'est fini ! Nous te félicitons d'être arrivé jusque là et nous t'invitons à prendre <strong>dès maintenant</strong> contact avec ton équipe sur discord pour qu'ils découvrent la personne incroyable que tu es ! On se retrouve désormais à l'Intégration pour une incroyable semaine remplies de surprises !</p>
 				@elseif(!Auth::user()->wei && !Auth::user()->parent_authorization)
 					<a href="{{route('newcomer.wei.pay')}}" class="btn btn-primary">S'inscrire au week-end</a><br/>
 						<p>Si tu as le moindre souci, n'hésite pas à utiliser le bouton <em>Nous contacter</em> en haut à droite de la page !</p>
@@ -162,10 +163,12 @@ Le Week-End d'Intégration
                         <big class="visible-xs">{{ ((new DateTime(Config::get('services.wei.registrationStart')))->diff(new DateTime()))->format('%d jours %h heures %i minutes et %s secondes') }}</big>
                     </div>
                 </div> --}}
+                <p>Et c'est fini ! Nous te félicitons d'être arrivé jusque là et nous t'invitons à prendre <strong>dès maintenant</strong> contact avec ton équipe sur discord pour qu'ils découvrent la personne incroyable que tu es ! On se retrouve désormais à l'Intégration pour une incroyable semaine remplies de surprises !</p>
             @else
             <div class="box-header with-border">
                 <h3 class="box-title"><!--Oups... Il semblerait que tu ne puisses pas t'inscire au WEI. Si tu penses qu'il s'agit d'une erreur, contacte nous.--> Les inscriptions ne sont pas encore ouvertes. Ne t'inquiète pas, on te préviendra lorsqu'elles ouvriront.</h3>
-                <p><a href="mailto:integration@utt.fr">integration@utt.fr</a></p>
+                {{-- <p><a href="mailto:integration@utt.fr">integration@utt.fr</a></p> --}}
+                <p style="margin-top: 10px;">Et c'est fini ! Nous te félicitons d'être arrivé jusque là et nous t'invitons à prendre <strong>dès maintenant</strong> contact avec ton équipe sur discord pour qu'ils découvrent la personne incroyable que tu es ! On se retrouve désormais à l'Intégration pour une incroyable semaine remplies de surprises !</p>
             </div>
             @endif
         </div>
