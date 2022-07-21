@@ -68,12 +68,14 @@ Accueil
                 //if ( Config::get('services.partners.sncf') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.sncf.com/fr', 'img' => asset("img/sponsors/Logo_SNCF_2011.svg.png"), 'alt' => 'SNCF' ]; }
 
                 if ( Config::get('services.partners.popeye') === 'true' ) { $sponsors[] = [ 'link' => 'http://www.auto-ecole-popeye.fr/', 'img' => asset("img/sponsors/popeye_a21.png"), 'alt' => 'Popeye auto-école' ]; }
-                if ( Config::get('services.partners.damonte') === 'true' ) { $sponsors[] = [ 'link' => 'http://www.yves-damonte.fr', 'img' => asset("img/sponsors/DAMONTE_logo_white.png"), 'alt' => 'Damonte Immobilier' ]; }
-                if ( Config::get('services.partners.homebox') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html', 'img' => asset("img/sponsors/HOMEBOX_logo.jpg"), 'alt' => 'HOMEBOX Garde meuble' ]; }
-                if ( Config::get('services.partners.sncf') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.sncf.com/fr', 'img' => asset("img/sponsors/SNCF_logo.png"), 'alt' => 'SNCF' ]; }
-                if ( Config::get('services.partners.lasergame') === 'true' ) { $sponsors[] = [ 'link' => 'https://troyes.lasergame-evolution.fr/', 'img' => asset("img/sponsors/LASERGAME_logo.png"), 'alt' => 'Laser Game Evolution' ]; }
-		shuffle($sponsors);
-		if ( Config::get('services.partners.cic') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.cic.fr', 'img' => asset("img/sponsors/cic_logo.png"), 'alt' => 'CIC' ]; }
+                if ( Config::get('services.partners.damonte') === 'true' ) { $sponsors[] = [ 'link' => 'http://www.yves-damonte.fr', 'img' => asset("img/sponsors/DAMONTE.png"), 'alt' => 'Damonte Immobilier' ]; }
+                $sponsors[] = [ 'link' => 'https://www.yvon.eu/', 'img' => asset("img/sponsors/YVON.jpeg"), 'alt' => 'Yvon Assurances et Services' ];
+                // if ( Config::get('services.partners.homebox') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html', 'img' => asset("img/sponsors/HOMEBOX_logo.jpg"), 'alt' => 'HOMEBOX Garde meuble' ]; }
+                // if ( Config::get('services.partners.sncf') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.sncf.com/fr', 'img' => asset("img/sponsors/SNCF_logo.png"), 'alt' => 'SNCF' ]; }
+                // if ( Config::get('services.partners.lasergame') === 'true' ) { $sponsors[] = [ 'link' => 'https://troyes.lasergame-evolution.fr/', 'img' => asset("img/sponsors/LASERGAME_logo.png"), 'alt' => 'Laser Game Evolution' ]; }
+                // if ( Config::get('services.partners.cic') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.cic.fr', 'img' => asset("img/sponsors/cic_logo.png"), 'alt' => 'CIC' ]; }
+		        shuffle($sponsors);
+
             ?>
             @foreach($sponsors as $sponsor)
                 <a href="{{{ $sponsor['link'] }}}"><img src="{{{ $sponsor['img'] }}}" alt="{{{ $sponsor['alt'] }}}" /></a>

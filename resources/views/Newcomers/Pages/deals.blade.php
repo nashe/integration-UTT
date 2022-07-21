@@ -19,8 +19,9 @@ Que l'intégration a trouvé pour toi !
         <ul>
             <li><a href="#damonte">Damonte</a></li>
             <li><a href="#popeye">Auto-école Popeye</a></li>
-            <li><a href="#sncf">SNCF</a></li>
-            <li><a href="#homebox">Homebox</a></li>
+            {{-- <li><a href="#sncf">SNCF</a></li>
+            <li><a href="#homebox">Homebox</a></li> --}}
+            <li><a href="#yvon">Yvon Assurances et Services</a></li>
             <li><a href="#lasergame">Laser Game Evolution</a></li>
             <li><a href="#nigloland">Nigloland</a></li>
             <li><a href="#cgr">Cinéma CGR de Troyes</a></li>
@@ -42,7 +43,7 @@ Que l'intégration a trouvé pour toi !
         <p>L’auto-moto école Popeye t’accompagnera à des prix avantageux grâce à ses moniteurs compétents.</p>
         <p><a href="https://www.popeye-troyes.fr/">https://www.popeye-troyes.fr/</a></p>
 
-        <p><a href="https://www.sncf.com/fr"><img src="img/sponsors/deals/sncf_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
+        {{-- <p><a href="https://www.sncf.com/fr"><img src="img/sponsors/deals/sncf_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="ada"> SNCF </h4> </p>
         <p>Vous la connaissez sûrement déjà, c’est la compagnie de trains qui vous permet de rejoindre Paris en 1h30 et plein d’autres destinations. Pensez à profiter des offres comme la carte avantage jeune et les cartes régionales.</p>
         <p><a href="https://www.sncf.com/fr">https://www.sncf.com/fr</a></p>
@@ -51,7 +52,13 @@ Que l'intégration a trouvé pour toi !
         <p> <h4 id="lcl"> HomeBox </h4> </p>
         <p>HomeBox c’est la solution de location de box, avec plus de 110 centres en France très sécurisés, vous pouvez louer des box de 2 à 50 m2 accessibles 24h/24 7j/7 à petit prix.</p>
         <p>2 à 10 rue Maryse Bastié 10600 Barberey-Saint-Sulpice</p>
-        <p><a href="https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html">https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html</a></p>
+        <p><a href="https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html">https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html</a></p> --}}
+
+        <p><a href="https://www.yvon.eu/"><img src="img/sponsors/YVON.jpeg" style="float:right" class="img-thumbnail" /></a></p>
+        <p> <h4 id="yvon"> Yvon Assurances et Services </h4> </p>
+        <p>Yvon, l’allié des étudiants au quotidien ! Vos solutions assurances et mutuelles étudiantes en quelques clics !</p>
+        <p>Avec Yvon, vous êtes entre de bonnes mains.</p>
+        <p><a href="https://www.yvon.eu/">https://www.yvon.eu/</a></p>
 
         <p><a href="https://troyes.lasergame-evolution.fr/"><img src="img/sponsors/deals/lasergame_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="lasergame"> Laser Game Evolution </h4> </p>
