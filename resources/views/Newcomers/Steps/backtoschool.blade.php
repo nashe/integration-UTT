@@ -22,7 +22,7 @@ Pause partenaire !
                 <img src="{{ asset('img/sponsors/damonte/residence.jpg') }}" class="img-thumbnail hidden-xs" style="max-height:120px;"/>
                 <img src="{{ asset('img/sponsors/damonte/appart1.jpg') }}" class="img-thumbnail hidden-sm hidden-xs" style="max-height:120px;"/>
                 <img src="{{ asset('img/sponsors/damonte/appart2.jpg') }}" class="img-thumbnail" style="max-height:120px;"/>
-                <img src="{{ asset('img/sponsors/damonte.png') }}" class="img-thumbnail" style="max-width: 70%;" />
+                <img src="{{ asset('img/sponsors/damonte.png') }}" class="img-thumbnail" style="max-width: 40%;" />
             </a>
         </div>
 
