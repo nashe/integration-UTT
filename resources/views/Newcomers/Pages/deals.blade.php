@@ -54,7 +54,7 @@ Que l'intégration a trouvé pour toi !
         <p>2 à 10 rue Maryse Bastié 10600 Barberey-Saint-Sulpice</p>
         <p><a href="https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html">https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html</a></p> --}}
 
-        <p><a href="https://www.yvon.eu/"><img src="img/sponsors/YVON.jpeg" style="float:right;max-width:40%" class="img-thumbnail" /></a></p>
+        <p><a href="https://www.yvon.eu/"><img src="img/sponsors/rsz_yvon.png" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="yvon"> Yvon Assurances et Services </h4> </p>
         <p>Yvon, l’allié des étudiants au quotidien ! Vos solutions assurances et mutuelles étudiantes en quelques clics !</p>
         <p>Avec Yvon, vous êtes entre de bonnes mains.</p>
