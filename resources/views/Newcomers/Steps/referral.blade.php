@@ -29,7 +29,7 @@ La personne qui te guidera tout au long de ta vie à l'UTT
             Une fois le questionnaire rempli, nous t'enverrons dans les jours qui viennent ses coordonnées mais pas d'inquiétude ! Tu as le choix de le contacter ou non : tu auras ses coordonnées mais il n'aura pas les tiennes.
         </p>
         <div class="text-center">
-            <a href="https://forms.gle/3out5fysPup3pQwR7" class="btn btn-link btn-secondary">Clique ici pour accéder au questionnaire</a>
+            <a href="https://forms.gle/3out5fysPup3pQwR7" target="_blank" class="btn btn-link btn-secondary">Clique ici pour accéder au questionnaire</a>
         </div>
         <div class="text-center">
             <a class="btn btn-primary" href="{{{ route('newcomer.'.Auth::user()->getNextCheck()['page']) }}}">Prochaine action à faire<br/><strong>{{{ Auth::user()->getNextCheck()['action'] }}}</strong></a>
