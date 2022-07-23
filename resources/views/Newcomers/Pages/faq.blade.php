@@ -15,16 +15,16 @@ Frequently Asked Questions
         </div>
         <div class="box-body">
 	            <h4><a href="#question100" data-toggle="collapse">Quand est-ce que je dois venir à l’UTT ?</a></h4>
-	            <p id="question100" class="collapse">
-					L'équipe d'intégration vous donne rendez-vous :
+	            <div id="question100" class="collapse">
+					<p>L'équipe d'intégration vous donne rendez-vous :</p>
 					<ul>
 	                	<li>Pour les étudiants entrant en Tronc Commun : {{ Config::get('services.reentry.tc.date') }} à {{ Config::get('services.reentry.tc.time') }} ;</li>
 	                	<li>Pour les étudiants entrant en Branche (bac +2) : {{ Config::get('services.reentry.branches.date') }} à {{ Config::get('services.reentry.branches.time') }} ;</li>
 	            	    <li>Pour les étudiants entrant en Master : {{ Config::get('services.reentry.masters.date') }} à {{ Config::get('services.reentry.masters.time') }} ;</li>
 					</ul>
-					pour les activités de l'intégration ! <br/>
-					<strong>On t’offre le petit-déjeuner !</strong>
-	            </p>
+					<p>pour les activités de l'intégration ! <br/>
+					<strong>On t’offre le petit-déjeuner !</strong></p>
+				</div>
 
 			    <h4><a href="#question200" data-toggle="collapse">Quand est-ce que je dois amener mon déguisement ?</a></h4>
 	            <p id="question200" class="collapse">
@@ -88,7 +88,7 @@ Frequently Asked Questions
 				</p>
 
 				<h4><a href="#question2400" data-toggle="collapse">Qu’est-ce que je dois emmener ?</a></h4>
-				<p id="question2400" class="collapse">
+				<div id="question2400" class="collapse">
 					<ul>
 						<li>Un sac de couchage (chaud) ;</li>
 						<li>Des vêtements qui ne craignent rien (dès le départ en bus vendredi matin) et d’autres qui tiennent chaud ;</li>
@@ -100,7 +100,7 @@ Frequently Asked Questions
 						<li>Ton tupperware ainsi que des couverts ;</li>
 						<li>Ton autorisation parentale si tu es mineur.</li>
 					</ul>				
-				</p>
+				</div>
 
 				<h4><a href="#question2500" data-toggle="collapse">Est-ce que je peux venir si je suis mineur(e) ?</a></h4>
 				<p id="question2500" class="collapse">
@@ -124,4 +124,3 @@ Frequently Asked Questions
         </div>
     </div>
 @endsection
-
