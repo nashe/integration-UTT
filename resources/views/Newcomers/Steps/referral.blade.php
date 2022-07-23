@@ -26,15 +26,10 @@ La personne qui te guidera tout au long de ta vie à l'UTT
             <br />
             Si tu ne le remplis pas, il te sera attribué au hasard, ça serait dommage.
             <br />
-            Une fois le questionnaire rempli, nous t'enverrons dans les jours qui viennent ses coordonnées
-            mais pas d'inquiétude ! Tu as le choix de le contacter ou non : tu auras ses coordonnées mais il n'aura pas les tiennes.
+            Une fois le questionnaire rempli, nous t'enverrons dans les jours qui viennent ses coordonnées mais pas d'inquiétude ! Tu as le choix de le contacter ou non : tu auras ses coordonnées mais il n'aura pas les tiennes.
         </p>
         <div class="text-center">
-            <a href="https://forms.gle/QD1awJ8paPhAtGwP9" class="btn btn-link btn-secondary">Questionnaire si tu rentres en Tronc Commun (1ère année)</a>
-            <br />
-            <a href="https://forms.gle/V1BMMV4fSEp4ydEC8" class="btn btn-link btn-secondary">Questionnaire si tu rentres en Branche (3ème année)</a>
-            <br />
-            <a href="https://forms.gle/zWoYoFBawehWLEvV6" class="btn btn-link btn-secondary">Questionnaire si tu rentres en Master</a>
+            <a href="https://forms.gle/3out5fysPup3pQwR7" class="btn btn-link btn-secondary">Clique ici pour accéder au questionnaire</a>
         </div>
         <div class="text-center">
             <a class="btn btn-primary" href="{{{ route('newcomer.'.Auth::user()->getNextCheck()['page']) }}}">Prochaine action à faire<br/><strong>{{{ Auth::user()->getNextCheck()['action'] }}}</strong></a>
