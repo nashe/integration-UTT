@@ -16,7 +16,7 @@ Réseaux Sociaux
     <div class="box-body">
 
         <p>
-            N'hésite pas à nous rejoindre sur nos différents réseaux sociaux afin de ne louper aucune information concernant l'Intégration ! On communiquera essentiellement par <a href="https://www.facebook.com/bde.utt"><strong>Facebook</strong></a> (BDE UTT), <a href="https://www.instagram.com/bdeutt"><strong>Instagram</strong></a> (@bdeutt) et <a href="https://discord.gg/9wFZCnmmXe"><strong>Discord</strong></a> (UTT - Intégration) !
+            N'hésite pas à nous rejoindre sur nos différents réseaux sociaux afin de ne louper aucune information concernant l'Intégration ! On communiquera essentiellement par <a href="https://www.facebook.com/bde.utt"><strong>Facebook</strong></a> (BDE UTT), <a href="https://www.instagram.com/bdeutt"><strong>Instagram</strong></a> (@bdeutt) et <a href="https://discord.gg/8N7FfmeDKu"><strong>Discord</strong></a> (UTT - Intégration) !
         </p>
         <div class="text-center">
             <a href="https://www.facebook.com/bde.utt">
