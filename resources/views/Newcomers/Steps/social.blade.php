@@ -16,13 +16,20 @@ Réseaux Sociaux
     <div class="box-body">
 
         <p>
-            N'hésite pas à nous rejoindre sur nos différents réseaux sociaux afin de ne louper aucune information concernant l'Intégration ! On communiquera essentiellement par <strong>Facebook</strong> (BDE UTT), <strong>Instagram</strong> (@bdeutt) et <strong>Discord</strong> !
+            N'hésite pas à nous rejoindre sur nos différents réseaux sociaux afin de ne louper aucune information concernant l'Intégration ! On communiquera essentiellement par <a href="https://www.facebook.com/bde.utt"><strong>Facebook</strong></a> (BDE UTT), <a href="https://www.instagram.com/bdeutt"><strong>Instagram</strong></a> (@bdeutt) et <a href="https://discord.gg/8N7FfmeDKu"><strong>Discord</strong></a> (UTT - Intégration) !
         </p>
         <div class="text-center">
-            <img src="{{ asset('img/icons/facebook.png') }}" alt="Facebook" style="max-width:75px; margin-left:5px; margin-right: 5px;">
-            <img src="{{ asset('img/icons/instagram.png') }}" alt="Instagram" style="max-width:75px; margin-left:5px; margin-right: 5px;">
-            <img src="{{ asset('img/icons/discord.png') }}" alt="Discord" style="max-width:90px; margin-left:5px; margin-right: 5px;">
+            <a href="https://www.facebook.com/bde.utt">
+                <img src="{{ asset('img/icons/facebook.png') }}" alt="Facebook" style="max-width:75px; margin-left:5px; margin-right: 5px;">
+            </a>
+            <a href="https://www.instagram.com/bdeutt">
+                <img src="{{ asset('img/icons/instagram.png') }}" alt="Instagram" style="max-width:75px; margin-left:5px; margin-right: 5px;">
+            </a>
+            <a href="https://discord.gg/9wFZCnmmXe">    
+                <img src="{{ asset('img/icons/discord.png') }}" alt="Discord" style="max-width:90px; margin-left:5px; margin-right: 5px;">
+            </a>
         </div>
+        <br/>
         <p>
             Et si tu as la moindre question, tu peux nous la poser sur l'un de ces réseaux !
         </p>
