@@ -11,7 +11,7 @@ use App\Models\Faction;
 use App\Models\Newcomer;
 use Request;
 
-class ExportPerms implements FromCollection {
+class ExportPerms implements FromCollection, WithHeadings {
     public function collection() {
         $perms= User::select(['first_name', 'last_name', 'phone'])
         ->orderBy('start')
@@ -21,5 +21,19 @@ class ExportPerms implements FromCollection {
         ->get();
 
         return collect($perms);
+    }
+
+    public function headings(): array
+    {
+        return [
+            'Prénom',
+            'Nom',
+            'Téléphone',
+            'ID perm',
+            'Lieu',
+            'Date start',
+            'Date fin',
+            'Description',
+        ];
     }
 }

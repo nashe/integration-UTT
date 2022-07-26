@@ -24,4 +24,13 @@ class ExportNewcomersToReferrals implements FromCollection {
 
         return collect($newcomers);
     }
+
+    public function headings(): array
+    {
+        return [
+            'Prénom',
+            'Nom',
+            'Branche',
+        ];
+    }
 }

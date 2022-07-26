@@ -11,7 +11,7 @@ use App\Models\Faction;
 use App\Models\Newcomer;
 use Request;
 
-class ExportTeams implements FromCollection {
+class ExportTeams implements FromCollection, WithHeadings {
     public function collection() {
         $users = User::select(['first_name', 'last_name', 'phone', 'email', 'team_id'])
         ->orderBy('last_name')
@@ -24,5 +24,19 @@ class ExportTeams implements FromCollection {
         ->get();
 
         return collect($users);
+    }
+
+    public function headings(): array
+    {
+        return [
+            'Prénom',
+            'Nom',
+            'Téléphone',
+            'Email',
+            'ID team',
+            'ID faction',
+            'Équipe',
+            'Faction',
+        ];
     }
 }

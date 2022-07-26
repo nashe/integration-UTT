@@ -11,7 +11,7 @@ use App\Models\Faction;
 use App\Models\Newcomer;
 use Request;
 
-class ExportReferralsToNewcomers implements FromCollection {
+class ExportReferralsToNewcomers implements FromCollection, WithHeadings {
     public function collection() {
         $referrals = User::select([\DB::raw('users.first_name'), \DB::raw('users.last_name')])
         ->orderBy('last_name')
@@ -21,5 +21,13 @@ class ExportReferralsToNewcomers implements FromCollection {
         ->get();
 
         return collect($referrals);
+    }
+
+    public function headings(): array
+    {
+        return [
+            'Prénom',
+            'Nom',
+        ];
     }
 }
