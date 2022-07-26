@@ -44,6 +44,7 @@ class EtuUTT
                         } catch (\GuzzleHttp\Exception\GuzzleException $e) {
                             // An error 400 from the server is usual when the authorization_code
                             // has expired. We force deconnexion to let hom renew his token
+                            dd($e);
                             if ($e->hasResponse() && $e->getResponse()->getStatusCode() === 400) {
                                 Session::flush();
                             }

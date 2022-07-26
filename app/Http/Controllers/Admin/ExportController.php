@@ -2,6 +2,12 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Admin\Exports\ExportReferralsToNewcomers;
+use App\Http\Controllers\Admin\Exports\ExportNewcomersToReferrals;
+use App\Http\Controllers\Admin\Exports\ExportTeams;
+use App\Http\Controllers\Admin\Exports\ExportStudents;
+use App\Http\Controllers\Admin\Exports\ExportRawStudents;
+use App\Http\Controllers\Admin\Exports\ExportPerms;
 use App\Http\Controllers\Controller;
 use App\Models\User;
 use App\Models\Team;
@@ -38,17 +44,7 @@ class ExportController extends Controller
      */
     public function getExportReferralsToNewcomers()
     {
-        $referrals = User::select([\DB::raw('users.first_name'), \DB::raw('users.last_name')])
-        ->orderBy('last_name')
-        ->rightjoin('users as n', 'users.id', '=', 'n.referral_id')
-        ->addSelect([\DB::raw('n.branch as branch'), \DB::raw('n.first_name as newcomer_first_name'), \DB::raw('n.last_name as newcomer_last_name'), \DB::raw('n.phone as newcomer_phone')])
-        ->where('n.is_newcomer', true)
-        ->get();
-        return Excel::create('Parrains', function ($file) use ($referrals) {
-            $file->sheet('', function ($sheet) use ($referrals) {
-                $sheet->fromArray($referrals);
-            });
-        })->export('xls');
+        return Excel::download(new ExportReferralsToNewcomers, 'parrains.xlsx');
     }
 
     /**
@@ -58,19 +54,7 @@ class ExportController extends Controller
      */
     public function getExportNewcomersToReferrals()
     {
-        $newcomers = User::select([\DB::raw('users.first_name'), \DB::raw('users.last_name'), \DB::raw('users.branch')])
-        ->where('users.is_newcomer', true)
-        ->orderBy('last_name')
-        ->leftjoin('users as s', 's.id', '=', 'users.referral_id')
-        ->addSelect([\DB::raw('s.first_name as referral_first_name'), \DB::raw('s.last_name as referral_last_name'), \DB::raw('s.email as referral_email'), \DB::raw('s.phone as referral_phone')])
-        ->leftjoin('teams as t', 't.id','=','users.team_id')
-        ->addSelect([\DB::raw('t.name as team_name'), \DB::raw('t.registration_date as team_registration_date')])
-        ->get();
-        return Excel::create('Nouveaux', function ($file) use ($newcomers) {
-            $file->sheet('', function ($sheet) use ($newcomers) {
-                $sheet->fromArray($newcomers);
-            });
-        })->export('xls');
+        return Excel::download(new ExportNewcomersToReferrals, 'nouveaux.xlsx');
     }
 
     /**
@@ -80,20 +64,7 @@ class ExportController extends Controller
      */
     public function getExportTeams()
     {
-        $users = User::select(['first_name', 'last_name', 'phone', 'email', 'team_id'])
-        ->orderBy('last_name')
-        ->where('ce', 1)
-        ->whereNotNull('team_id')
-        ->where('team_accepted', 1)
-        ->join('teams as t', 't.id', '=', 'users.team_id')
-        ->join('factions as f', 'f.id', '=', 't.faction_id')
-        ->addSelect('t.faction_id', \DB::raw('t.name as team_name'), \DB::raw('f.name as faction_name'))
-        ->get();
-        return Excel::create('Equipe', function ($file) use ($users) {
-            $file->sheet('', function ($sheet) use ($users) {
-                $sheet->fromArray($users);
-            });
-        })->export('xls');
+        return Excel::download(new ExportTeams, 'equipes.xlsx');
     }
 
     /**
@@ -103,15 +74,7 @@ class ExportController extends Controller
      */
     public function getExportStudents()
     {
-        $users = User::select(['first_name', 'last_name', 'student_id', 'phone', 'email', 'branch','registration_email',
-        \DB::raw('is_newcomer as nouveau'), \DB::raw('referral_validated as parrain'), \DB::raw('IF(team_id > 0,1,0) as ce'), \DB::raw('volunteer as benevole'), 'orga', 'secu', 'wei', \DB::raw('checkin as checkin_wei'), 'wei_majority', 'bus_id'])
-        ->orderBy('last_name')
-        ->get();
-        return Excel::create('Etudiants', function ($file) use ($users) {
-            $file->sheet('', function ($sheet) use ($users) {
-                $sheet->fromArray($users);
-            });
-        })->export('xls');
+        return Excel::download(new ExportStudents, 'etudiants.xlsx');
     }
 
     /**
@@ -121,14 +84,7 @@ class ExportController extends Controller
      */
     public function getExportRawUsers()
     {
-        $users = User::select(['*', \DB::raw('(ce AND team_accepted) AS ce')])
-        ->orderBy('last_name')->get();
-
-        return Excel::create('EtudiantsBrute', function ($file) use ($users) {
-            $file->sheet('', function ($sheet) use ($users) {
-                $sheet->fromArray($users);
-            });
-        })->export('xls');
+        return Excel::download(new ExportRawStudents, 'etudiantsBrut.xlsx');
     }
 
     /**
@@ -138,17 +94,6 @@ class ExportController extends Controller
      */
     public function getPerms()
     {
-        $perms= User::select(['first_name', 'last_name', 'phone'])
-        ->orderBy('start')
-        ->join('perm_users', 'users.id', '=', 'perm_users.user_id')
-        ->join('perms', 'perms.id', '=', 'perm_users.perm_id')
-        ->addSelect([\DB::raw('first_name'), \DB::raw('last_name'), \DB::raw('phone'), \DB::raw('respo'), \DB::raw('place'), \DB::raw('FROM_UNIXTIME(start) as start'), \DB::raw('FROM_UNIXTIME(end) as end'), \DB::raw('description')])
-        ->get();
-
-        return Excel::create('Perms', function ($file) use ($perms) {
-            $file->sheet('', function ($sheet) use ($perms) {
-                $sheet->fromArray($perms);
-            });
-        })->export('xls');
+        return Excel::download(new ExportPerms, 'perms.xlsx');
     }
 }

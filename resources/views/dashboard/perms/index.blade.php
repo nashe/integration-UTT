@@ -19,11 +19,19 @@
         --}}
     </div>
 
-    <div class="box-header with-border">
-        <h3 class="box-title">Création d'une permanence</h3>
-        <a href="{{ url('dashboard/perm/create') }}" class="btn btn-box-tool">
-            <i class="fa fa-plus"></i>
-        </a>
+    <div class="box-header with-border row">
+        <div class="col-md-8">
+            <h3 class="box-title">Création d'une permanence</h3>
+            <a href="{{ url('dashboard/perm/create') }}" class="btn btn-box-tool">
+                <i class="fa fa-plus"></i>
+            </a>
+        </div>
+        <form method="POST" action="{{ url('dashboard/perm/import') }}" enctype="multipart/form-data" class="col-md-4 text-right" id="form">
+            <input type="file" name="csv" accept=".csv,.xls,.xlsx" class="hidden" required>
+            <button type="button" class="btn btn-default">
+                Importer un fichier CSV
+            </button>
+        </form>
     </div>
 
     <div class="box box-default">
@@ -80,4 +88,8 @@
         </div>
     </div>
 
+@endsection
+
+@section('js')
+    <script type="text/javascript" src="{{ asset('js/permupload.js') }}"></script>
 @endsection

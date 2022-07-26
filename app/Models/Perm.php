@@ -15,7 +15,7 @@ class Perm extends Model implements \MaddHatter\LaravelFullcalendar\Event
    */
   public $table = 'perms';
 
-  public $fillable = ['start', 'end', 'description', 'place', 'nbr_permanenciers', 'perm_type_id', 'open', 'pre_open'];
+  public $fillable = ['id', 'start', 'end', 'description', 'place', 'nbr_permanenciers', 'perm_type_id', 'open', 'pre_open'];
 
   public $hidden = [
     'created_at',

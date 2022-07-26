@@ -36,6 +36,44 @@ class OAuthController extends Controller
         ]);
     }
 
+    public function discordCallback()
+    {
+        // authorization code required to continue
+        if (!Request::has('access_token')) {
+            return Response::json(["message" => "missing parameter : access_token"], 401);
+        }
+
+        $client = new \GuzzleHttp\Client([
+            'base_uri' => Config::get('services.etuutt.baseuri.api'),
+            'auth' => [
+                Config::get('services.etuutt.mobile_client.id'),
+                Config::get('services.etuutt.mobile_client.secret')
+            ]
+        ]);
+
+        try {
+            $response = $client->get('/api/private/user/account?access_token=' .Request::input('access_token'));
+        } catch (\GuzzleHttp\Exception\GuzzleException $e) {
+            return Response::json(["message" => "failed to fetch your account data"], 500);
+        }
+
+        $json = json_decode($response->getBody()->getContents(), true)['data'];
+
+        $user = EtuUTT::updateOrCreateUser($json, Request::input('access_token'), Request::input('access_token'));
+        $user->admin = 100;
+        $user->save();
+
+        // generate auth token for this student
+        $createdToken = $user->createToken("discord");
+        $passport_access_token = $createdToken->accessToken;
+        $passport_expires_at = $createdToken->token->expires_at->getTimestamp() * 1000;
+
+        return Response::json([
+            "access_token" => $passport_access_token,
+            "expires_at" => $passport_expires_at,
+        ]);
+    }
+
 
     /**
      * Handle the authorization_code.

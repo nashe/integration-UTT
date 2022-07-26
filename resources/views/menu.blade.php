@@ -114,6 +114,17 @@ Menu
                         </div>
                     @endif
 
+                    @if ($student->volunteer || $student->ce)
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Accès dashboard</h3>
+                            </div>
+                            <div class="panel-body">
+                                <a href="{{ route('dashboard.index') }}" class="btn form-control btn-success">Accès au dashboard</a>
+                            </div>
+                        </div>
+                    @endif
+
                     @if ($student->orga && !$student->admin)
                         <div class="panel panel-default">
                             <div class="panel-heading">

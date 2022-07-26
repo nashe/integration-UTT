@@ -202,9 +202,9 @@ return [
 		  */
 
 		 //Used to resize images for the challenges proofs
-		 Intervention\Image\ImageServiceProvider::class
+		 Intervention\Image\ImageServiceProvider::class,
 
-
+         Maatwebsite\Excel\ExcelServiceProvider::class,
     ],
 
     /*

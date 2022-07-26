@@ -22,8 +22,18 @@ Pause partenaire !
                 <img src="{{ asset('img/sponsors/damonte/residence.jpg') }}" class="img-thumbnail hidden-xs" style="max-height:120px;"/>
                 <img src="{{ asset('img/sponsors/damonte/appart1.jpg') }}" class="img-thumbnail hidden-sm hidden-xs" style="max-height:120px;"/>
                 <img src="{{ asset('img/sponsors/damonte/appart2.jpg') }}" class="img-thumbnail" style="max-height:120px;"/>
-                <img src="{{ asset('img/sponsors/damonte.png') }}" class="img-thumbnail" />
+                <br />
+                <img src="{{ asset('img/sponsors/damonte.png') }}" class="img-thumbnail" style="max-width: 40%;" />
             </a>
+        </div>
+
+        <h3>Pour ton assurance</h3>
+        <p>
+            Yvon, l’allié des étudiants au quotidien ! Vos solutions assurances et mutuelles étudiantes en quelques clics !
+            <br />Avec Yvon, vous êtes entre de bonnes mains.
+        </p>
+        <div class="text-center">
+            <a href="https://www.yvon.eu/" target="_blank"><img src="{{ asset('img/sponsors/YVON.jpeg') }}" class="img-thumbnail" /></a>
         </div>
 
         <h3>Pour ton permis</h3>
@@ -35,7 +45,7 @@ Pause partenaire !
         </div>
 
         <h3>Plus de bon plans</h3>
-        <p>Tu en veux plus ? <a href="{{ route('newcomer.deals')}}">Clique ici</a> pour découvrir les autres partenaires de l'intégration, ou rendez vous sur <a href="https://bde.utt.fr/fr/dashboard/benefits" target="_blank">bde.utt.fr</a> pour découvrir les partenaires du BDE à l'année.</p>
+        <p>Tu en veux plus ? <a href="{{ route('newcomer.deals')}}">Clique ici</a> pour découvrir les autres partenaires de l'intégration, ou rendez vous sur <a href="https://bde.utt.fr/nos-partenaires" target="_blank">bde.utt.fr</a> pour découvrir les partenaires du BDE à l'année.</p>
         <div class="text-center" id="question">
             @if(Auth::user()->isChecked('back_to_school'))
                 <div class="text-center">

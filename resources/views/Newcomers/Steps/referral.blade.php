@@ -17,13 +17,20 @@ La personne qui te guidera tout au long de ta vie à l'UTT
         </div>
         <div class="box-body">
         <p>
-            Ton parrain est un étudiant de l'UTT depuis un an ou plus, il a donc lui aussi vécu ce que tu vis actuellement.
-            Il peut répondre à toutes tes questions : où est-ce qu'on mange le midi, est-ce qu'un cours est difficile, etc.
-            Mais surtout il peut t'accueillir dès ton arrivée à Troyes, c'est toujours sympa de passer un peu de temps avec son parrain avant la rentrée !
+            Pour que ta rentrée se passe au mieux et que tu puisses intégrer notre belle école dans les meilleures conditions, nous allons t'attribuer un parrain ou une marraine.
+            <br />
+            Tu pourras compter sur lui ou elle, et sur son expérience, afin de ne pas être seul et qu'il te partage ses petites astuces de survie ;) Il pourra t'aider à découvrir l'école, mais aussi la vie troyenne étudiante : les soirées, les associations, les logements, les cours…
         </p>
         <p>
-            <strong>Tu rencontrera ton parrain à la rentrée lors de la cérémonie du parrainage le premier jour. :)</strong>
+            Pour qu’il te corresponde au mieux, nous te proposons un petit questionnaire à remplir avec sincérité afin qu'on te trouve la personne parfaite :)
+            <br />
+            Si tu ne le remplis pas, il te sera attribué au hasard, ça serait dommage.
+            <br />
+            Une fois le questionnaire rempli, nous t'enverrons dans les jours qui viennent ses coordonnées mais pas d'inquiétude ! Tu as le choix de le contacter ou non : tu auras ses coordonnées mais il n'aura pas les tiennes.
         </p>
+        <div class="text-center">
+            <a href="https://forms.gle/3out5fysPup3pQwR7" target="_blank" class="btn btn-link btn-secondary">Clique ici pour accéder au questionnaire</a>
+        </div>
         <div class="text-center">
             <a class="btn btn-primary" href="{{{ route('newcomer.'.Auth::user()->getNextCheck()['page']) }}}">Prochaine action à faire<br/><strong>{{{ Auth::user()->getNextCheck()['action'] }}}</strong></a>
         </div>
@@ -70,9 +77,9 @@ La personne qui te guidera tout au long de ta vie à l'UTT
                 <hr style="margin-top:0px;"/>
                 <h4>Mais pourquoi avoir un parrain ?</h4>
                 <p>
-					Ton parrain est un étudiant de l'UTT depuis un an ou plus, il a donc lui aussi vécu ce que tu vis actuellement.
-					Il peut répondre à toutes tes questions : où est-ce qu'on mange le midi, est-ce qu'un cours est difficile, etc.
-					Mais surtout il peut t'accueillir dès ton arrivée à Troyes, c'est toujours sympa de passer un peu de temps avec son parrain avant la rentrée !
+					Pour que ta rentrée se passe au mieux et que tu puisses intégrer notre belle école dans les meilleures conditions, nous allons t'attribuer un parrain ou une marraine.
+                    <br />
+                    Tu pourras compter sur lui ou elle, et sur son expérience, afin de ne pas être seul et qu'il te partage ses petites astuces de survie ;) Il pourra t'aider à découvrir l'école, mais aussi la vie troyenne étudiante : les soirées, les associations, les logements, les cours…
 				</p>
                 <p>
                     Cependant, ton parrain ne sait pas qui tu es, il sait juste qu'il a un fillot ! C'est donc à toi de faire le premier pas et de lui

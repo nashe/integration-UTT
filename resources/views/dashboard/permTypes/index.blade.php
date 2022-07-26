@@ -19,11 +19,13 @@
         --}}
     </div>
 
-    <div class="box-header with-border">
-        <h3 class="box-title">Création d'un nouveau type de permanence</h3>
-        <a href="{{ url('dashboard/permType/create') }}" class="btn btn-box-tool">
-            <i class="fa fa-plus"></i>
-        </a>
+    <div class="box-header with-border row">
+        <div class="col-md-8">
+            <h3 class="box-title">Création d'un nouveau type de permanence</h3>
+            <a href="{{ url('dashboard/permType/create') }}" class="btn btn-box-tool">
+                <i class="fa fa-plus"></i>
+            </a>
+        </div>
     </div>
 
     <div class="box box-default">
@@ -64,4 +66,8 @@
         </div>
     </div>
 
+@endsection
+
+@section('js')
+    <script type="text/javascript" src="{{ asset('js/permupload.js') }}"></script>
 @endsection

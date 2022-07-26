@@ -48,7 +48,7 @@ Le Week-End d'Intégration
 			@elseif(Config::get('services.wei.open') === '1')
 
 				@if((new DateTime(Config::get('services.wei.registrationStart'))) > (new DateTime()))
-					<div class="box box-default">
+					{{-- <div class="box box-default">
 						<div class="box-header with-border">
 							<h3 class="box-title">Ouverture des inscriptions pour le week-end dans...</h3>
 						</div>
@@ -56,8 +56,16 @@ Le Week-End d'Intégration
 							<div class="countdown hidden-xs" style="width:640px;margin:20px auto;"></div>
 							<big class="visible-xs">{{ ((new DateTime(Config::get('services.wei.registrationStart')))->diff(new DateTime()))->format('%d jours %h heures %i minutes et %s secondes') }}</big>
 						</div>
-					</div>
-				@elseif(!Auth::user()->wei && !Auth::user()->parent_authorization)
+					</div> --}}
+                    <div class="text-center">
+                        <p>
+                            Et c'est fini pour l'instant !<br/> 
+                            Nous te félicitons d'être arrivé jusque là et nous t'invitons à prendre dès maintenant contact avec ton équipe sur Discord pour qu'ils découvrent la personne incroyable que tu es ! <br/>
+                            On se retrouve désormais à l'Intégration pour une incroyable semaine remplies de surprises !<br/>
+                            On te donne aussi rendez-vous sur cette même page pendant la semaine d'Intégration pour l'inscription au WEI !
+                        </p>
+                    </div>
+                        @elseif(!Auth::user()->wei && !Auth::user()->parent_authorization)
 					<a href="{{route('newcomer.wei.pay')}}" class="btn btn-primary">S'inscrire au week-end</a><br/>
 						<p>Si tu as le moindre souci, n'hésite pas à utiliser le bouton <em>Nous contacter</em> en haut à droite de la page !</p>
 					<small>Note : ton inscription pour le week-end sera validée une fois que tu auras payé. Donc cette page s'affichera tant qu'il n'y aura aucun paiement enregistré. :)</small>
@@ -152,7 +160,7 @@ Le Week-End d'Intégration
     @else
         <div class="box box-default">
             @if((new DateTime(Config::get('services.wei.registrationStart'))) > (new DateTime()))
-                <div class="box box-default">
+                {{-- <div class="box box-default">
                     <div class="box-header with-border">
                         <h3 class="box-title">Ouverture des inscriptions pour le week-end dans...</h3>
                     </div>
@@ -161,11 +169,23 @@ Le Week-End d'Intégration
                         <div class="countdown hidden-xs" style="width:640px;margin:20px auto;"></div>
                         <big class="visible-xs">{{ ((new DateTime(Config::get('services.wei.registrationStart')))->diff(new DateTime()))->format('%d jours %h heures %i minutes et %s secondes') }}</big>
                     </div>
-                </div>
+                </div> --}}
+                <p>
+                    Et c'est fini pour l'instant !<br/> 
+                    Nous te félicitons d'être arrivé jusque là et nous t'invitons à prendre dès maintenant contact avec ton équipe sur Discord pour qu'ils découvrent la personne incroyable que tu es ! <br/>
+                    On se retrouve désormais à l'Intégration pour une incroyable semaine remplies de surprises !<br/>
+                    On te donne aussi rendez-vous sur cette même page pendant la semaine d'Intégration pour l'inscription au WEI !
+                </p>
             @else
             <div class="box-header with-border">
                 <h3 class="box-title"><!--Oups... Il semblerait que tu ne puisses pas t'inscire au WEI. Si tu penses qu'il s'agit d'une erreur, contacte nous.--> Les inscriptions ne sont pas encore ouvertes. Ne t'inquiète pas, on te préviendra lorsqu'elles ouvriront.</h3>
-                <p><a href="mailto:integration@utt.fr">integration@utt.fr</a></p>
+                {{-- <p><a href="mailto:integration@utt.fr">integration@utt.fr</a></p> --}}
+                <p style="margin-top: 10px;">
+                    Et c'est fini pour l'instant !<br/> 
+                    Nous te félicitons d'être arrivé jusque là et nous t'invitons à prendre dès maintenant contact avec ton équipe sur Discord pour qu'ils découvrent la personne incroyable que tu es ! <br/>
+                    On se retrouve désormais à l'Intégration pour une incroyable semaine remplies de surprises !<br/>
+                    On te donne aussi rendez-vous sur cette même page pendant la semaine d'Intégration pour l'inscription au WEI !
+                </p>
             </div>
             @endif
         </div>

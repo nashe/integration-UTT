@@ -14,6 +14,7 @@ use Mail;
 use Auth;
 use Redirect;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\Redirect as FacadesRedirect;
 
 /**
  *
@@ -41,17 +42,20 @@ class StepsController extends Controller
     public function profilFormSubmit()
     {
         $this->validate(Request::instance(), [
-            'email' => 'email',
+            'email' => 'email|required',
             'phone' => [
-                'regex:/^(?:(?:00|\+)(?!33)[0-9\.\- \(\)]+|(?:0([0-9])|(?:00|\+)33[\. -]?([0-9]))[\. -]?([0-9]{2})[\. -]?([0-9]{2})[\. -]?([0-9]{2})[\. -]?([0-9]{2})[\. -]?)$/',
+                'required',
             ],
+            'discord' => 'regex:/^.+#[0-9]{4}$/|required',
         ],
         [
-            'phone.regex' => 'Le champ téléphone doit contenir un numéro de téléphone valide. Pour un numéro étranger, utilisez le préfix international.'
+            'phone.regex' => 'Le champ téléphone doit contenir un numéro de téléphone valide. Pour un numéro étranger, utilisez le préfix international.',
+            'discord.regex' => 'Le champ Discord doit contenir un tag Discord valide.'
         ]);
 
         $newcomer = Auth::user();
         $newcomer->update(Request::only([
+            'discord',
             'email',
             'parent_name',
             'parent_phone',
@@ -222,12 +226,10 @@ class StepsController extends Controller
         if ($step == 'yes') {
             Auth::user()->setCheck('app_download', true);
             Auth::user()->save();
-        } elseif ($step == 'cancel') {
-            Auth::user()->setCheck('app_download', false);
-            Auth::user()->save();
+            return redirect()->route('newcomer.'.Auth::user()->getNextCheck()['page']);
         }
-        return View::make('Newcomers.Steps.app', [
-            'step' => $step
+        return View::make('Newcomers.Steps.social', [
+            'step' => $step,
         ]);
     }
 

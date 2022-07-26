@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Admin\Imports\ImportPerms;
+use Excel;
 use App\Http\Controllers\Controller;
 use App\Models\Perm;
 use App\Models\PermType;
@@ -298,5 +300,20 @@ class PermController extends Controller
         ]);
 
         return redirect()->route('perm.users', ['id' => $id]);
+    }
+
+    /**
+     * Read an uploaded CSV file of PermTypes via the request and store them in the database.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function import()
+    {
+        Validator::make(Request::all(), [
+            'csv' => 'required|file|max:2048|mimetypes:text/plain,text/csv,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel',
+        ])->validate();
+
+        Excel::import(new ImportPerms, request()->file('csv'));
+        return redirect()->route('perm.index');
     }
 }
