@@ -138,8 +138,10 @@ return [
         'lcl' => 'true',
         'sncf' => 'true',
         'homebox' => 'true',
-	'lasergame' => 'true',
-	'cic' => 'true',
+	    'lasergame' => 'true',
+	    'cic' => 'true',
+        'yvon' => 'true',
+        'soprasteria' => 'true',
     ],
 
     'socialNetwork' => [
