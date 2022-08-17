@@ -45,7 +45,7 @@ Que l'intégration a trouvé pour toi !
         <p>Avec Yvon, vous êtes entre de bonnes mains.</p>
         <p><a href="https://www.yvon.eu/">https://www.yvon.eu/</a></p><br/>
 
-        <p><a href="https://www.soprasteriarecrute.fr/"><img src="img/sponsors/soprasteria.png" style="float:right" class="img-thumbnail" /></a></p>
+        <p><a href="https://www.soprasteriarecrute.fr/"><img src="img/sponsors/deals/soprasteria_rsz.png" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="soprasteria"> Sopra Steria </h4> </p>
         <p>L’un des leaders européens de la Tech reconnu pour ses activités de conseil, de services numériques et d’édition de logiciels, aide ses clients à mener leur transformation numérique et à obtenir des bénéfices concrets et durables.</p> 
         <p>Le Groupe apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, en combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative.</p>
