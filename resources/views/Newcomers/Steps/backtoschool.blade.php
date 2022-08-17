@@ -41,7 +41,16 @@ Pause partenaire !
             Parce que le bus c'est pas le plus pratique, et que le vélo sous la pluie, ça mouille, l'auto-école Popeye propose 50€ de réduction pour les cotisants BDE UTT sur le permis de conduire. <br/>Tu l'as déjà, profites en alors pour passer le permis moto ou remorque !
         </p>
         <div class="text-center">
-            <a href="http://www.popeye-troyes.fr" target="_blank"><img src="{{ asset('img/sponsors/deals/popeye_resultat.png') }}" class="img-thumbnail" /></a>
+            <a href="https://www.popeye-troyes.fr" target="_blank"><img src="{{ asset('img/sponsors/deals/popeye_resultat.png') }}" class="img-thumbnail" /></a>
+        </div>
+
+        <h3>Sopra Steria</h3>
+        <p>
+            Sopra Steria, l’un des leaders européens de la Tech reconnu pour ses activités de conseil, de services numériques et d’édition de logiciels, aide ses clients à mener leur transformation numérique et à obtenir des bénéfices concrets et durables. Le Groupe apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, en combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative.</br>
+            Avec plus de 20 000 collaborateurs à travers la France, 30 familles de métiers, 11 secteurs d'activité (Défense, Énergie, Banque...) et 6 filiales (Cybersécurité, Aéronautique, Édition de logiciels...), le Groupe Sopra Steria, certifié Great Place To Work, offre une multitude d’opportunités pour t'épanouir. Alors, n'hésite plus et rejoins-nous dès maintenant en stage, en alternance ou pour ton premier job !
+        </p>
+        <div class="text-center">
+            <a href="https://www.soprasteriarecrute.fr" target="_blank"><img src="{{ asset('img/sponsors/soprasteria.png') }}" class="img-thumbnail" /></a>
         </div>
 
         <h3>Plus de bon plans</h3>
