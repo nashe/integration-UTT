@@ -18,6 +18,7 @@ Que l'intégration a trouvé pour toi !
             <li><a href="#damonte">Damonte</a></li>
             <li><a href="#popeye">Auto-école Popeye</a></li>
             <li><a href="#yvon">Yvon Assurances et Services</a></li>
+            <li><a href="#soprasteria">Sopra Steria</a></li>
             <li><a href="#lasergame">Laser Game Evolution</a></li>
             <li><a href="#nigloland">Nigloland</a></li>
             <li><a href="#cgr">Cinéma CGR de Troyes</a></li>
@@ -43,6 +44,12 @@ Que l'intégration a trouvé pour toi !
         <p>Yvon, l’allié des étudiants au quotidien ! Vos solutions assurances et mutuelles étudiantes en quelques clics !</p>
         <p>Avec Yvon, vous êtes entre de bonnes mains.</p>
         <p><a href="https://www.yvon.eu/">https://www.yvon.eu/</a></p><br/>
+
+        <p><a href="https://www.soprasteriarecrute.fr/"><img src="img/sponsors/soprasteria.png" style="float:right" class="img-thumbnail" /></a></p>
+        <p> <h4 id="soprasteria"> Sopra Steria </h4> </p>
+        <p>L’un des leaders européens de la Tech reconnu pour ses activités de conseil, de services numériques et d’édition de logiciels, aide ses clients à mener leur transformation numérique et à obtenir des bénéfices concrets et durables.</p> 
+        <p>Le Groupe apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, en combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative.</p>
+        <p><a href="https://www.soprasteriarecrute.fr/">https://www.soprasteriarecrute.fr/</a></p><br/>
 
         <p><a href="https://troyes.lasergame-evolution.fr/"><img src="img/sponsors/deals/lasergame_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="lasergame"> Laser Game Evolution </h4> </p>
