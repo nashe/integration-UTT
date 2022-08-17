@@ -50,7 +50,7 @@ Pause partenaire !
             Avec plus de 20 000 collaborateurs à travers la France, 30 familles de métiers, 11 secteurs d'activité (Défense, Énergie, Banque...) et 6 filiales (Cybersécurité, Aéronautique, Édition de logiciels...), le Groupe Sopra Steria, certifié Great Place To Work, offre une multitude d’opportunités pour t'épanouir. Alors, n'hésite plus et rejoins-nous dès maintenant en stage, en alternance ou pour ton premier job !
         </p>
         <div class="text-center">
-            <a href="https://www.soprasteriarecrute.fr" target="_blank"><img src="{{ asset('img/sponsors/soprasteria.png') }}" class="img-thumbnail" /></a>
+            <a href="https://www.soprasteria.fr/carrieres" target="_blank"><img src="{{ asset('img/sponsors/deals/soprasteria_rsz.png') }}" class="img-thumbnail" /></a>
         </div>
 
         <h3>Plus de bon plans</h3>
