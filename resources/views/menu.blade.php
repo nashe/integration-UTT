@@ -47,7 +47,7 @@ Menu
                                 <!--<strong>Les inscriptions sont fermées.</strong><br/>-->
                                     @if (Authorization::countdown('student','referral'))
                                         <!--<strong>Ouverture dans {{ @countdown(Authorization::countdown('student','referral')) }}</strong>-->
-                                        <strong>Ouverture des inscriptions prochainement dans l'année 2021 !</strong><br/>
+                                        <strong>Ouverture des inscriptions prochainement dans l'année 2022 !</strong><br/>
                                     @endif
                                     Contacte <a href="mailto:integration@utt.fr">integration@utt.fr</a> pour toute question.
                             @endif

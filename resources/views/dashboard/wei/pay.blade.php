@@ -56,7 +56,7 @@ Le Week-End d'Intégration
     								<strong>Week-End d'Intégration</strong><br/>
                                     <em>Vous payez le tarif "{{$weiPriceName}}", contactez un coord si pensez que ce n'est pas le bon tarif.</em>
     								<ul>
-    									<li>Départ le vendredi {{ (new Datetime(Config::get('services.wei.start')))->format('j') }} septembre 2021 à 10h</li>
+    									<li>Départ le vendredi {{ (new Datetime(Config::get('services.wei.start')))->format('j') }} septembre 2022 à 11h</li>
     									<li>Retour à Troyes le dimanche vers 18h</li>
     									<li>Hébergement compris (sauf sac de couchage)</li>
     									<li>Repas compris</li>
@@ -74,7 +74,7 @@ Le Week-End d'Intégration
     								<strong>Panier repas du vendredi midi</strong>
 
     								<p>
-    								Le départ au week-end se faisant à partir de 11h30, vous n'aurez généralement pas le temps d'aller acheter à manger (sauf si vous l'avez préparé avant).<br/>
+    								Le départ au week-end se faisant à partir de 11h, vous n'aurez généralement pas le temps d'aller acheter à manger (sauf si vous l'avez préparé avant).<br/>
     								Nous vous proposons donc un panier repas (sandwich, chips, fruit et bouteille d'eau) préparé par le CROUS (qui gère le restaurant universitaire).<br/>
     								</p>
     							</td>
