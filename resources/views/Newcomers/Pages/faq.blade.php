@@ -98,6 +98,7 @@ Frequently Asked Questions
 						<li>Des bouchons d'oreilles (ton toi de plus tard te remerciera) ;</li>
 						<li>Ton écocup ;</li>
 						<li>Ton tupperware ainsi que des couverts ;</li>
+						<li>Ta carte d'identité et de l'argent (CB et/ou espèces) si tu veux pouvoir acheter à boire au WEI ;</li>
 						<li>Ton autorisation parentale si tu es mineur.</li>
 					</ul>				
 				</div>
