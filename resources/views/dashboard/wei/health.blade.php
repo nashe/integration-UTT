@@ -14,8 +14,8 @@ Mon profil santé
         <form class="form-horizontal" action="{{ route('dashboard.wei.health') }}" method="post">
             <p class="text-center">
                 Pendant l'intégration, tu seras amené à manger des repas que nous t'aurons préparés et à faire des activités sportives.<br/>
-                Ces informations seront utilisés uniquement pour réagir rapidement en cas de problème.<br/>
-                Elles ne seront accessibles que par les coordinateurs de l'intégration, les secouristes présents la semaine (association SecUTT) et l'infirmière de l'UTT.
+                Ces informations seront utilisées uniquement pour réagir rapidement en cas de problème.<br/>
+                Elles ne seront accessibles que par les coordinateurs de l'intégration, les secouristes présents la semaine (association SecUTT) et le pôle santé de l'UTT.
             </p>
 
             <div class="form-group {{{ Auth::user()->isChecked('profil_parent_name')?'form-group-success':'' }}}">
@@ -41,7 +41,7 @@ Mon profil santé
             </div>
 
             <div class="form-group {{{ Auth::user()->isChecked('profil_parent_phone')?'form-group-success':'' }}}">
-                <label for="medical_treatment" class="col-lg-2 control-label">Traitement ou régime particulier pendant la semaine d'intégration</label>
+                <label for="medical_treatment" class="col-lg-2 control-label">Régime particulier pendant la semaine d'intégration</label>
                 <div class="col-lg-10">
                     <textarea class="form-control" name="medical_treatment" id="medical_treatment">{{{ old('medical_treatment') ?? Auth::user()->medical_treatment }}}</textarea>
                 </div>
