@@ -93,12 +93,14 @@ Frequently Asked Questions
 						<li>Un sac de couchage (chaud) ;</li>
 						<li>Des vêtements qui ne craignent rien (dès le départ en bus vendredi matin) et d’autres qui tiennent chaud ;</li>
 						<li>Un k-way ; </li>
+						<li>Une serviette et du savon (si tu veux être propre ;</li>
 						<li>Une bombe anti-moustique (ton corps te remerciera) ;</li>
 						<li>De la crème solaire (ton corps te remerciera aussi) ;</li>
 						<li>Des bouchons d'oreilles (ton toi de plus tard te remerciera) ;</li>
 						<li>Ton écocup ;</li>
 						<li>Ton tupperware ainsi que des couverts ;</li>
-						<li>Ta carte d'identité et de l'argent (CB et/ou espèces) si tu veux pouvoir acheter à boire au WEI ;</li>
+						<li>Ta carte d'identité ;</li>
+						<li>De l'argent (CB et/ou espèces) si tu veux pouvoir acheter à boire au WEI ;</li>
 						<li>Ton autorisation parentale si tu es mineur.</li>
 					</ul>				
 				</div>
