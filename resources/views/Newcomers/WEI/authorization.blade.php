@@ -14,14 +14,14 @@ Le Week-End d'Intégration
                 <h3 class="box-title">Tu as besoin d'une autorisation parentale</h3>
             </div>
 		    <div class="box-body text-center">
-                <p>Comme tu es mineur, nous avons besoin de l'autorisation de tes parents pour pouvoir t'emmener dans une base nautique à 15 minutes de Troyes le jeudi et au week-end.</p>
-                <p>Télécharge l'autorisation parentale, fais-la signer et mets-la dans ton sac pour ne pas l'oublier !</p>
+                <p>Comme tu es mineur, nous avons besoin de l'autorisation de tes parents pour pouvoir t'emmener au week-end d'intégration.</p>
+                <p>Tu as normalement déjà reçu la fiche d'autorisation parentale en question mais la revoici si tu ne retrouves plus le mail. Elle est à rendre au moment de l'inscription administrative !</p>
                 <a href="{{ asset('docs/autorisation.pdf')}}" class="btn btn-primary">Télécharger l'autorisation parentale</a><br/>
                 <br/>
 
-					Il y aura un stand dans l'UTT à la rentrée pour que tu puisses nous la donner. ;-)<br/>
-					<a href="{{ route('newcomer.wei')}}" class="btn btn-success">C'est bon ! L'autorisation est signée et déjà dans le sac !</a>
-				<p>
-			</div>
+		N'oublie pas de la faire signer et de la mettre dans ton sac !<br/>
+		<a href="{{ route('newcomer.wei')}}" class="btn btn-success">C'est bon ! L'autorisation est signée et déjà dans le sac !</a>
+		<p>
+		</div>
         </div>
 @endsection
