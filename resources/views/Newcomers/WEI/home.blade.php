@@ -125,7 +125,7 @@ Le Week-End d'Intégration
 				@endif
 
 			@else
-                <a href="" class="btn btn-primary">L'inscription au WEI n'est pas encore ouverte !</a>
+                <a href="" class="btn btn-primary">L'inscription au WEI est fermée !</a>
 			@endif
 			</div>
         </div>
