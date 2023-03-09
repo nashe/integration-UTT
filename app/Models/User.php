@@ -151,17 +151,9 @@ class User extends Model implements Authenticatable
             'title' => 'Aprem Chill',
             'description' => 'Mettre en place une après-midi en proposant différentes activités, le tout de manière chill !',
         ],
-        'arbitre' => [
-            'title' => 'Arbitre',
-            'description' => 'Mettre en place un système de points pour des activités de la semaine d’inté, des règles en tout genre pour dynamiser la rivalité entre les factions.',
-        ],
         'benevole' => [
             'title' => 'Benevole',
             'description' => 'Tu n’es pas là avant la semaine d’intégration mais tu es désireux de nous fournir ton aide pour mettre en place du matériel, cuisiner et faire plein d’autres trucs pendant la semaine, deviens bénévole.',
-        ],
-        'boisson' => [
-            'title' => 'Boisson',
-            'description' => 'Prévoir les commandes de boisson (soft et bières) pour les différents event de l\'inté (repas, soirée d\'inté, WEI, etc).',
         ],
         'bouffe' => [
             'title' => 'Bouffe',
@@ -187,9 +179,9 @@ class User extends Model implements Authenticatable
             'title' => 'Défis TC',
             'description' => 'Préparer l\'aprèm où les nouveaux TC devront faire preuve d\'ingéniosité pour arriver au bout des défis que vous aurez préparé.',
         ],
-        'dj' => [
-            'title' => 'DJ',
-            'description' => 'Tu sais faire des sets de musique et t\'aimes mixer en soirée, l\'Intégration est une super opportunité pour partager tes talents !',
+	    'dev' => [
+            'title' => 'Dev / Info',
+            'description' => 'S\'occuper de la gestion du site internet et de l\'application de l\'intégration',
         ],
         'faux_cours' => [
             'title' => 'Amphi de remédiation',
@@ -199,21 +191,17 @@ class User extends Model implements Authenticatable
             'title' => 'Discours de rentrée',
             'description' => 'Préparer et faire un discours de rentrée pour faire une petite frayeur aux nouveaux.',
         ],
+	    'gof' => [
+            'title' => 'Games of Fondation',
+            'description' => 'Organiser un événement de type kermesse en partenariat avec la Fondation UTT',
+        ],
         'gubu' => [
             'title' => 'GUBU',
             'description' => 'Élaborer le futur GUBU des nouveaux avec des histoires, des recettes, des chants, des vannes...',
         ],
-        'kda' => [
-            'title' => 'Kermesse des Arts',
-            'description' => 'Mettre en place une aprèm culture avec les asso/clubs artistiques qui présentent ce qu’elles font !',
-        ],
         'log' => [
             'title' => 'Logistique',
             'description' => 'Préparer, organiser et mettre en place tout le matériel nécessaire avant et pendant la semaine d\’intégration.',
-        ],
-        'media' => [
-            'title' => 'Médiatik',
-            'description' => 'Couvrir l’ensemble des événements de l’intégration, et publier tout ça pour laisser à tout le monde de beaux souvenirs.',
         ],
         'parrainage' => [
             'title' => 'Parrainage',
@@ -236,7 +224,7 @@ class User extends Model implements Authenticatable
             'description' => 'Gérer l’ensemble des CE ! Tu es moteur indispensable à l’animation de l’inté !!!!',
         ],
         'respo_nouveaux' => [
-            'title' => 'Respo Nouveaux/bénévoles',
+            'title' => 'Respo questions/bénévoles',
             'description' => 'Venir en aide aux nouveaux qui auraient des problèmes et répondre à leurs questions durant l’été notamment sur discord et gérer les bénévoles pendant la semaine d’Intégration',
         ],
         'salon_vie_etudiante' => [
@@ -262,6 +250,10 @@ class User extends Model implements Authenticatable
         'village' => [
             'title' => 'Village Asso',
             'description' => 'Organiser le village asso avec l’aide des associations en amont et coordonner l’évènement le jour J.',
+        ],
+	    'vmd' => [
+            'title' => 'Village de la Mobilité Douce',
+            'description' => ' Organiser un événement autour des mobilités soutenables avec différents stands et acteurs locaux (TCM, La Roue Verte, TCAT, la MDE, ...)',
         ],
         'visites' => [
             'title' => 'Visites',
