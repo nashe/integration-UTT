@@ -85,7 +85,7 @@ Parce que l'intégration, c'est surtout vous !
                     <p class="text-justify">
                         Afin qu'on puisse demander ton aide en fonction de ce que as envie de faire, nous avons besoin d'en savoir un peu plus sur tes préférences.<br/>
                         Tu peux cocher plusieurs cases, ça n'engage à rien et tu n'auras pas moins de chance de faire chef d'équipe (ou autre) parce que tu coches d'autres cases, bien au contraire ;-)<br/>
-                        Si tu veux plus d'infos concernant les commissions (ordres de mission, dates...), tu peux consulter le document qui suit : <a href="https://docs.google.com/spreadsheets/d/1pklhDnpv38Q8uAUOgQsr728lXdAj77KLTIbMDgzElEE/edit#gid=0">Document ordres de mission</a>
+                        Ne coche pas plus de 4 cases, plus tu en coches, moins ce sera facile pour nous de savoir ce que tu veux vraiment faire et donc de te proposer la commission que tu préfères.
                     </p>
 
                     <div class="form-group">
