@@ -211,6 +211,10 @@ class User extends Model implements Authenticatable
             'title' => 'Logistique',
             'description' => 'Préparer, organiser et mettre en place tout le matériel nécessaire avant et pendant la semaine d\’intégration.',
         ],
+        'nutt' => [
+            'title' => 'NUTT',
+            'description' => 'Rédiger le journal étudiant de l’UTT'
+        ]
         'media' => [
             'title' => 'Médiatik',
             'description' => 'Couvrir l’ensemble des événements de l’intégration, et publier tout ça pour laisser à tout le monde de beaux souvenirs.',
@@ -254,6 +258,10 @@ class User extends Model implements Authenticatable
         'son_lumiere' => [
             'title' => 'Son et lumière',
             'description' => 'Prévoir, installer et gérer les éléments de S&L durant les événement qui le nécessitent (soirée d’inté, WEI, espace chill, etc).',
+        ],
+        'soutenabilite' => [
+            'title' => 'Soutenabilite',
+            'description' => 'Veiller à la soutenabilite des événements de l’integration'
         ],
         'trad' => [
             'title' => 'Traduction en anglais',
