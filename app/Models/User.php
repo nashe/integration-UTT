@@ -214,7 +214,7 @@ class User extends Model implements Authenticatable
         'nutt' => [
             'title' => 'NUTT',
             'description' => 'Rédiger le journal étudiant de l’UTT'
-        ]
+        ],
         'media' => [
             'title' => 'Médiatik',
             'description' => 'Couvrir l’ensemble des événements de l’intégration, et publier tout ça pour laisser à tout le monde de beaux souvenirs.',
