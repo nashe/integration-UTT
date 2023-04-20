@@ -145,23 +145,15 @@ class User extends Model implements Authenticatable
     const VOLUNTEER_PREFERENCES = [
         'anim' => [
             'title' => 'Animation',
-            'description' => 'Animer, divertir et motiver les nouveaux étudiants à chaque événement et moment de l’inté. Et pourquoi on est là ??',
+            'description' => 'Animer, divertir et motiver les CE et les nouveaux étudiants tout au long de la pré-inté et de l’inté. Et pourquoi on est là ??',
         ],
         'aprem_chill' => [
-            'title' => 'Aprem Chill',
-            'description' => 'Mettre en place une après-midi en proposant différentes activités, le tout de manière chill !',
-        ],
-        'arbitre' => [
-            'title' => 'Arbitre',
-            'description' => 'Mettre en place un système de points pour des activités de la semaine d’inté, des règles en tout genre pour dynamiser la rivalité entre les factions.',
+            'title' => 'Aprèm Chill',
+            'description' => 'Organiser une après-midi en proposant différentes activités, le tout en restant chill !',
         ],
         'benevole' => [
-            'title' => 'Benevole',
-            'description' => 'Tu n’es pas là avant la semaine d’intégration mais tu es désireux de nous fournir ton aide pour mettre en place du matériel, cuisiner et faire plein d’autres trucs pendant la semaine, deviens bénévole.',
-        ],
-        'boisson' => [
-            'title' => 'Boisson',
-            'description' => 'Prévoir les commandes de boisson (soft et bières) pour les différents event de l\'inté (repas, soirée d\'inté, WEI, etc).',
+            'title' => 'Bénévole',
+            'description' => 'Tu n’es pas là avant la semaine d’intégration mais tu souhaites aider pour mettre en place du matériel, cuisiner et faire pleins d’autres trucs pendant la semaine ? Deviens bénévole !',
         ],
         'bouffe' => [
             'title' => 'Bouffe',
@@ -169,27 +161,23 @@ class User extends Model implements Authenticatable
         ],
         'cahier_vacances' => [
             'title' => 'Cahier de vacances',
-            'description' => 'Elaborer le futur cahier de vacances des nouveaux.',
+            'description' => 'Élaborer le futur cahier de vacances des nouveaux avec des petits exercices et blagues pour les motiver pendant l’été.',
         ],
         'ce' => [
-            'title' => 'Chef d\'équipe (CE)',
-            'description' => 'Par groupe de 4/5 étudiants, être en charge d’une équipe d’environ 10 à 15 nouveaux étudiants, s’occuper d’eux, participer aux événements avec eux, réaliser des défis en équipe, répondre à leurs questions, etc : les accompagner autant que possible pendant leur première semaine à l’UTT.',
+            'title' => 'Chef d’équipe (CE)',
+            'description' => 'Par groupe de 4/5 étudiants, être en charge d’une équipe d’environ 15 à 20 nouveaux étudiants, s’occuper d’eux, participer aux événements avec eux, réaliser des défis en équipe, répondre à leurs questions... En bref, les accompagner autant que possible pendant leur première semaine à l’UTT.',
         ],
         'comm' => [
             'title' => 'Communication & Graphisme',
-            'description' => 'Préparer et gérer toute la communication relative à l’intégration (réseaux sociaux, plans de com, affiches, etc).',
+            'description' => 'Préparer et gérer toute la communication relative à l’intégration (stratégie, réseaux sociaux, plans de com, affiches, etc). Créer une charte une charte graphique liée au thème.',
         ],
         'deco' => [
             'title' => 'Déco',
-            'description' => 'Être créatif et créer de quoi décorer l\'UTT au thème de l’inté.',
+            'description' => 'Être créatif et fabriquer de quoi décorer l’UTT au thème de l’inté.',
         ],
         'defis' => [
             'title' => 'Défis TC',
-            'description' => 'Préparer l\'aprèm où les nouveaux TC devront faire preuve d\'ingéniosité pour arriver au bout des défis que vous aurez préparé.',
-        ],
-        'dj' => [
-            'title' => 'DJ',
-            'description' => 'Tu sais faire des sets de musique et t\'aimes mixer en soirée, l\'Intégration est une super opportunité pour partager tes talents !',
+            'description' => 'Préparer un défi d’une aprèm où les nouveaux TC devront faire preuve d’ingéniosité pour fabriquer quelque chose à partir de peu (carton, marshmallow...).',
         ],
         'faux_cours' => [
             'title' => 'Amphi de remédiation',
@@ -201,23 +189,23 @@ class User extends Model implements Authenticatable
         ],
         'gubu' => [
             'title' => 'GUBU',
-            'description' => 'Élaborer le futur GUBU des nouveaux avec des histoires, des recettes, des chants, des vannes...',
+            'description' => 'Élaborer le futur GUBU des nouveaux pour faire vivre l’esprit UTTien avec des histoires, des recettes, des chants, des vannes, parler des assos...',
         ],
         'kda' => [
             'title' => 'Kermesse des Arts',
-            'description' => 'Mettre en place une aprèm culture avec les asso/clubs artistiques qui présentent ce qu’elles font !',
+            'description' => 'Mettre en place une aprèm culture avec les assos/clubs artistiques qui présentent ce qu’elles font !',
         ],
         'log' => [
             'title' => 'Logistique',
-            'description' => 'Préparer, organiser et mettre en place tout le matériel nécessaire avant et pendant la semaine d\’intégration.',
+            'description' => 'Préparer, organiser et mettre en place tout le matériel nécessaire avant et pendant la semaine d’intégration.',
         ],
         'nutt' => [
             'title' => 'NUTT',
-            'description' => 'Rédiger le journal étudiant de l’UTT'
+            'description' => 'Rédiger le journal étudiant de l’UTT avec des anecdotes et des jeux en rapport avec la vie étudiante UTTienne.'
         ],
         'media' => [
             'title' => 'Médiatik',
-            'description' => 'Couvrir l’ensemble des événements de l’intégration, et publier tout ça pour laisser à tout le monde de beaux souvenirs.',
+            'description' => 'Couvrir l’ensemble des événements de l’intégration, prendre des photos, et monter des films pour laisser à tout le monde de beaux souvenirs.',
         ],
         'parrainage' => [
             'title' => 'Parrainage',
@@ -225,43 +213,43 @@ class User extends Model implements Authenticatable
         ],
         'partenariat' => [
             'title' => 'Partenariat',
-            'description' => 'Rechercher et établir des partenariats utiles pour l\'Intégration et pour les nouveaux étudiants',
+            'description' => 'Rechercher et établir des partenariats utiles pour l\'intégration et pour les nouveaux étudiants',
         ],
         'prev' => [
             'title' => 'Prévention',
-            'description' => 'Mettre en place des mesures durant l\'Intégration contre certains risques.',
+            'description' => 'Évaluer les risques et mettre en place des mesures préventives pour les orgas, CE et nouveaux avant et pendant l’intégration.',
         ],
         'rallye' => [
             'title' => 'Rallye',
-            'description' => 'Organiser une aprèm de folie pour les nouveaux avec plein de jeux, d’activités sportives et d’autres idées que vous avez !',
+            'description' => 'Organiser une aprèm de folie pour les nouveaux avec pleins de jeux, d’activités sportives et autres idées que vous avez !',
         ],
         'respo_ce' => [
             'title' => 'Respo CE',
-            'description' => 'Gérer l’ensemble des CE ! Tu es moteur indispensable à l’animation de l’inté !!!!',
+            'description' => 'Gérer l’ensemble du planning des CE (shotgun, perms, planning...) et leur donner les grandes lignes directrices pour qu’ils accueillent au mieux les nouveaux. Tu es moteur indispensable à l’animation de l’inté !!!!',
         ],
         'respo_nouveaux' => [
             'title' => 'Respo Nouveaux/bénévoles',
-            'description' => 'Venir en aide aux nouveaux qui auraient des problèmes et répondre à leurs questions durant l’été notamment sur discord et gérer les bénévoles pendant la semaine d’Intégration',
+            'description' => 'Venir en aide aux nouveaux qui auraient des problèmes administratifs et répondre à leurs questions durant l’été notamment sur discord et gérer les bénévoles pendant la semaine d’inté',
         ],
         'salon_vie_etudiante' => [
             'title' => 'Salon Vie Etudiante',
-            'description' => 'Organier les Salons de la Vie Etudiante la 2ème semaine de l\'Intégration avec les différents acteurs de la vie étudiante de l\'UTT.',
+            'description' => 'Organiser les Salons de la Vie Etudiante la 2ème semaine de l\'inté avec les différents acteurs de la vie étudiante de l\'UTT.',
         ],
         'secu' => [
             'title' => 'Sécu',
-            'description' => 'Gérer la sécurité de l’évènement notamment durant le WEI et la soirée d’Inté.',
+            'description' => 'Gérer la sécurité des évènements notamment durant le WEI et la soirée d’inté.',
         ],
         'soiree' => [
             'title' => 'Soirée d\'intégration',
-            'description' => 'Préparer et organiser une soirée sur le campus de l’UTT durant la semaine d’intégration (organisation des boissons, de la nourriture, du vestiaire, de la sécurité, des animations, etc). Vous serez en relation avec les professionnels de la sécurité pour encadrer l’événement.',
+            'description' => 'Préparer et organiser une soirée sur le campus de l’UTT durant la semaine d’inté (organisation des boissons, de la nourriture, du vestiaire, de la sécurité, des animations, etc). Vous serez en relation avec les professionnels de la sécurité pour encadrer l’événement.',
         ],
         'son_lumiere' => [
             'title' => 'Son et lumière',
-            'description' => 'Prévoir, installer et gérer les éléments de S&L durant les événement qui le nécessitent (soirée d’inté, WEI, espace chill, etc).',
+            'description' => 'Prévoir, installer et gérer les éléments de S&L durant les événements qui le nécessitent (soirée d’inté, WEI, espace chill, etc).',
         ],
         'soutenabilite' => [
-            'title' => 'Soutenabilite',
-            'description' => 'Veiller à la soutenabilite des événements de l’integration'
+            'title' => 'Soutenabilité',
+            'description' => 'Mettre en place des actions pour réduire l’impact environnemental de l’inté en étant formé : amélioration des commissions, bilan carbone, ateliers de sensibilisation, ...'
         ],
         'trad' => [
             'title' => 'Traduction en anglais',
@@ -269,15 +257,19 @@ class User extends Model implements Authenticatable
         ],
         'village' => [
             'title' => 'Village Asso',
-            'description' => 'Organiser le village asso avec l’aide des associations en amont et coordonner l’évènement le jour J.',
+            'description' => 'Organiser une aprèm en collaboration avec des associations UTTiennes afin de les présenter à travers de petites activités et coordonner l’évènement le jour J.',
+        ],
+	    'VMD' => [
+            'title' => 'Village des initiatives soutenables',
+            'description' => 'Organiser une aprèm autour des initiatives soutenables avec des stands d’associatifs UTTiens et d’acteurs locaux (Troyes Champagne Métropole, TCAT, la Maison des Étudiants...).',
         ],
         'visites' => [
             'title' => 'Visites',
-            'description' => 'Organiser les visites du Samedi aprem avant l\'Intégration et celles pendant l\'Intégration pour les TC et les branches.',
+            'description' => 'Organiser les visites du samedi aprèm avant l\'inté et celles pendant la première semaine pour les TC et les branches.',
         ],
         'wei' => [
             'title' => 'WEI',
-            'description' => 'Organiser le Week-end d’intégration (transport, animation, logistique, soirée, boisson), se coordonner avec les différentes team de l’inté : log, bouffe, S&L, anim.',
+            'description' => 'Organiser le Week-end d’intégration (transport, animation, logistique, soirée, boissons) en coordonnant avec les différentes commissions de l’inté : log, bouffe, S&L, anim...',
         ],
     ];
 
