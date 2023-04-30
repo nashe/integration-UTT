@@ -1,0 +1,9 @@
+# Query: nom gentil
+# ContextLines: 1
+
+1 result - 1 file
+
+resources/views/dashboard/teams/edit.blade.php:
+  32              <div class="form-group">
+  33:                 <label for="safe_name" class="col-lg-2 control-label">Nom d’équipe</label>
+  34                  <div class="col-lg-10">

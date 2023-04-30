@@ -12,7 +12,7 @@ Gestion des équipes
 
 <div class="box box-default">
     <div class="box-header with-border">
-        <h3 class="box-title">Modification de l'équipe
+        <h3 class="box-title">Modification de l’équipe
             @if($team->name != null)
             <strong>{{{ $team->name }}}</strong></a>
             @else
@@ -29,13 +29,13 @@ Gestion des équipes
                 </div>
             </div>
 
-            <div class="form-group">
-                <label for="safe_name" class="col-lg-2 control-label">Nom gentil</label>
+            <!--<div class="form-group">
+                <label for="safe_name" class="col-lg-2 control-label">Nom d’équipe</label>
                 <div class="col-lg-10">
                     <input class="form-control" type="text" id="safe_name" name="safe_name" value="{{{ old('safe_name') ?? $team->safe_name }}}">
-                    <small class="text-muted">On ne peut pas envoyer un nom d'équipe trop sale aux parents, on envoie donc une version moins choquante. Vous pouvez aussi profiter de ce nom pour enlever les jeux de mots qui le rendrait difficile à comprendre.</small>
+                    <small class="text-muted">On ne peut pas envoyer un nom d’équipe trop sale aux parents, on envoie donc une version moins choquante. Vous pouvez aussi profiter de ce nom pour enlever les jeux de mots qui le rendrait difficile à comprendre.</small>
                 </div>
-            </div>
+            </div>-->
 
             <div class="form-group">
                 <label for="safe_name" class="col-lg-2 control-label">Date et heure de passage</label>
