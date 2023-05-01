@@ -69,13 +69,15 @@ Gestion des équipes
                 </div>
             </fieldset>
 
+            <!--
             <div class="form-group">
                 <label for="facebook" class="col-lg-2 control-label">Lien vers le serveur Discord</label>
                 <div class="col-lg-10">
                     <input class="form-control" type="text" id="facebook" name="facebook" placeholder="Discord..." value="{{{ old('facebook') ?? $team->facebook }}}">
                 </div>
             </div>
-
+            -->
+            
             <div class="form-group">
                 <label for="branch" class="col-lg-2 control-label">Branche</label>
                 <div class="col-lg-10">

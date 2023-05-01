@@ -175,14 +175,15 @@ Gestion de mon équipe
                         @endif
                     </div>
                 </fieldset>
-
+                <!--
                 <div class="form-group">
                     <label for="facebook" class="col-lg-2 control-label">Lien vers le serveur Discord (attribué par l'orga, n'en créez pas vous même)</label>
                     <div class="col-lg-10">
                         <input class="form-control" type="text" id="facebook" name="facebook" disabled placeholder="discord..." value="{{{ old('facebook') ?? $team->facebook }}}">
                     </div>
                 </div>
-
+                -->
+                
                 <div class="form-group">
                     <label for="email" class="col-lg-2 control-label">Responsable</label>
                     <div class="col-lg-10 text-field">
