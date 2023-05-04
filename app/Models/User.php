@@ -187,13 +187,13 @@ class User extends Model implements Authenticatable
             'title' => 'Discours de rentrée',
             'description' => 'Préparer et faire un discours de rentrée pour faire une petite frayeur aux nouveaux.',
         ],
+        'gof' => [
+            'title' => 'Games of Fondation',
+            'description' => 'Organiser une aprèm type kermesse en partenariat avec la Fondation UTT.',
+        ],
         'gubu' => [
             'title' => 'GUBU',
             'description' => 'Élaborer le futur GUBU des nouveaux pour faire vivre l’esprit UTTien avec des histoires, des recettes, des chants, des vannes, parler des assos...',
-        ],
-        'kda' => [
-            'title' => 'Kermesse des Arts',
-            'description' => 'Mettre en place une aprèm culture avec les assos/clubs artistiques qui présentent ce qu’elles font !',
         ],
         'log' => [
             'title' => 'Logistique',
@@ -259,7 +259,7 @@ class User extends Model implements Authenticatable
             'title' => 'Village Asso',
             'description' => 'Organiser une aprèm en collaboration avec des associations UTTiennes afin de les présenter à travers de petites activités et coordonner l’évènement le jour J.',
         ],
-	    'VMD' => [
+	    'VIS' => [
             'title' => 'Village des initiatives soutenables',
             'description' => 'Organiser une aprèm autour des initiatives soutenables avec des stands d’associatifs UTTiens et d’acteurs locaux (Troyes Champagne Métropole, TCAT, la Maison des Étudiants...).',
         ],
