@@ -116,9 +116,9 @@ class TeamsController extends Controller
         if($data['name'] != '') {
           $team->name = $data['name'];
         }
-        if($data['safe_name'] != '') {
+        /*if($data['safe_name'] != '') {
           $team->safe_name = $data['safe_name'];
-        }
+        }*/
         $team->description = $data['description'];
         $team->facebook = $data['facebook'];
         $team->comment = $data['comment'];

@@ -179,6 +179,10 @@ class User extends Model implements Authenticatable
             'title' => 'Défis TC',
             'description' => 'Préparer un défi d’une aprèm où les nouveaux TC devront faire preuve d’ingéniosité pour fabriquer quelque chose à partir de peu (carton, marshmallow...).',
         ],
+        'dev' => [
+            'title' => 'Dev / Info',
+            'description' => 'Maintenir le site et l’application de l’inté et développer de nouveaux outils informatiques',
+        ],
         'faux_cours' => [
             'title' => 'Amphi de remédiation',
             'description' => 'Créer un faux premier cours compliqué pour les TC avec des professeurs et des faux élèves durant la première semaine.',

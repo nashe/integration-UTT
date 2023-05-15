@@ -109,17 +109,17 @@ class TeamController extends Controller
         }
 
         $team = Auth::user()->team;
-        $data = Request::only(['name', 'safe_name', 'description', 'img', 'facebook']);
+        $data = Request::only(['name',/* 'safe_name',*/ 'description', 'img', 'facebook']);
         $this->validate(Request::instance(), [
             'name' => 'min:3|max:100|unique:teams,name,'.Auth::user()->team->id,
-            'safe_name' => 'min:3|max:100|unique:teams,safe_name,'.Auth::user()->team->id,
+            //'safe_name' => 'min:3|max:100|unique:teams,safe_name,'.Auth::user()->team->id,
             'description' => 'min:250',
             'img' => 'image',
             'facebook' => 'url'
         ],
         [
             'name.unique' => 'Ce nom d\'équipe est déjà pris.',
-            'safe_name.unique' => 'Votre nom "gentil" d\'équipe est déjà pris.',
+            //'safe_name.unique' => 'Votre nom "gentil" d\'équipe est déjà pris.',
         ]);
 
         // Check image size
@@ -131,13 +131,13 @@ class TeamController extends Controller
                 $extension = pathinfo($_FILES['img']['name'], PATHINFO_EXTENSION);
                 move_uploaded_file($_FILES['img']['tmp_name'], public_path() . '/uploads/teams-logo/' . $team->id . '.' . $extension);
             } else {
-                $imageError = 'Cependant l\'image n\'a pas pus être sauvegardé car elle a une taille différente d\'un carré de 200px par 200px. Veuillez la redimensionner.';
+                $imageError = 'Cependant l\'image n\'a pas pu être sauvegardé car elle a une taille différente d\'un carré de 200px par 200px. Veuillez la redimensionner.';
             }
         }
 
         // Update team informations
         $team->name = $data['name'];
-        $team->safe_name = $data['safe_name'];
+        //$team->safe_name = $data['safe_name'];
         $team->description = $data['description'];
         //$team->facebook = $data['facebook'];
         $team->validated = false;
