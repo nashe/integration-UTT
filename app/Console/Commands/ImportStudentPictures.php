@@ -5,6 +5,9 @@ use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 use App\Models\User;
+use Config;
+use GuzzleHttp\Client;
+use GuzzleHttp\Exception\ClientException;
 
 class ImportStudentPictures extends Command
 {
@@ -33,6 +36,32 @@ class ImportStudentPictures extends Command
         parent::__construct();
     }
 
+    private function getProfilePicture(string $login) {
+        $client = new Client([
+            'base_uri' => Config::get('services.etuutt.baseuri.api'),
+            'auth' => [
+                Config::get('services.etuutt.client.id'),
+                Config::get('services.etuutt.client.secret')
+            ]
+        ]);
+
+        $url_prefix = '/api/public/users/image/' . $login;
+        try {
+            $response = $client->get($url_prefix . '.png');
+        } catch (ClientException $e1) {
+            try {
+                $response = $client->get($url_prefix . '.jpg');
+            } catch (ClientException $e2) {
+                try {
+                    $response = $client->get($url_prefix . '_official.jpg');
+                } catch (ClientException $e3) {
+                    return null;
+                }
+            }
+        }
+        return $response->getBody();
+    }
+
     /**
      * Execute the console command.
      *
@@ -47,13 +76,7 @@ class ImportStudentPictures extends Command
         foreach ($list as $student) {
             $i++;
             echo $i . "/" . $list->count() . " " . $student->fullName() . " " . "\n";
-            $picture = @file_get_contents('https://etu.utt.fr/uploads/photos/' . $student->etuutt_login . '.png');
-            if (empty($picture)) {
-                $picture = @file_get_contents('https://etu.utt.fr/uploads/photos/' . $student->etuutt_login . '.jpg');
-            }
-            if (empty($picture)) {
-                $picture = @file_get_contents('https://etu.utt.fr/uploads/photos/' . $student->etuutt_login . '_official.jpg');
-            }
+            $picture = getProfilePicture($student->etuutt_login);
             if (empty($picture)) {
                 echo "Error while trying to download student picture of ". $student->fullName() . " (" . $student->student_id . ")\n";
             }
