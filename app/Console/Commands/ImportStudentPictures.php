@@ -76,7 +76,7 @@ class ImportStudentPictures extends Command
         foreach ($list as $student) {
             $i++;
             echo $i . "/" . $list->count() . " " . $student->fullName() . " " . "\n";
-            $picture = getProfilePicture($student->etuutt_login);
+            $picture = $this->getProfilePicture($student->etuutt_login);
             if (empty($picture)) {
                 echo "Error while trying to download student picture of ". $student->fullName() . " (" . $student->student_id . ")\n";
             }
