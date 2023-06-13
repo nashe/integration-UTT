@@ -87,7 +87,7 @@ Ton équipe !
                 </p>
                 <hr/>
                 <div class="text-center">
-                    <a href="https://discord.gg/8N7FfmeDKu" target="_blank" id="discord-btn" class="btn btn-primary btn-lg">Clique ici pour rejoindre le channel discord de ton équipe</a>
+                    <a href="https://discord.gg/Ea8XwgX5HS" target="_blank" id="discord-btn" class="btn btn-primary btn-lg">Clique ici pour rejoindre le channel discord de ton équipe</a>
                 </div>
                 <div class="text-center">
                 @if(Auth::user()->isChecked('team_disguise'))

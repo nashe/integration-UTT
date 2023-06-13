@@ -25,7 +25,7 @@ Réseaux Sociaux
             <a href="https://www.instagram.com/bdeutt">
                 <img src="{{ asset('img/icons/instagram.png') }}" alt="Instagram" style="max-width:75px; margin-left:5px; margin-right: 5px;">
             </a>
-            <a href="https://discord.gg/9wFZCnmmXe">    
+            <a href="https://discord.gg/Ea8XwgX5HS">    
                 <img src="{{ asset('img/icons/discord.png') }}" alt="Discord" style="max-width:90px; margin-left:5px; margin-right: 5px;">
             </a>
         </div>
