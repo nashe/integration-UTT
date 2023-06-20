@@ -47,7 +47,10 @@ Menu
                                 <!--<strong>Les inscriptions sont fermées.</strong><br/>-->
                                     @if (Authorization::countdown('student','referral'))
                                         <!--<strong>Ouverture dans {{ @countdown(Authorization::countdown('student','referral')) }}</strong>-->
-                                        <strong>Ouverture des inscriptions prochainement dans l'année 2022 !</strong><br/>
+                                        <!-- Update 2023 : Lien du gform parrainage sans passer par le site
+                                        <strong>Ouverture des inscriptions prochainement dans l'année 2023 !</strong><br/>-->
+
+                                        <a href="https://forms.gle/HmGNRci7NJE1YMwH8" class="btn form-control btn-success"><strong>Lien GForm parrainage</strong></a>
                                     @endif
                                     Contacte <a href="mailto:integration@utt.fr">integration@utt.fr</a> pour toute question.
                             @endif
