@@ -46,7 +46,7 @@ class StepsController extends Controller
             'phone' => [
                 'required',
             ],
-            'discord' => 'regex:/^.+#[0-9]{4}$/|required',
+            'discord' => 'regex:/^.+(#[0-9]{4})?$/|required',
         ],
         [
             'phone.regex' => 'Le champ téléphone doit contenir un numéro de téléphone valide. Pour un numéro étranger, utilisez le préfix international.',
