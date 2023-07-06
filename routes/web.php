@@ -57,6 +57,7 @@ Route::get('/trombi', [
 
 Route::get('/trombi/phone/{id}.png', [
     'as'   => 'trombi.phone',
+    'middleware' => 'authorize:orga',
     'uses' => 'All\PagesController@getTrombiPhome'
 ]);
 
