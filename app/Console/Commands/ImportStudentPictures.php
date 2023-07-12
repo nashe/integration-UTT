@@ -36,7 +36,7 @@ class ImportStudentPictures extends Command
         parent::__construct();
     }
 
-    private function getProfilePicture(string $login) {
+    private function getProfilePicture(User $student) {
         $client = new Client([
             'base_uri' => Config::get('services.etuutt.baseuri.api'),
             'auth' => [
@@ -45,20 +45,55 @@ class ImportStudentPictures extends Command
             ]
         ]);
 
-        $url_prefix = '/api/public/users/image/' . $login;
         try {
-            $response = $client->get($url_prefix . '.png');
-        } catch (ClientException $e1) {
-            try {
-                $response = $client->get($url_prefix . '.jpg');
-            } catch (ClientException $e2) {
-                try {
-                    $response = $client->get($url_prefix . '_official.jpg');
-                } catch (ClientException $e3) {
-                    return null;
+            $user = $client->get('/api/public/users/' . $student->etuutt_login . '?access_token=' . $student->etuutt_access_token);
+            $userLinks = json_decode($user->getBody()->getContents(), true)['data']['_links'];
+            $userAvatarUrl = null;
+            foreach ($userLinks as $link) {
+                if ($link['rel'] == 'user.image') {
+                    $userAvatarUrl = $link['uri'];
                 }
             }
+            if (empty($userAvatarUrl)) {
+                return null;
+            }
+            $response = $client->get($userAvatarUrl . '?access_token=' . $student->etuutt_access_token);
+        } catch (\GuzzleHttp\Exception\ClientException $e) {
+            if ($e->hasResponse()) {
+                $json = json_decode($e->getResponse()->getBody()->getContents(), true);
+                if ($json) {
+
+                    // Catch token expiration
+                    if (isset($json['error']) && $json['error'] == 'expired_token') {
+                        // Refresh token
+                        $params = [
+                            'grant_type'         => 'refresh_token',
+                            'refresh_token' => $student->etuutt_refresh_token
+                        ];
+                        try {
+                            $response = $client->post('/api/oauth/token', ['form_params' => $params]);
+                        } catch (\GuzzleHttp\Exception\GuzzleException $e) {
+                            // An error 400 from the server is usual when the authorization_code
+                            // has expired. We force deconnexion to let hom renew his token
+                            return null;
+                        }
+
+                        $json = json_decode($response->getBody()->getContents(), true);
+                        $student->etuutt_access_token = $json['access_token'];
+                        $student->etuutt_refresh_token = $json['refresh_token'];
+                        $student->save();
+
+                        return $this->GetTryPicture($student);
+                    } else {
+                        return null;
+                    }
+                }
+            }
+            return null;
+        } catch (\GuzzleHttp\Exception\GuzzleException $e) {
+            return null;
         }
+
         return $response->getBody();
     }
 
@@ -76,7 +111,7 @@ class ImportStudentPictures extends Command
         foreach ($list as $student) {
             $i++;
             echo $i . "/" . $list->count() . " " . $student->fullName() . " " . "\n";
-            $picture = $this->getProfilePicture($student->etuutt_login);
+            $picture = $this->getProfilePicture($student);
             if (empty($picture)) {
                 echo "Error while trying to download student picture of ". $student->fullName() . " (" . $student->student_id . ")\n";
             }
