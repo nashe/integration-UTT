@@ -83,7 +83,7 @@ class ImportStudentPictures extends Command
                         $student->etuutt_refresh_token = $json['refresh_token'];
                         $student->save();
 
-                        return $this->GetTryPicture($student);
+                        return $this->getProfilePicture($student);
                     } else {
                         return null;
                     }
