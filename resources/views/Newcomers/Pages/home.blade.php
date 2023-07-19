@@ -16,11 +16,11 @@ Informations diverses pour toi !
         </div>
         <div class="box-body">
             <p>
-                Ça y est, après tant d’efforts tu y es arrivé ! Ton rêve se réalise enfin  ! Tu fais maintenant partie de la grande famille des UTTiens !
+                Ça y est, après tant d’efforts tu y es arrivé ! Ton rêve se réalise enfin ! Tu fais maintenant partie de la grande famille des UTTiens !
             </p>
             <img src="{{ asset('img/gifs/welcome.webp') }}" alt="Welcome" style="text-align:center; max-width:50%; max-height: 200px;">
             <p>
-                Pour t'accueillir, nous te préparons une semaine d'intégration digne de ce nom ! Le but de cette semaine est de rencontrer les anciens et nouveaux UTTiens autour des différents repas et activités que nous organisons tout spécialement pour toi.
+                Pour t'accueillir, nous te préparons deux semaines d'intégration dignes de ce nom ! Le but de ces semaines est de rencontrer les anciens et nouveaux UTTiens autour des différents repas et activités que nous organisons tout spécialement pour toi.
             </p>
             <p>
                 Ta première semaine dans notre belle école sera plutôt chargée en activités, mais ne t'inquiète pas ! Tu recevras un planning détaillé de ta semaine dès ton arrivée.
@@ -35,13 +35,18 @@ Informations diverses pour toi !
                     pour que nous puissions <strong>t'offrir un petit dej'</strong> de bienvenue.
                 @endif
             </p>
+
+            <p>
+                Les premiers cours débuteront pendant la deuxième mais tu n'en auras que très peu. D'autres activités seront donc organisées cette semaine là également, en après-midi et en soirée ! 
+            </p>
+
             <p>
                 Ce site est là pour te permettre d'être prêt pour ton intégration, il va récapituler tous les petits trucs auxquels tu devras penser.<br />
-                J’espère que tu es prêt à vivre une de tes meilleures semaines étudiantes, embarque, met ta ceinture et zéééé parti
+                J’espère que tu es prêt à vivre deux de tes meilleures semaines étudiantes, embarque, mets ta ceinture et zéééé parti
             </p>
             <img src="{{ asset('img/gifs/cestparti.webp') }}" alt="Let's go" style="text-align:center; max-width:50%; max-height: 200px;">
             <p>
-                Si tu as la moindre question, tu peux nous contacter sur <a href="https://www.facebook.com/bde.utt/" target="_blank">Facebook</a> ou en <a href="{{ route('contact') }}">cliquant ici</a> !
+                Si tu as la moindre question, tu peux nous contacter sur <a href="https://www.instagram.com/bdeutt/" target="_blank">Instagram</a>, <a href="https://www.facebook.com/bde.utt/" target="_blank">Facebook</a>  ou en <a href="{{ route('contact') }}">cliquant ici</a> !
             </p>
             <div class="text-center">
                 <a class="btn btn-primary" href="{{{ route('newcomer.'.Auth::user()->getNextCheck()['page']) }}}">Prochaine action à faire<br/><strong>{{{ Auth::user()->getNextCheck()['action'] }}}</strong></a>

@@ -19,8 +19,7 @@ Frequently Asked Questions
 					<p>L'équipe d'intégration vous donne rendez-vous :</p>
 					<ul>
 	                	<li>Pour les étudiants entrant en Tronc Commun : {{ Config::get('services.reentry.tc.date') }} à {{ Config::get('services.reentry.tc.time') }} ;</li>
-	                	<li>Pour les étudiants entrant en Branche (bac +2) : {{ Config::get('services.reentry.branches.date') }} à {{ Config::get('services.reentry.branches.time') }} ;</li>
-	            	    <li>Pour les étudiants entrant en Master : {{ Config::get('services.reentry.masters.date') }} à {{ Config::get('services.reentry.masters.time') }} ;</li>
+	                	<li>Pour les étudiants entrant en Branche (Bac +3) et en Master : {{ Config::get('services.reentry.branches.date') }} à {{ Config::get('services.reentry.branches.time') }} ;</li>
 					</ul>
 					<p>pour les activités de l'intégration ! <br/>
 					<strong>On t’offre le petit-déjeuner !</strong></p>
@@ -33,19 +32,19 @@ Frequently Asked Questions
 
 				<h4><a href="#question300" data-toggle="collapse">Les repas sont-ils compris ?</a></h4>
 	            <p id="question300" class="collapse">
-					Le jour de ton arrivée (le lundi, mardi ou mercredi), le petit déjeuner est offert par le BDE. <br/>
-					Pour les repas du lundi soir (pour les étudiants entrant en Tronc Commun), mardi soir (pour tout le monde), jeudi midi et vendredi midi, il faudra prévoir un peu de monnaie mais pas de panique, cela reste à des prix étudiants (entre 2 et 4€).
+					Le jour de ton arrivée (le lundi, mardi), le petit déjeuner est offert par le BDE. <br/>
+					Pour les repas du lundi soir (pour les étudiants entrant en Tronc Commun), mardi soir (pour tout le monde) et jeudi midi, une billetterie ouvrira bientôt pour que tu puisses payer les repas mais pas de panique, cela reste à des prix étudiants (entre 2 et 4€). Tu pourras également payer (en espèces ou en carte) sur place si tout n'a pas été vendu en amont ! 
 				</p>
 
 				<h4><a href="#question400" data-toggle="collapse">Est-ce qu'il y a des cours la première semaine ?</a></h4>
 	            <p id="question400" class="collapse">
-					Non, aucun cours la semaine du 29 Août au 4 Septembre, ils commencent la semaine d’après. <br/>
+					Non, aucun cours la semaine du 4 au 10 septembre, ils commencent la semaine d’après. <br/>
 					Tu auras juste des réunions avec les responsables de la formation. Tu passeras un tiers de ton temps avec eux, un tiers de ton temps avec nous, l’équipe d'intégration, et le reste en temps libre.
 	            </p>
 
 				<h4><a href="#question500" data-toggle="collapse">Quel est l’emploi du temps de la semaine d’intégration ?</a></h4>
 	            <p id="question500" class="collapse">
-					Il te sera envoyé par mail, et une copie papier sera distribuée durant la semaine.
+					Il te sera envoyé par mail, et tu pourras également le retrouver sur un channel discord dédié.
 	            </p>
    		    
 			    <h4><a href="#question600" data-toggle="collapse">Quand ont lieu les inscriptions administratives?</a></h4>
@@ -69,12 +68,12 @@ Frequently Asked Questions
 
 				<h4><a href="#question2000" data-toggle="collapse">Qu’est ce que c’est le WEI ?</a></h4>
 				<p id="question2000" class="collapse">
-					WEI signifie Week-End d’Intégration, c’est un évènement qui clôture en beauté la semaine d’intégration. Il a lieu du 2 au 4 septembre. Pleins de surprises t’y attendent et c’est également un bon moment pour se faire plein de potes !
+					WEI signifie Week-End d’Intégration, c’est un évènement qui clôture en beauté la semaine d’intégration. Il a lieu du 8 au 10 septembre. Plein de surprises t’y attendent et c’est également un bon moment pour se faire plein de potes !
 				</p>
 
 				<h4><a href="#question2100" data-toggle="collapse">C’est quand ?</a></h4>
 				<p id="question2100" class="collapse">
-					On part le vendredi 2 septembre à 11h30 et on revient le dimanche 4 septembre vers 18h. On part de l'UTT et retour au même endroit !
+					On part le vendredi 8 septembre à 11h30 et on revient le dimanche 10 septembre vers 18h. On part de l'UTT et retour au même endroit !
 				</p>
 
 				<h4><a href="#question2200" data-toggle="collapse">C’est où ?</a></h4>
@@ -96,12 +95,13 @@ Frequently Asked Questions
 						<li>Une serviette et du savon (si tu veux être propre ;</li>
 						<li>Une bombe anti-moustique (ton corps te remerciera) ;</li>
 						<li>De la crème solaire (ton corps te remerciera aussi) ;</li>
+						<li>Un maillot de bain ;</li>
 						<li>Des bouchons d'oreilles (ton toi de plus tard te remerciera) ;</li>
 						<li>Ton écocup ;</li>
 						<li>Ton tupperware ainsi que des couverts ;</li>
 						<li>Ta carte d'identité ;</li>
 						<li>De l'argent (CB et/ou espèces) si tu veux pouvoir acheter à boire au WEI ;</li>
-						<li>Ton autorisation parentale si tu es mineur.</li>
+						<li><strong>Ton autorisation parentale si tu es mineur.</strong></li>
 					</ul>				
 				</div>
 
