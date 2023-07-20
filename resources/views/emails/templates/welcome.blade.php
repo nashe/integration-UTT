@@ -6,7 +6,7 @@
   <meta name="x-apple-disable-message-reformatting">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta content="telephone=no" name="format-detection">
-  <title>Integration 2022 - mail pour les nouveaux</title><!--[if (mso 16)]>
+  <title>Intégration 2023</title><!--[if (mso 16)]>
     <style type="text/css">
     a {text-decoration: none;}
     </style>
@@ -112,7 +112,7 @@ a[x-apple-data-detectors] {
                   <td align="center" valign="top" style="padding:0;Margin:0;width:560px">
                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="Margin:0;padding-top:5px;padding-left:5px;padding-right:5px;padding-bottom:15px"><img class="adapt-img" alt height="34.117645263671875" src="https://cdt-timer.stripocdn.email/api/v1/images/YgF5g9HFpsK014vITinC_hfWjGWNkG8q3CSAJ6Hgn7w?l=1658387154870" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></td>
+                      <td align="center" style="Margin:0;padding-top:5px;padding-left:5px;padding-right:5px;padding-bottom:15px"><div style="left:0; width:100%; height:0; position:relative; padding-bottom:25%; margin:0 auto"><iframe src="https://www.tickcounter.com/widget/countdown/4309615" style="top:0; left:0; width:100%; height:100%; position:absolute; border:0; overflow:hidden; transform:scale(0.9)" title="My countdown"></iframe></div></td>
                      </tr>
                    </table></td>
                  </tr>
