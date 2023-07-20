@@ -73,7 +73,7 @@ a[x-apple-data-detectors] {
                   <td align="center" valign="top" style="padding:0;Margin:0;width:560px">
                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="padding:0;Margin:0;font-size:0px"><img class="adapt-img" src="https://hsdkqv.stripocdn.email/content/guids/CABINET_b321116da4c1363a2a7b5d69bdb9ac7f/images/diapositive2_BWF.png" alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="560"></td>
+                      <td align="center" style="padding:0;Margin:0;font-size:0px"><img class="adapt-img" src="https://i.imgur.com/C3iVEdr.jpg" alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="560"></td>
                      </tr>
                    </table></td>
                  </tr>
@@ -192,10 +192,10 @@ a[x-apple-data-detectors] {
                   <td align="center" valign="top" style="padding:0;Margin:0;width:560px">
                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="padding:0;Margin:0"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;color:#E74260;font-size:18px"><b>PETIT POINT COVID&nbsp;</b></p></td>
+                      <td align="center" style="padding:0;Margin:0"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:27px;color:#E74260;font-size:18px"><b>Situation de handicap&nbsp;</b></p></td>
                      </tr>
                      <tr>
-                      <td style="padding:0;Margin:0;padding-bottom:15px"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:21px;color:#E74260;font-size:14px;text-align:justify">Pour le moment, l'Intégration n'est soumise à aucune restriction concernant la Covid-19. Néanmoins, si la situation vient à évoluer et que des mesures sont prises (port du masque, restrictions vis-à-vis des événements), nous t'en informerons en amont par mail.</p></td>
+                      <td style="padding:0;Margin:0;padding-bottom:15px"><p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:21px;color:#E74260;font-size:14px;text-align:justify">Si tu as des soucis de santé ou des handicaps visibles ou invisibles, n'hésite pas à contacter le pôle santé de l'UTT (infirmerie@utt.fr) pour que ton intégration se passe au mieux !</p></td>
                      </tr>
                      <tr>
                       <td align="center" style="Margin:0;padding-top:5px;padding-bottom:20px;padding-left:20px;padding-right:20px;font-size:0">
@@ -269,7 +269,7 @@ a[x-apple-data-detectors] {
                   <td align="center" valign="top" style="padding:0;Margin:0;width:560px">
                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="padding:0;Margin:0;font-size:0px"><img class="adapt-img" src="https://hsdkqv.stripocdn.email/content/guids/CABINET_b321116da4c1363a2a7b5d69bdb9ac7f/images/img_9383.jpg" alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="560"></td>
+                      <td align="center" style="padding:0;Margin:0;font-size:0px"><img class="adapt-img" src="https://i.imgur.com/evRJlkB.jpg" alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="560"></td>
                      </tr>
                    </table></td>
                  </tr>
