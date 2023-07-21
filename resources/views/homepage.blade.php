@@ -74,7 +74,7 @@ Accueil
                 // if ( Config::get('services.partners.homebox') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html', 'img' => asset("img/sponsors/HOMEBOX_logo.jpg"), 'alt' => 'HOMEBOX Garde meuble' ]; }
                 // if ( Config::get('services.partners.sncf') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.sncf.com/fr', 'img' => asset("img/sponsors/SNCF_logo.png"), 'alt' => 'SNCF' ]; }
                 // if ( Config::get('services.partners.lasergame') === 'true' ) { $sponsors[] = [ 'link' => 'https://troyes.lasergame-evolution.fr/', 'img' => asset("img/sponsors/LASERGAME_logo.png"), 'alt' => 'Laser Game Evolution' ]; }
-                if ( Config::get('services.partners.cic') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.cic.fr', 'img' => asset("img/sponsors/cic_est.png"), 'alt' => 'CIC' ]; }
+                if ( Config::get('services.partners.cic') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.cic.fr', 'img' => asset("img/sponsors/cic-est.png"), 'alt' => 'CIC' ]; }
                 if ( Config::get('services.partners.mc2i') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.mc2i.fr/', 'img' => asset("img/sponsors/MC2I-BLANC-BASELINE.png"), 'alt' => 'MC2i' ]; }    
 		        shuffle($sponsors);
 

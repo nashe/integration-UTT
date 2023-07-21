@@ -37,7 +37,7 @@ Que l'intégration a trouvé pour toi !
         <p>L’auto-moto école Popeye t’accompagnera à des prix avantageux grâce à ses moniteurs compétents.</p>
         <p><a href="https://www.popeye-troyes.fr/">https://www.popeye-troyes.fr/</a></p><br/>
 
-        <p><a href="https://www.cic.fr/fr/index.html"><img src="img/sponsors/cic_est.png" style="float:right" class="img-thumbnail" /></a></p>
+        <p><a href="https://www.cic.fr/fr/index.html"><img src="img/sponsors/cic-est.png" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="popeye"> CIC </h4> </p>
         <p>Le CIC offre aux cotisants BDE 100€ pour l’ouverture d’un nouveau compte bancaire dans une des agences de Troyes. Et à chaque rentrée scolaire, tu recevras aussi 50€.</p>
         <p><a href="https://www.popeye-troyes.fr/">https://www.popeye-troyes.fr/</a></p><br/>

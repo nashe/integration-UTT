@@ -32,7 +32,7 @@ Pause partenaire !
             Le CIC offre aux cotisants BDE 100€ pour l’ouverture d’un nouveau compte bancaire dans une des agences de Troyes. Et à chaque rentrée scolaire, tu recevras aussi 50€.
         </p>
         <div class="text-center">
-            <a href="https://www.cic.fr/fr/index.html" target="_blank"><img src="{{ asset('img/sponsors/cic_est.png') }}" class="img-thumbnail" /></a>
+            <a href="https://www.cic.fr/fr/index.html" target="_blank"><img src="{{ asset('img/sponsors/cic-est.png') }}" class="img-thumbnail" /></a>
         </div>
 
         <h3>Pour ton permis</h3>
