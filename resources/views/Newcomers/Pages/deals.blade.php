@@ -17,8 +17,6 @@ Que l'intégration a trouvé pour toi !
         <ul>
             <li><a href="#damonte">Damonte</a></li>
             <li><a href="#popeye">Auto-école Popeye</a></li>
-            <li><a href="#yvon">Yvon Assurances et Services</a></li>
-            <li><a href="#soprasteria">Sopra Steria</a></li>
             <li><a href="#lasergame">Laser Game Evolution</a></li>
             <li><a href="#nigloland">Nigloland</a></li>
             <li><a href="#cgr">Cinéma CGR de Troyes</a></li>
@@ -39,17 +37,10 @@ Que l'intégration a trouvé pour toi !
         <p>L’auto-moto école Popeye t’accompagnera à des prix avantageux grâce à ses moniteurs compétents.</p>
         <p><a href="https://www.popeye-troyes.fr/">https://www.popeye-troyes.fr/</a></p><br/>
 
-        <p><a href="https://www.yvon.eu/"><img src="img/sponsors/rsz_yvon.png" style="float:right" class="img-thumbnail" /></a></p>
-        <p> <h4 id="yvon"> Yvon Assurances et Services </h4> </p>
-        <p>Yvon, l’allié des étudiants au quotidien ! Vos solutions assurances et mutuelles étudiantes en quelques clics !</p>
-        <p>Avec Yvon, vous êtes entre de bonnes mains.</p>
-        <p><a href="https://www.yvon.eu/">https://www.yvon.eu/</a></p><br/>
-
-        <p><a href="https://www.soprasteriarecrute.fr/"><img src="img/sponsors/deals/soprasteria_rsz.png" style="float:right" class="img-thumbnail" /></a></p>
-        <p> <h4 id="soprasteria"> Sopra Steria </h4> </p>
-        <p>L’un des leaders européens de la Tech reconnu pour ses activités de conseil, de services numériques et d’édition de logiciels, aide ses clients à mener leur transformation numérique et à obtenir des bénéfices concrets et durables.</p> 
-        <p>Le Groupe apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, en combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative.</p>
-        <p><a href="https://www.soprasteria.fr/carrieres">https://www.soprasteria.fr/carrieres</a></p><br/>
+        <p><a href="https://www.cic.fr/fr/index.html"><img src="img/sponsors/cic_est.png" style="float:right" class="img-thumbnail" /></a></p>
+        <p> <h4 id="popeye"> CIC </h4> </p>
+        <p>Le CIC offre aux cotisants BDE 100€ pour l’ouverture d’un nouveau compte bancaire dans une des agences de Troyes. Et à chaque rentrée scolaire, tu recevras aussi 50€.</p>
+        <p><a href="https://www.popeye-troyes.fr/">https://www.popeye-troyes.fr/</a></p><br/>
 
         <p><a href="https://troyes.lasergame-evolution.fr/"><img src="img/sponsors/deals/lasergame_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="lasergame"> Laser Game Evolution </h4> </p>
