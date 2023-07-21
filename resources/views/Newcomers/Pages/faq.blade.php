@@ -113,7 +113,8 @@ Frequently Asked Questions
 
 				<h4><a href="#question2600" data-toggle="collapse">Combien ça coûte ?</a></h4>
 				<p id="question2600" class="collapse">
-					La totalité du week-end coûte {{ Config::get('services.wei.price')/100 }}€, nourriture et transport compris, prévois juste de la monnaie pour tes consommations en soirée (entre 2€ et 3€ le verre).
+					<!--La totalité du week-end coûte {{ Config::get('services.wei.price')/100 }}€, nourriture et transport compris, prévois juste de la monnaie pour tes consommations en soirée (entre 2€ et 3€ le verre).-->
+					La totalité du week-end coûtera entre 50€ et 60€, nourriture et transport compris, prévois juste de la monnaie ou ta carte bleue pour tes consommations en soirée (entre 2€ et 3€ le verre).	
 				</p>
 
 				<h4><a href="#question2700" data-toggle="collapse">Les repas sont-ils compris ?</a></h4>
