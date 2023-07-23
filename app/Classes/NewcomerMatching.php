@@ -140,8 +140,8 @@ class NewcomerMatching
         }
 
         foreach ($newcomers as $newcomer) {
-            // Remove exchange students from auto team assignement
-            if ($newcomer->branch == 'CV ING') {
+            // Remove exchange or master students from auto team assignement
+            if ($newcomer->branch == 'CV ING' || $newcomer->branch == 'PAIP-GS' || $newcomer->branch == 'RE' || $newcomer->branch == 'ISC') {
                 continue;
             }
 
