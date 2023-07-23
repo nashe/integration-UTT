@@ -17,8 +17,6 @@ Que l'intégration a trouvé pour toi !
         <ul>
             <li><a href="#damonte">Damonte</a></li>
             <li><a href="#popeye">Auto-école Popeye</a></li>
-            <li><a href="#yvon">Yvon Assurances et Services</a></li>
-            <li><a href="#soprasteria">Sopra Steria</a></li>
             <li><a href="#lasergame">Laser Game Evolution</a></li>
             <li><a href="#nigloland">Nigloland</a></li>
             <li><a href="#cgr">Cinéma CGR de Troyes</a></li>
@@ -33,23 +31,16 @@ Que l'intégration a trouvé pour toi !
         <p>295 Rue du Faubourg Croncels 10000 Troyes</p>
         <p><a href="http://www.yves-damonte.fr">http://www.yves-damonte.fr</a></p><br/>
 
-        <p><a href="http://www.auto-ecole-popeye.fr"><img src="img/sponsors/deals/popeye_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
+        <p><a href="https://www.popeye-troyes.fr/"><img src="img/sponsors/deals/popeye_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="popeye"> Auto-école Popeye </h4> </p>
         <p>Tu n’as pas encore ton permis B ou tu souhaites ajouter une nouvelle lettre à ta collection ?</p>
         <p>L’auto-moto école Popeye t’accompagnera à des prix avantageux grâce à ses moniteurs compétents.</p>
         <p><a href="https://www.popeye-troyes.fr/">https://www.popeye-troyes.fr/</a></p><br/>
 
-        <p><a href="https://www.yvon.eu/"><img src="img/sponsors/rsz_yvon.png" style="float:right" class="img-thumbnail" /></a></p>
-        <p> <h4 id="yvon"> Yvon Assurances et Services </h4> </p>
-        <p>Yvon, l’allié des étudiants au quotidien ! Vos solutions assurances et mutuelles étudiantes en quelques clics !</p>
-        <p>Avec Yvon, vous êtes entre de bonnes mains.</p>
-        <p><a href="https://www.yvon.eu/">https://www.yvon.eu/</a></p><br/>
-
-        <p><a href="https://www.soprasteriarecrute.fr/"><img src="img/sponsors/deals/soprasteria_rsz.png" style="float:right" class="img-thumbnail" /></a></p>
-        <p> <h4 id="soprasteria"> Sopra Steria </h4> </p>
-        <p>L’un des leaders européens de la Tech reconnu pour ses activités de conseil, de services numériques et d’édition de logiciels, aide ses clients à mener leur transformation numérique et à obtenir des bénéfices concrets et durables.</p> 
-        <p>Le Groupe apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, en combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative.</p>
-        <p><a href="https://www.soprasteria.fr/carrieres">https://www.soprasteria.fr/carrieres</a></p><br/>
+        <p><a href="https://www.cic.fr/fr/index.html"><img src="img/sponsors/deals/cic-est_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
+        <p> <h4 id="popeye"> CIC </h4> </p>
+        <p>Le CIC offre aux cotisants BDE 100€ pour l’ouverture d’un nouveau compte bancaire dans une des agences de Troyes. Et à chaque rentrée scolaire, tu recevras aussi 50€.</p>
+        <p><a href="https://www.popeye-troyes.fr/">https://www.popeye-troyes.fr/</a></p><br/>
 
         <p><a href="https://troyes.lasergame-evolution.fr/"><img src="img/sponsors/deals/lasergame_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
         <p> <h4 id="lasergame"> Laser Game Evolution </h4> </p>
@@ -69,13 +60,6 @@ Que l'intégration a trouvé pour toi !
         <p>Le cinéma de Troyes, avec ses 14 salles dont une dotée de la technologie ICE, propose tous les derniers films dès leur sortie.</p>
         <p>13 Rue des Bas Trevois 10000 Troyes</p>
         <p><a href="https://www.cgrcinemas.fr/troyes/films-a-l-affiche/">https://www.cgrcinemas.fr/troyes/films-a-l-affiche/</a></p><br/>
-
-        <p><a href="https://lefamilyspace.fr/"><img src="img/sponsors/deals/familyspace_resultat.png" style="float:right" class="img-thumbnail" /></a></p>
-        <p> <h4 id="familyspace"> Family Space </h4> </p>
-        <p>Family Space est un complexe de loisir situé à Troyes qui regroupe un trampo parc, un bowling et plein d’autres activités à retrouver sur leur site internet.</p>
-        <p>Les tarifs sont accessibles et ils proposent des formules pour des anniversaires par exemple.</p>
-        <p>4 Rue de l'Orme de la Croix 10600 La Chapelle-Saint-Luc</p>
-        <p><a href="https://lefamilyspace.fr/">https://lefamilyspace.fr/</a></p><br/>
 
         </div>
     </div>

@@ -27,13 +27,12 @@ Pause partenaire !
             </a>
         </div>
 
-        <h3>Pour ton assurance</h3>
+        <h3>Pour ton compte en banque</h3>
         <p>
-            Yvon, l’allié des étudiants au quotidien ! Vos solutions assurances et mutuelles étudiantes en quelques clics !
-            <br />Avec Yvon, vous êtes entre de bonnes mains.
+            Le CIC offre aux cotisants BDE 100€ pour l’ouverture d’un nouveau compte bancaire dans une des agences de Troyes. Et à chaque rentrée scolaire, tu recevras aussi 50€.
         </p>
         <div class="text-center">
-            <a href="https://www.yvon.eu/" target="_blank"><img src="{{ asset('img/sponsors/YVON.jpeg') }}" class="img-thumbnail" /></a>
+            <a href="https://www.cic.fr/fr/index.html" target="_blank"><img src="{{ asset('img/sponsors/deals/cic-est_resultat.png') }}" class="img-thumbnail" /></a>
         </div>
 
         <h3>Pour ton permis</h3>
@@ -44,7 +43,7 @@ Pause partenaire !
             <a href="https://www.popeye-troyes.fr" target="_blank"><img src="{{ asset('img/sponsors/deals/popeye_resultat.png') }}" class="img-thumbnail" /></a>
         </div>
 
-        <h3>Sopra Steria</h3>
+        <!--<h3>MC2i</h3>
         <p>
             Sopra Steria, l’un des leaders européens de la Tech reconnu pour ses activités de conseil, de services numériques et d’édition de logiciels, aide ses clients à mener leur transformation numérique et à obtenir des bénéfices concrets et durables. Le Groupe apporte une réponse globale aux enjeux de compétitivité des grandes entreprises et organisations, en combinant une connaissance approfondie des secteurs d’activité et des technologies innovantes à une approche résolument collaborative.</br>
             Avec plus de 20 000 collaborateurs à travers la France, 30 familles de métiers, 11 secteurs d'activité (Défense, Énergie, Banque...) et 6 filiales (Cybersécurité, Aéronautique, Édition de logiciels...), le Groupe Sopra Steria, certifié Great Place To Work, offre une multitude d’opportunités pour t'épanouir. Alors, n'hésite plus et rejoins-nous dès maintenant en stage, en alternance ou pour ton premier job !
@@ -52,6 +51,7 @@ Pause partenaire !
         <div class="text-center">
             <a href="https://www.soprasteria.fr/carrieres" target="_blank"><img src="{{ asset('img/sponsors/deals/soprasteria_rsz.png') }}" class="img-thumbnail" /></a>
         </div>
+        -->
 
         <h3>Plus de bon plans</h3>
         <p>Tu en veux plus ? <a href="{{ route('newcomer.deals')}}">Clique ici</a> pour découvrir les autres partenaires de l'intégration, ou rendez vous sur <a href="https://bde.utt.fr/nos-partenaires" target="_blank">bde.utt.fr</a> pour découvrir les partenaires du BDE à l'année.</p>

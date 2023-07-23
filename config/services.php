@@ -142,6 +142,7 @@ return [
 	    'cic' => 'true',
         'yvon' => 'true',
         'soprasteria' => 'true',
+        'mc2i' => 'true',
     ],
 
     'socialNetwork' => [

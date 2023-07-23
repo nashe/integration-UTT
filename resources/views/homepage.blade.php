@@ -69,12 +69,13 @@ Accueil
 
                 if ( Config::get('services.partners.popeye') === 'true' ) { $sponsors[] = [ 'link' => 'http://www.auto-ecole-popeye.fr/', 'img' => asset("img/sponsors/popeye_a21.png"), 'alt' => 'Popeye auto-école' ]; }
                 if ( Config::get('services.partners.damonte') === 'true' ) { $sponsors[] = [ 'link' => 'http://www.yves-damonte.fr', 'img' => asset("img/sponsors/damonte.png"), 'alt' => 'Damonte Immobilier' ]; }
-                if ( Config::get('services.partners.yvon') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.yvon.eu/', 'img' => asset("img/sponsors/YVON.jpeg"), 'alt' => 'Yvon Assurances et Services' ]; }
-                if ( Config::get('services.partners.soprasteria') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.soprasteria.fr/carrieres', 'img' => asset("img/sponsors/soprasteria.png"), 'alt' => 'Sopra Steria' ]; }
+                //if ( Config::get('services.partners.yvon') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.yvon.eu/', 'img' => asset("img/sponsors/YVON.jpeg"), 'alt' => 'Yvon Assurances et Services' ]; }
+                //if ( Config::get('services.partners.soprasteria') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.soprasteria.fr/carrieres', 'img' => asset("img/sponsors/soprasteria.png"), 'alt' => 'Sopra Steria' ]; }
                 // if ( Config::get('services.partners.homebox') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.homebox.fr/liste-des-gardes-meubles/garde-meuble-troyes.html', 'img' => asset("img/sponsors/HOMEBOX_logo.jpg"), 'alt' => 'HOMEBOX Garde meuble' ]; }
                 // if ( Config::get('services.partners.sncf') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.sncf.com/fr', 'img' => asset("img/sponsors/SNCF_logo.png"), 'alt' => 'SNCF' ]; }
                 // if ( Config::get('services.partners.lasergame') === 'true' ) { $sponsors[] = [ 'link' => 'https://troyes.lasergame-evolution.fr/', 'img' => asset("img/sponsors/LASERGAME_logo.png"), 'alt' => 'Laser Game Evolution' ]; }
-                // if ( Config::get('services.partners.cic') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.cic.fr', 'img' => asset("img/sponsors/cic_logo.png"), 'alt' => 'CIC' ]; }
+                if ( Config::get('services.partners.cic') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.cic.fr', 'img' => asset("img/sponsors/cic-est.png"), 'alt' => 'CIC' ]; }
+                if ( Config::get('services.partners.mc2i') === 'true' ) { $sponsors[] = [ 'link' => 'https://www.mc2i.fr/', 'img' => asset("img/sponsors/MC2I-BLANC-BASELINE.png"), 'alt' => 'MC2i' ]; }    
 		        shuffle($sponsors);
 
             ?>
