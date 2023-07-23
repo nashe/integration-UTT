@@ -797,7 +797,7 @@ class User extends Model implements Authenticatable
 
     public function isBranch()
     {
-        return in_array( $this->branch, array('RT','ISI', 'GI', 'A2I', 'GM', 'MTE') );
+        return in_array( $this->branch, array('RT', 'ISI', 'GI', 'A2I', 'GM', 'MTE', 'GM_APPR', 'SN_APPR') );
     }
 
     public function isMaster()
