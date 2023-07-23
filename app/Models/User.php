@@ -802,7 +802,7 @@ class User extends Model implements Authenticatable
 
     public function isMaster()
     {
-        return in_array( $this->branch, array('ISC','PAIP', 'RE') );
+        return in_array( $this->branch, array('ISC','PAIP-GS', 'RE') );
     }
 
     public function nbReferrals()
