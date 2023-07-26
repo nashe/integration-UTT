@@ -2,7 +2,7 @@
 
 Chaque année, certaines informations doivent être mises à jour, par exemple les dates de rentrée. Les variables à mettre à jour sont modifiables en tant qu'`admin` dans le menu `Configuration --> Paramétrages`.
 
-## Date de rentré
+## Date de rentrée
 
 * `services.reentry.tc.date` : Date de rentrée des TCs
 * `services.reentry.tc.time` : Heure de rentrée des TCs
@@ -16,6 +16,8 @@ Chaque année, certaines informations doivent être mises à jour, par exemple l
 * `services.wei.start` : Date de départ vers le WEI (utilisé uniquement pour savoir si la personne a besoin de l'autorisation parentale).
 * `services.wei.registrationStart` : Date de début des inscriptions au WEI
 * `services.wei.registrationEnd` : Date de fin des inscriptions au WEI
+
+Note : la date du WEI doit être renseignée avant l'import des nouveaux admis dans le site depuis l'API de l'UTT sinon ils seront tous considérés comme mineurs. Si cela vous arrive, suivez la procédure de [correction.md](./correction_wei/correction_wei.md). 
 
 ## CE
 
