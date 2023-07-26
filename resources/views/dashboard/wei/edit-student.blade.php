@@ -144,6 +144,7 @@ Modification d'un étudiant
                             </div>
                         </div>
 
+                        <!--
                         <div class="form-group">
                             <label for="medical_allergies" class="col-lg-2 control-label">Allergies</label>
                             <div class="col-lg-10">
@@ -157,7 +158,7 @@ Modification d'un étudiant
                                 <textarea class="form-control" name="medical_treatment" id="medical_treatment">{{{ old('medical_treatment') ?? $user->medical_treatment }}}</textarea>
                             </div>
                         </div>
-
+                        -->
                         <div class="form-group">
                             <label for="medical_note" class="col-lg-2 control-label">Remarques</label>
                             <div class="col-lg-10">
