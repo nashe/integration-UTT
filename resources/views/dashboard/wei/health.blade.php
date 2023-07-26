@@ -32,7 +32,7 @@ Mon profil santé
                     <small class="text-muted">Note : numéro de téléphone étranger accepté. N'oublie pas l'indicatif pour un numéro étranger (+33...).</small>
                 </div>
             </div>
-
+            <!--
             <div class="form-group {{{ Auth::user()->isChecked('profil_parent_phone')?'form-group-success':'' }}}">
                 <label for="medical_allergies" class="col-lg-2 control-label">Allergies</label>
                 <div class="col-lg-10">
@@ -46,7 +46,7 @@ Mon profil santé
                     <textarea class="form-control" name="medical_treatment" id="medical_treatment">{{{ old('medical_treatment') ?? Auth::user()->medical_treatment }}}</textarea>
                 </div>
             </div>
-
+            -->
             <div class="form-group {{{ Auth::user()->isChecked('profil_parent_phone')?'form-group-success':'' }}}">
                 <label for="medical_note" class="col-lg-2 control-label">Remarques</label>
                 <div class="col-lg-10">
