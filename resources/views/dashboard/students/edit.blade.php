@@ -326,7 +326,7 @@ Modification de profil
                     </div>
                 </fieldset>
             @endif
-
+            <!--
             <fieldset>
             <legend id="parrainage">Medical</legend>
                 <div class="form-group">
@@ -350,7 +350,7 @@ Modification de profil
                     </div>
                 </div>
             </fieldset>
-
+            -->
             <fieldset>
                 <legend>Équipe</legend>
                 @if (!$student->is_newcomer)
