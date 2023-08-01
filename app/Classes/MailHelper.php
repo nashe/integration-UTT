@@ -35,6 +35,7 @@ class MailHelper
     const WEI_SUSCBRIBED  = 18;
     const NEWCOMERS_CV_ING  = 21;
     const NEWCOMERS_CV_ING_WITH_TEAM  = 22;
+    const NEWCOMERS_NOT_FILLED = 23;
 
     public static $listToFrench = [
         self::STUPRELISTE => 'Bénévoles et personnes inscrites sur la stupre-liste',
