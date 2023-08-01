@@ -51,6 +51,7 @@ class MailHelper
         self::NEWCOMERS_ALL_BRANCH => 'Nouveaux Branche (même ceux qui n\'ont pas entré leur email)',
         self::NEWCOMERS_ALL_MASTER => 'Nouveaux Master (même ceux qui n\'ont pas entré leur email)',
         self::NEWCOMERS_FILLED => 'Nouveaux qui ont entré leur email',
+        self::NEWCOMERS_NOT_FILLED => 'Nouveaux qui n\'ont pas entré leur adresse mail',
         self::NEWCOMERS_FILLED_TC => 'Nouveaux TC qui ont entré leur email',
         self::NEWCOMERS_FILLED_BRANCH => 'Nouveaux Branche qui ont entré leur email',
         self::NEWCOMERS_FILLED_MASTER => 'Nouveaux Master qui ont entré leur email',
@@ -134,6 +135,8 @@ class MailHelper
                 case MailHelper::NEWCOMERS_FILLED:
                     $students = User::newcomer()->with(['mailHistories', 'team', 'godFather'])->where('branch', '<>', 'CV ING')->where('email', '<>', '')->whereNotNull('email')->get();
                     break;
+                case MailHelper::NEWCOMERS_NOT_FILLED:
+                    $students = User::newcomer()->with(['mailHistories', 'team', 'godFather'])->where('branch', '<>', 'CV ING')->where('email', '<>', '')->whereNull('email')->get();
                 case MailHelper::NEWCOMERS_FILLED_TC:
                     $students = User::newcomer()->with(['mailHistories', 'team', 'godFather'])->where('branch', '<>', 'CV ING')->where('branch', 'TC')->where('email', '<>', '')->whereNotNull('email')->get();
                     break;
