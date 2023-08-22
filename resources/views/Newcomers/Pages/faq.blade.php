@@ -92,7 +92,8 @@ Frequently Asked Questions
 						<li>Un sac de couchage (chaud) ;</li>
 						<li>Des vêtements qui ne craignent rien (dès le départ en bus vendredi matin) et d’autres qui tiennent chaud ;</li>
 						<li>Un k-way ; </li>
-						<li>Une serviette et du savon (si tu veux être propre ;</li>
+						<li>Un matelas gonflable ou un tapis de sol (pour le confort du dodo)</li>
+						<li>Une serviette et du savon (si tu veux être propre) ;</li>
 						<li>Une bombe anti-moustique (ton corps te remerciera) ;</li>
 						<li>De la crème solaire (ton corps te remerciera aussi) ;</li>
 						<li>Un maillot de bain ;</li>

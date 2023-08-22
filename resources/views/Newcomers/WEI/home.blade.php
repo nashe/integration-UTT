@@ -36,7 +36,7 @@ Le Week-End d'Intégration
 			</div>
 			<div class="box-body">
 				<p>Le Week-End d’Intégration commence le vendredi {{ (new Datetime(Config::get('services.wei.start')))->format('j') }} septembre à 11h30 par un voyage en bus dans un lieu dont on garde le mystère (c’est pas en Creuse promis !). Durant ce week-end, de nombreuses activités, soirées et surprises te seront proposées, c’est surtout l’occasion de rencontrer plein de nouveaux, des futurs potes ;-). On te ramène à Troyes le dimanche au soir vers 18h.</p>
-				<p>Le prix du week-end est de {{ Config::get('services.wei.price')/100 }}€, on te demandera également une caution de {{ Config::get('services.wei.guaranteePrice')/100 }}.</p>
+				<p>Le prix du week-end est de {{ Config::get('services.wei.price')/100 }}€, on te demandera également une caution de {{ Config::get('services.wei.guaranteePrice')/100 }}€.</p>
 
 
 			@if(!Auth::user()->isPageChecked('profil'))
@@ -138,12 +138,13 @@ Le Week-End d'Intégration
 					<li>Un sac de couchage chaud ;</li>
 					<li>Des vêtements qui ne craignent rien (dès le départ en bus vendredi matin) ;</li>
 					<li>Des vêtements qui tiennent chaud ;</li>
+                    <li>Un matelas gonflable ou un tapis de sol (pour le confort du dodo)</li>
 					<li>Un k-way ;</li>
-                    			<li>Ta carte d'identité ;</li>
+                    <li>Ta carte d'identité ;</li>
 					<li>De l'argent (CB et/ou espèces) si tu veux pouvoir acheter à boire au WEI ;</li>
 					<li>Une serviette et du savon (si tu veux être propre ;</li>
 					<li>Une bombe anti-moustique (ton corps te remerciera) ;</li>
-                    			<li>De la crème solaire (ton corps te remerciera aussi) ;</li>
+                    <li>De la crème solaire (ton corps te remerciera aussi) ;</li>
 					<li>Ton autorisation parentale si tu es mineur ;</li>
 					<li>Des bouchons d'oreilles si tu en as ;</li>
 					<li>Ton écocup, ton tupperware ainsi que des couverts (sinon, tu dis au revoir au miam miam) ;</li>
