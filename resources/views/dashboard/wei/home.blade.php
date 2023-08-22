@@ -69,12 +69,12 @@
                     @if($health)
                         <big><a href="{{ route('dashboard.wei.health') }}">
                             <i class="fa fa-check-square-o" aria-hidden="true"></i>
-                            Modifier son profil santé
+                            Modifier son contact en cas d'urgence
                         </a></big><br/>
                     @else
                         <big><a href="{{ route('dashboard.wei.health') }}">
                             <i class="fa fa-square-o" aria-hidden="true"></i>
-                            Remplir son profil santé
+                            Remplir son contact en cas d'urgence
                         </a></big><br/>
                     @endif
 
