@@ -75,7 +75,6 @@ Le Week-End d'Intégration
     								<p>
     								Le départ au weekend se faisant à partir de 11h, vous n'aurez généralement pas le temps d'aller acheter à manger (sauf si vous l'avez préparé avant).<br/>
     								Nous vous proposons donc un panier repas (sandwich, chips, fruit et bouteille d'eau) préparé par le CROUS (qui gère le restaurant universitaire).<br/>
-                                    Si tu as un régime particulier (sans porc, végétarien, ...) pense à le préciser dans <em>régime particulier</em> sur ton profil.
     								</p>
     							</td>
     							<td class="price">{{ sprintf('%04.2f', Config::get('services.wei.sandwichPrice'))/100 }} €</td>
