@@ -72,15 +72,20 @@
                                         </ul>
                                     </li>
                                     <li><a href="{{ route('calendar.index') }}">Calendrier</a></li>
+                                @endif
                                     <li class="dropdown">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Évènements / Perms <span class="caret"></span></a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="{{ url('dashboard/event') }}">Évènements</a></li>
-                                            <li><a href="{{ url('dashboard/perm/users') }}">Récapitulatif des permanences des bénévoles</a></li>
-                                            <li><a href="{{ url('dashboard/perm') }}">Liste des permanences</a></li>
-                                            <li><a href="{{ url('dashboard/permType') }}">Types de permanences</a></li>
+                                            @if (Auth::user()->isAdmin())
+                                                <li><a href="{{ url('dashboard/event') }}">Évènements</a></li>
+                                                <li><a href="{{ url('dashboard/perm/users') }}">Récapitulatif des permanences des bénévoles</a></li>
+                                                <li><a href="{{ url('dashboard/perm') }}">Liste des permanences</a></li>
+                                                <li><a href="{{ url('dashboard/permType') }}">Types de permanences</a></li>
+                                            @endif
+                                            <li><a href="{{ url('dashboard/perm/shotgun') }}">Shotgun des permanences</a></li>
                                         </ul>
                                     </li>
+                                @if (Auth::user()->isAdmin())
                                     <li><a href="{{ url('dashboard/checkin') }}">Checkins</a></li>
                                     <li class="dropdown">
                                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Communication <span class="caret"></span></a>
