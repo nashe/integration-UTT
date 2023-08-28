@@ -114,6 +114,13 @@ Route::group(['prefix' => 'dashboard'], function () {
             Route::put('/event/{id}', ['uses' => 'Admin\EventController@update']);
         });
 
+        // Perm model's route (for all users)
+        Route::group(['middleware' => 'authorize:volunteer'], function () {
+            Route::get('/perm/shotgun', ['as' => 'perm.shotgun', 'uses' => 'Admin\PermController@shotgun']);
+            Route::post('/perm/shotgun/{id}', ['uses' => 'Admin\PermController@doShotgun']);
+            Route::post('/perm/unshotgun/{id}', ['uses' => 'Admin\PermController@doUnshotgun']);
+        });
+
         // Perm model's routes
         Route::group(['middleware' => 'authorize:admin'], function () {
             Route::get('/perm', ['as' => 'perm.index', 'uses' => 'Admin\PermController@index']);

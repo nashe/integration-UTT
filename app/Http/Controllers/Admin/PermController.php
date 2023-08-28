@@ -12,6 +12,8 @@ use Redirect;
 use Request;
 use Response;
 use Validator;
+use Auth;
+use DateTime;
 
 class PermController extends Controller
 {
@@ -315,5 +317,95 @@ class PermController extends Controller
 
         Excel::import(new ImportPerms, request()->file('csv'));
         return redirect()->route('perm.index');
+    }
+
+    public function shotgun() {
+        $perms = Perm::where('open', '<', time())->orderby('start')->get();
+        $user = Auth::user(); // user that make the request
+        foreach ($perms as $perm) {
+            $found = false;
+            foreach ($perm->permanenciers as $permanencier) {
+                if ($permanencier->id == $user->id) {
+                    $found = true;
+                    break;
+                }
+            }
+            $perm->isAlreadyIn = $found;
+        }
+        return view('dashboard.perms.shotgun', compact('perms'));
+    }
+
+    public function doShotgun($id) {
+        $redirection = redirect(route('perm.shotgun'));
+        $user = Auth::user();
+        $perm = Perm::find($id);
+        if ($user->is_newcomer) {
+            return $redirection->withError('Tu ne peux pas rentrer dans une perm en tant que nouveau !');
+        }
+        if (!$user->admin) {
+            if ($perm->open == null) {
+                return $redirection->withError('Tu ne peux pas rejoindre cette perm, tu dois y être ajouté.');
+            }
+            // Cas d'une perm en préouverture
+            $open = new DateTime();
+            $open->setTimestamp($perm->open);
+            $pre_open = new DateTime();
+            $pre_open->setTimestamp($perm->pre_open);
+            $start = new DateTime();
+            $start->setTimestamp($perm->start);
+            $now = new \DateTime('now');
+
+            if ($open > $now) {
+                return $redirection->withError("Cette perm n'est pas encore ouverte.");
+            }
+
+            //Rejoindre une heure avant max
+            $diff = $start->diff($now);
+            $diff_h = $diff->d * 24 + $diff->h;
+            if($diff_h < 1 || $start < $now)
+            {
+                return $redirection->withError("Trop tard, tu ne peux pas rejoindre moins d'une heure avant le début de la perm.");
+            }
+        }
+        foreach($perm->permanenciers as $permanencier) {
+            if($permanencier->id == $user->id) {
+                return $redirection->withError('Tu es déjà dans cette perm !');
+            }
+        }
+
+        if($perm->nbr_permanenciers > $perm->permanenciers()->count()){
+            $perm->permanenciers()->attach($user->id, ['respo' => false]);
+            return $redirection->withSuccess('Tu as bien été ajouté à la perm !');
+        } else {
+            return $redirection->withError('Cette perm est complète !');
+        }
+    }
+
+    public function doUnshotgun($id) {
+        $redirection = redirect(route('perm.shotgun'));
+        $user = Auth::user();
+        $perm = Perm::find($id);
+        $found = false;
+        foreach($perm->permanenciers as $permanencier) {
+            if($permanencier->id == $user->id) {
+                $found = true;
+                break;
+            }
+        }
+        if (!$found) {
+            return $redirection->withError("Tu n'es pas dans cette perm !");
+        }
+        //Test temps de leave
+        $start = new DateTime();
+        $start->setTimestamp($perm->start);
+        $now = new \DateTime('now');
+
+        $diff = $start->diff($now);
+        $diff_h = $diff->d * 24 + $diff->h;
+        if($diff_h < 48 || $start < $now) {
+            return $redirection->withError('Trop tard, tu ne peux pas quitter une perm moins de 48 heure avant le début.');
+        }
+        $perm->permanenciers()->detach($user->id);
+        return $redirection->withSuccess('Tu as bien quitté la perm.');
     }
 }
