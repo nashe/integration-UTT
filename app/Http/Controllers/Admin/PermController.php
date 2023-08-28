@@ -405,15 +405,7 @@ class PermController extends Controller
     }
 
     public function doUnshotgun($id) {
-        if (!array_key_exists('day', Request::query())) {
-            $day = 1;
-        } else {
-            $day = Request::query()['day'];
-            if (!$day || $day < 1 || $day > 7) {
-                $day = 1;
-            }
-        }
-        $redirection = redirect(route('dashboard.perm.shotgun', ['day' => $day]));
+        $redirection = redirect(route('perm.shotgun'));
         $user = Auth::user();
         $perm = Perm::find($id);
         $found = false;
