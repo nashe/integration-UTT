@@ -320,7 +320,7 @@ class PermController extends Controller
     }
 
     public function shotgun() {
-        $perms = Perm::where('open', '<', time())->orderby('start')->get();
+        $perms = Perm::orderby('start')->get();
         $user = Auth::user(); // user that make the request
         foreach ($perms as $perm) {
             $found = false;
@@ -331,6 +331,9 @@ class PermController extends Controller
                 }
             }
             $perm->isAlreadyIn = $found;
+            $open = new DateTime();
+            $open->setTimestamp($perm->open);
+            $perm->isOpen = $open < new \DateTime('now');
         }
         return view('dashboard.perms.shotgun', compact('perms'));
     }
