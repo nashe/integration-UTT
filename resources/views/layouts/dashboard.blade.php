@@ -82,7 +82,8 @@
                                                 <li><a href="{{ url('dashboard/perm') }}">Liste des permanences</a></li>
                                                 <li><a href="{{ url('dashboard/permType') }}">Types de permanences</a></li>
                                             @endif
-                                            <li><a href="{{ url('dashboard/perm/shotgun') }}">Shotgun des permanences</a></li>
+                                            <li><a href="{{ route('dashboard.perm.shotgun') }}">Shotgun des permanences</a></li>
+                                            <li><a href="{{ route('dashboard.perm.shotgun.list') }}">Liste de tes perms</a></li>
                                         </ul>
                                     </li>
                                 @if (Auth::user()->isAdmin())

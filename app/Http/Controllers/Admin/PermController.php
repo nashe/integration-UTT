@@ -339,7 +339,7 @@ class PermController extends Controller
     }
 
     public function doShotgun($id) {
-        $redirection = redirect(route('perm.shotgun'));
+        $redirection = redirect(route('dashboard.perm.shotgun'));
         $user = Auth::user();
         $perm = Perm::find($id);
         if ($user->is_newcomer) {
@@ -385,7 +385,7 @@ class PermController extends Controller
     }
 
     public function doUnshotgun($id) {
-        $redirection = redirect(route('perm.shotgun'));
+        $redirection = redirect(route('dashboard.perm.shotgun'));
         $user = Auth::user();
         $perm = Perm::find($id);
         $found = false;
@@ -410,5 +410,13 @@ class PermController extends Controller
         }
         $perm->permanenciers()->detach($user->id);
         return $redirection->withSuccess('Tu as bien quitté la perm.');
+    }
+
+    public function shotgunedList() {
+        $user = Auth::user();
+        $perms = Perm::join('perm_users', 'perm_users.perm_id', '=', 'perms.id')
+                     ->where('user_id', '=', $user->id)
+                     ->where('respo', '=', 0)->get();
+        return view('dashboard.perms.shotguned', compact('perms'));
     }
 }
