@@ -116,7 +116,8 @@ Route::group(['prefix' => 'dashboard'], function () {
 
         // Perm model's route (for all users)
         Route::group(['middleware' => 'authorize:volunteer'], function () {
-            Route::get('/perm/shotgun', ['as' => 'perm.shotgun', 'uses' => 'Admin\PermController@shotgun']);
+            Route::get('/perm/shotgun', ['as' => 'dashboard.perm.shotgun', 'uses' => 'Admin\PermController@shotgun']);
+            Route::get('/perm/shotgun/list', ['as' => 'dashboard.perm.shotgun.list', 'uses' => 'Admin\PermController@shotgunedList']);
             Route::post('/perm/shotgun/{id}', ['uses' => 'Admin\PermController@doShotgun']);
             Route::post('/perm/unshotgun/{id}', ['uses' => 'Admin\PermController@doUnshotgun']);
         });
