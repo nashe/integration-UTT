@@ -28,10 +28,10 @@
                     <th>Points</th>
                 </tr>
                 @foreach ($perms as $perm)
-                    <tr class="align-middle" style="">
+                    <tr class="align-middle">
                         <td>
                             <form action="{{ url('dashboard/perm/'.($perm->isAlreadyIn ? 'unshotgun' : 'shotgun').'/'.$perm->id) }}" method="post">
-                                <button class="btn btn-xl {{ $perm->isAlreadyIn ? 'btn-danger' : 'btn-success' }}" type="submit">{{ $perm->isAlreadyIn ? 'Quitter' : "S'inscrire" }}</button>
+                                <button class="btn btn-xl {{ $perm->isAlreadyIn ? 'btn-danger' : 'btn-success' }}" {{$perm->isOpen ? '' : 'disabled'}} type="submit">{{ $perm->isAlreadyIn ? 'Quitter' : "S'inscrire" }}</button>
                             </form>
                         </td>
                         <td>{{ $perm->type->name }}</td>
