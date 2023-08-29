@@ -335,6 +335,7 @@ class PermController extends Controller
             $open->setTimestamp($perm->open);
             $perm->isOpen = $open < new \DateTime('now');
         }
+        setlocale(LC_TIME, 'fr_FR.utf8');
         return view('dashboard.perms.shotgun', compact('perms'));
     }
 
