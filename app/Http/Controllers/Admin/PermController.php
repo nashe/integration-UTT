@@ -322,6 +322,16 @@ class PermController extends Controller
     public function shotgun() {
         $perms = Perm::orderby('start')->get();
         $user = Auth::user(); // user that make the request
+        if (!array_key_exists('day', Request::query())) {
+            return redirect(route('dashboard.perm.shotgun', ['day' => 1]));
+        }
+        $day = Request::query()['day'];
+        if (!$day || $day < 1 || $day > 7) {
+            return redirect(route('dashboard.perm.shotgun', ['day' => 1]));
+        }
+        $perms = $perms->filter(function ($perm) use ($day) {
+            return date('N', $perm->start) == $day;
+        });
         foreach ($perms as $perm) {
             $found = false;
             foreach ($perm->permanenciers as $permanencier) {
@@ -336,7 +346,7 @@ class PermController extends Controller
             $perm->isOpen = $open < new \DateTime('now');
         }
         setlocale(LC_TIME, 'fr_FR.utf8');
-        return view('dashboard.perms.shotgun', compact('perms'));
+        return view('dashboard.perms.shotgun', compact('perms', 'day'));
     }
 
     public function doShotgun($id) {

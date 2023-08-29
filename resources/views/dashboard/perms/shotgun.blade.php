@@ -12,6 +12,20 @@
     <div class="callout callout-info">
         <h4>Shotgun des permanences</h4>
     </div>
+    <div class="box-body">
+        <a href="{{ route('dashboard.perm.shotgun', ['day' => 1]) }}">
+            <button class="btn btn-primary" {{ $day == 1 ? 'disabled' : '' }}>Lundi</button>
+        </a>
+        <a href="{{ route('dashboard.perm.shotgun', ['day' => 2]) }}">
+            <button class="btn btn-primary" {{ $day == 2 ? 'disabled' : '' }}>Mardi</button>
+        </a>
+        <a href="{{ route('dashboard.perm.shotgun', ['day' => 3]) }}">
+            <button class="btn btn-primary" {{ $day == 3 ? 'disabled' : '' }}>Mercredi</button>
+        </a>
+        <a href="{{ route('dashboard.perm.shotgun', ['day' => 4]) }}">
+            <button class="btn btn-primary" {{ $day == 4 ? 'disabled' : '' }}>Jeudi</button>
+        </a>
+    </div>
     <div class="box box-default">
         <div class="box-body table-responsive no-padding">
             <table class="table table-hover align-middle text-center">
@@ -20,7 +34,6 @@
                     <th>Rejoindre</th>
                     <th>Nom</th>
                     <th>Lieu</th>
-                    <th>Jour</th>
                     <th>Début</th>
                     <th>Fin</th>
                     <th>Permanenciers</th>
@@ -36,7 +49,6 @@
                         </td>
                         <td>{{ $perm->type->name }}</td>
                         <td>{{ $perm->place }}</td>
-                        <td>{{ strftime('%A', $perm->start) }}</td>
                         <td>{{ date('G\\Hi', $perm->start) }}</td>
                         <td>{{ date('G\\Hi', $perm->end) }}</td>
                         <td>{{ $perm->permanenciers->count().'/'.$perm->nbr_permanenciers }}</td>
