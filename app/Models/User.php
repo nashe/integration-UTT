@@ -267,6 +267,10 @@ class User extends Model implements Authenticatable
             'title' => 'Village des initiatives soutenables',
             'description' => 'Organiser une aprèm autour des initiatives soutenables avec des stands d’associatifs UTTiens et d’acteurs locaux (Troyes Champagne Métropole, TCAT, la Maison des Étudiants...).',
         ],
+	    'vmd' => [
+            'title' => 'Village de la Mobilité Douce',
+            'description' => ' Organiser un événement autour des mobilités soutenables avec différents stands et acteurs locaux (TCM, La Roue Verte, TCAT, la MDE, ...)',
+        ],
         'visites' => [
             'title' => 'Visites',
             'description' => 'Organiser les visites du samedi aprèm avant l\'inté et celles pendant la première semaine pour les TC et les branches.',
