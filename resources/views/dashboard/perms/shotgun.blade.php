@@ -43,7 +43,7 @@
                 @foreach ($perms as $perm)
                     <tr class="align-middle">
                         <td>
-                            <form action="{{ url('dashboard/perm/'.($perm->isAlreadyIn ? 'unshotgun' : 'shotgun').'/'.$perm->id) }}" method="post">
+                            <form action="{{ url('dashboard/perm/'.($perm->isAlreadyIn ? 'unshotgun' : 'shotgun').'/'.$perm->id.'?day='.$day) }}" method="post">
                                 <button class="btn btn-xl {{ $perm->isAlreadyIn ? 'btn-danger' : 'btn-success' }}" {{ $perm->isOpen ? '' : 'disabled' }} type="submit">{{ $perm->isAlreadyIn ? 'Quitter' : "S'inscrire" }}</button>
                             </form>
                         </td>
