@@ -397,6 +397,7 @@ class PermController extends Controller
 
         if($perm->nbr_permanenciers > $perm->permanenciers()->count()){
             $perm->permanenciers()->attach($user->id, ['respo' => false]);
+            file_put_contents('./logs.log', '['.date('j/n/o H:i:s').']'.' '.$user->id.' vient de shotgun la perm '.$id."\n", FILE_APPEND);
             return $redirection->withSuccess('Tu as bien été ajouté à la perm !');
         } else {
             return $redirection->withError('Cette perm est complète !');
@@ -436,6 +437,7 @@ class PermController extends Controller
             return $redirection->withError('Trop tard, tu ne peux pas quitter une perm moins de 48 heure avant le début.');
         }
         $perm->permanenciers()->detach($user->id);
+        file_put_contents('./logs.log', '['.date('j/n/o H:i:s').']'.' '.$user->id.' vient de quitter la perm '.$id."\n", FILE_APPEND);
         return $redirection->withSuccess('Tu as bien quitté la perm.');
     }
 
