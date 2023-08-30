@@ -33,11 +33,11 @@
                 <tr>
                     <th>Rejoindre</th>
                     <th>Nom</th>
+                    <th>Description</th>
                     <th>Lieu</th>
                     <th>Début</th>
                     <th>Fin</th>
                     <th>Permanenciers</th>
-                    <th>Description</th>
                     <th>Points</th>
                 </tr>
                 @foreach ($perms as $perm)
@@ -48,11 +48,11 @@
                             </form>
                         </td>
                         <td>{{ $perm->type->name }}</td>
+                        <td>{{ $perm->description }}</td>
                         <td>{{ $perm->place }}</td>
                         <td>{{ date('G\\Hi', $perm->start) }}</td>
                         <td>{{ date('G\\Hi', $perm->end) }}</td>
                         <td>{{ $perm->permanenciers->count().'/'.$perm->nbr_permanenciers }}</td>
-                        <td>{{ $perm->description }}</td>
                         <td>{{ $perm->type->points }}</td>
                     </tr>
                 @endforeach
