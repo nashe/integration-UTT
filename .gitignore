@@ -20,3 +20,4 @@ storage/trombi-phones/
 npm-debug.log
 yarn-error.log
 /storage/oauth-*
+public/logs.log
