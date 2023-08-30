@@ -33,26 +33,26 @@
                 <tr>
                     <th>Rejoindre</th>
                     <th>Nom</th>
+                    <th>Description</th>
                     <th>Lieu</th>
                     <th>Début</th>
                     <th>Fin</th>
                     <th>Permanenciers</th>
-                    <th>Description</th>
                     <th>Points</th>
                 </tr>
                 @foreach ($perms as $perm)
                     <tr class="align-middle">
                         <td>
-                            <form action="{{ url('dashboard/perm/'.($perm->isAlreadyIn ? 'unshotgun' : 'shotgun').'/'.$perm->id) }}" method="post">
+                            <form action="{{ url('dashboard/perm/'.($perm->isAlreadyIn ? 'unshotgun' : 'shotgun').'/'.$perm->id.'?day='.$day) }}" method="post">
                                 <button class="btn btn-xl {{ $perm->isAlreadyIn ? 'btn-danger' : 'btn-success' }}" {{ $perm->isOpen ? '' : 'disabled' }} type="submit">{{ $perm->isAlreadyIn ? 'Quitter' : "S'inscrire" }}</button>
                             </form>
                         </td>
                         <td>{{ $perm->type->name }}</td>
+                        <td>{{ $perm->description }}</td>
                         <td>{{ $perm->place }}</td>
                         <td>{{ date('G\\Hi', $perm->start) }}</td>
                         <td>{{ date('G\\Hi', $perm->end) }}</td>
                         <td>{{ $perm->permanenciers->count().'/'.$perm->nbr_permanenciers }}</td>
-                        <td>{{ $perm->description }}</td>
                         <td>{{ $perm->type->points }}</td>
                     </tr>
                 @endforeach
