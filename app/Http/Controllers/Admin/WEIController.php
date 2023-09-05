@@ -181,7 +181,6 @@ class WEIController extends Controller
         //TODO NUL A JETER
         $graphFood = Payment::select(DB::raw('DATE_FORMAT(created_at,\'%d-%m-%Y\') as day'), DB::raw('COUNT(id) as sum'))
             ->where('type', 'payment')
-            ->whereIn(DB::raw('`amount`%500'), [30, 330])
             ->where(function ($query) {
                 $query->where(DB::raw('`amount`%500'), 30)
                       ->orWhere(DB::raw('`amount`%500'), 330);
