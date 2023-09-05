@@ -181,7 +181,7 @@ class WEIController extends Controller
         //TODO NUL A JETER
         $graphFood = Payment::select(DB::raw('DATE_FORMAT(created_at,\'%d-%m-%Y\') as day'), DB::raw('COUNT(id) as sum'))
             ->where('type', 'payment')
-            ->where(DB::raw('`amount`%500'), Config::get('services.wei.sandwichPrice'))
+            ->where(DB::raw('`amount`%500'), (30 or 330))
             ->where('state', 'paid')
             ->orderBy('created_at')
             ->groupBy(DB::raw('DATE_FORMAT(created_at,\'%d-%m-%Y\')'))->get();
