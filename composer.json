@@ -77,9 +77,5 @@
             "php artisan optimize",
             "php artisan passport:install-if-migrated"
         ]
-    },
-    "replace": {  
-        "symfony/polyfill-php80": "*",  
-        "symfony/polyfill-mbstring": "*"
     }
 }
